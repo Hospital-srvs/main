@@ -19,7 +19,7 @@ import { IoIosCall } from "react-icons/io";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaHospital } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
-import drAnkur from '../assets/images/all images/';
+import drAnkur from '../assets/images/all images/drAnkur2.png';
 import d2 from '../assets/images/all images/d2.jpg';
 import g1 from '../assets/images/all images/g1.jpg';
 import g2 from '../assets/images/all images/g2.jpg';

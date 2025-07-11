@@ -75,7 +75,7 @@
     position: relative;
     z-index: 1;
 }
-
+/* 
 .img{
     position: absolute;
     border-radius: 8rem;
@@ -84,12 +84,33 @@
 .img1{
     left: 0;
     translate: 0 3rem;
+    
 }
 
 .img2{
     right: 0;
     translate: 3rem -3rem;
+} */
+
+
+.img {
+    position: absolute;
+    border-radius: 8rem;
 }
+
+/* Default positioning */
+.img1 {
+    left: 0;
+    translate: 0 3rem;
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.img2 {
+    right: 0;
+    translate: 3rem -3rem;
+}
+
 
 .half{
     position: absolute;
@@ -188,9 +209,6 @@
     margin-bottom: 1rem;
 }
 
-.bold_p{
-    
-}
 
 
 .inside-second-card p{
@@ -1075,6 +1093,19 @@
     }
 
 /* Eleventh Section End  */
+
+
+@media screen and (min-width: 1200px) {
+    .img1 {
+        translate: -2rem 5rem;
+        width: 280px; 
+    }
+
+    .img2 {
+        translate: 5rem -1rem;
+        width: 280px; 
+    }
+}
 
 
 @media screen and (min-width:1400px){
