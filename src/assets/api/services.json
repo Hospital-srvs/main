@@ -1,0 +1,126 @@
+[
+    {
+        "id":"1",
+        "title":"Urology Unit",
+        "subtitle":"Best Urological Care in Dehradun",
+        "content":[
+            "Our highly specialized urology department provides expert care for:",
+            "Kidney Stone Treatment – Minimally invasive PCNL, RIRS (Thulium Laser Surgery), and endourology.",
+            "Prostate Disorder Management – BPH, prostate cancer, TURP.",
+            "Bladder & Urological Cancer Treatment – Early detection, surgery, and personalized cancer therapy.",
+            "Male Infertility & Sexual Health – Treatment for erectile dysfunction, premature ejaculation, and urinary incontinence."
+        ],
+        "image":"/images/urology.jpg"
+    },
+    {
+        "id":"2",
+        "title":"Oncology Unit",
+        "subtitle":"Advanced Cancer Treatment in Dehradun",
+        "content":[
+            "Our dedicated cancer care unit provides:",
+
+            "Cancer Screening & Early Diagnosis – Breast, lung, cervical, and prostate cancer detection.",
+            "Advanced Chemotherapy & Targeted Therapy – Latest treatments for improved patient outcomes.",
+            "Immunotherapy & Hormone Therapy – Cutting-edge solutions for breast, prostate, and lung cancers.",
+            "Palliative Care & Pain Management – Compassionate support for cancer patients, ensuring comfort and quality of life.",
+            "Cancer Surgery – Surgical removal of tumors, organ-specific cancer surgeries, and reconstructive procedures to improve survival and quality of life."
+        ],
+        "image":"/images/oncology.jpg"
+    },
+    {
+        "id":"3",
+        "title":"Pediatrics & Child Care Services",
+        "subtitle":"",
+        "content":[
+            "Our pediatric department provides expert medical care for newborns, infants, and children, including:",
+
+            "Newborn & Infant Care – Specialized neonatal care for premature and critically ill newborns.",
+            "Immunization & Growth Monitoring – Essential vaccinations and development tracking.",
+            "Management of Childhood Asthma & Allergies – Personalized treatment plans for pediatric respiratory conditions.",
+            "Nutritional & Developmental Assessment – Ensuring optimal health and well-being for growing children."
+        ],
+        "image":"/images/p&c.jpg"
+    },
+    {
+        "id":"4",
+        "title":"Orthopedics & Musculoskeletal Care",
+        "subtitle":"",
+        "content":[
+            "Fracture & Trauma Management – Emergency & post-trauma care for bone injuries.",
+            "Joint Replacement & Arthritis Treatment – Knee, hip, and shoulder replacement  surgeries.",
+            "Sports Injury & Rehabilitation – Advanced physiotherapy & orthopedic treatments for a faster recovery."
+        ],
+        "image":"/images/Orthopedics & Musculoskeletal Care.jpg"
+    },
+    {
+        "id":"5",
+        "title":"Obstetrics and Gynaecology Unit",
+        "subtitle":"",
+        "content":[
+            "Provides, antenatal, and postnatal care for a safe and healthy pregnancy journey.",
+
+            "Spedcialised treatment for PCOS, fibroids, endometriosis, and menstrual disorders.",
+
+            "xpertise in high-risk pregnancy management and emergency obstetric care.",
+
+            "Minimally invasive surgeries including laparoscopic and hysteroscopic procedures.",
+
+            "Fertility services in Dehradun, including assesment, counselling, and  support.",
+
+            "24/7 maternity care and delivery services with fully equipped labor rooms.",
+
+            "Family planning and contraceptive counselling tailored to individual needs."
+        ],
+        "image":"/images/Obstetrics and Gynaecology Unit.jpg"
+    },
+    {
+        "id":"6",
+        "title":"Digital Health Services & Patient Support",
+        "subtitle":"",
+        "content":[
+            "Electronic Health Records (EHR) – Secure digital patient records for seamless doctor coordination.",
+
+            "Hassle-Free Appointments & Insurance Assistance",
+
+            "Dedicated support for consultation bookings and health insurance claims."
+
+        ],
+        "image":"/images/Digital Health Services & Patient Support.jpg"
+    },
+    {
+        "id":"7",
+        "title":"Advanced Diagnostic & Surgical Facilities",
+        "subtitle":"State-of-the-Art Diagnostic & Treatment Areas*",
+        "content":[
+            " Outpatient Department (OPD) – Spacious consultation rooms with modern diagnostic equipment.",
+
+            " Radiology & Imaging – Equipped with digital X-ray, ultrasound, and high-resolution scanning.",
+
+            "Laboratory & Pathology – Comprehensive blood tests, microbiology, and histopathology for accurate medical decisions.",
+
+            "Modern Operating Theaters & Surgical Care",
+
+            "State-of-the-Art Operating Rooms – Equipped with advanced surgical instruments and strict infection control systems.",
+
+            "Minimally Invasive Surgery – Laparoscopic and endoscopic procedures for faster recovery and reduced hospital stays."
+
+        ],
+        "image":"/images/Advanced Diagnostic & Surgical Facilities.jpg"
+    },
+    {
+        "id":"8",
+        "title":"Additional Patient Facilities",
+        "subtitle":"",
+        "content":[
+            "Private & Semi-Private Patient Rooms – Ensuring comfort, privacy, and high-quality care.",
+
+            "Comfortable Waiting Areas – Spacious visitor lounges with Wi-Fi, refreshments, and patient assistance services.",
+
+            "In-House Pharmacy – A well-stocked pharmacy for immediate access to prescribed medications.",
+
+            "Ample Parking & Accessibility – Dedicated parking areas for patients and visitors."
+
+        ],
+        "image":"/images/Additional Patient Facilities.jpg"
+    }      
+]

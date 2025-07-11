@@ -1,0 +1,235 @@
+.doctor-first{
+    padding: 4rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7f4;
+}
+
+.inside-doctor-first{
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-card-main{
+    height: 30rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.team-card-img-main{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.team-card-img-main img{
+    width: 100%;
+}
+
+.team-card-content-main{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.team-card-content-main h3 {
+    color: #F7A582;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.team-card-content-main h2 {
+    color: #07332f;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+
+.team-card-content-main p{
+    color: #00000080;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+.single-doctor-first{
+    padding: 4rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7f4;
+}
+
+.inside-single-doctor-first{
+    height: 25rem;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07332f;
+}
+
+.doctor-first-img{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.doctor-first-img img{
+    width: 100%;
+}
+
+.doctor-first-content{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.doctor-first-content h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+
+.doctor-first-content h2{
+    color: #F7A582;
+    font-weight: 600;
+    font-size: 52px;
+    text-transform: capitalize;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+
+.doctor-first-content p{
+    color: #ffffffa6;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.single-doctor-second{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7f4;
+}
+
+.inside-single-doctor-second{
+    padding: 4rem 0;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 2px solid #F7A582;
+}
+
+/* .inside-single-doctor-second:last-child{
+    border-bottom: none;
+} */
+
+.inside-single-doctor-second h2{
+        color: #F7A582;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+
+.inside-single-doctor-second h3{
+        color: #07332f;
+    font-weight: 600;
+    font-size: 52px;
+    text-transform: capitalize;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.inside-single-doctor-second p{
+        color: #00000080;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:1024px){
+    .doctor-first-content h3, .inside-single-doctor-second h2 {
+        font-size: 14px;
+}
+.doctor-first-content h2, .inside-single-doctor-second h3 {
+    font-size: 42px;
+    line-height: 3.1rem;
+}
+.doctor-first-content p, .inside-single-doctor-second p {
+    font-size: 16px;
+    line-height: 1.4rem;
+}
+}
+
+@media screen and (max-width:767px){
+.inside-single-doctor-first {
+    width: 90%;
+}
+    .inside-single-doctor-first {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+    .doctor-first-content h2, .inside-single-doctor-second h3 {
+        font-size: 36px;
+        line-height: 2.6rem;
+}
+.doctor-first-content {
+    height: 100%;
+    width: 100%;
+}
+.doctor-first-img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:500px){
+    .team-card-main {
+        width: 18rem;
+    }
+}

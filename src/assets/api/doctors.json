@@ -1,0 +1,52 @@
+[
+    {
+        "id":"1",
+        "doctorsname":"Dr. Ankur Sangal",
+        "position":"Consultant Urologist",
+        "introtitle":"Leading Urologist in Dehradun",
+        "intro":"Dr. Ankur Sangal is recognized as one of the best urologists in Dehradun, offering advanced treatments for kidney stones, prostate disorders, infertility, and sexual health issues.",
+        "doctorimage":"/images/g4.jpg",
+        "qualification":[
+             "MBBS – Government Medical College (GMC), Nagpur",
+             "MS (General Surgery) – MP Shah GMC, Jamnagar",
+             "DNB (Urology) – Yashoda Hospital, Hyderabad",
+             "SI Fellowship (Scotland)"
+        ],
+        "expertise":[
+            "Kidney stone treatment – Minimally invasive and laser-assisted procedures ",
+            "Prostate Disorder Management – BPH, prostate cancer, TURP, HoLEP",
+            "Male Infertility Treatment – Varicocele, azoospermia, erectile dysfunction",
+            "Sexual Health & Disorders Management – Premature ejaculation, low libido",
+            "Bladder Tumor Treatment & Surgery"
+        ],
+        "formerassociation":[
+            "AIIMS, Rishikesh",
+            "Fortis Hospital, Gurugram",
+            "Kailash Hospital, Dehradun"
+        ]
+
+    },
+        {
+        "id":"2",
+        "doctorsname":"Dr. Richa Gupta",
+        "position":"Consultant Oncologist",
+        "introtitle":"Expert Oncologist in Dehradun",
+        "intro":"Dr. Richa Gupta specializes in comprehensive cancer treatment in Dehradun, ensuring personalised care with advanced oncology solutions.",
+        "doctorimage":"/images/d3.jpg",
+        "qualification":[
+             "MBBS – Government Medical College (GMC), Haldwani",
+             "MD (Radiation Oncology) – SRMS Bareilly"
+        ],
+        "expertise":[
+            "Cancer Screening & Early Diagnosis",
+            "Chemotherapy & Targeted Therapy",
+            "Immunotherapy for Cancer Treatment",
+            "Hormone Therapy for Breast & Prostate Cancer",
+            "Palliative Care & Pain Management for Cancer Patients"
+        ],
+        "formerassociation":[
+            " "
+        ]
+
+    }
+]

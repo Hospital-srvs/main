@@ -1,0 +1,231 @@
+.logo{
+    filter: none !important;
+}
+
+nav {
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07332f;
+    border-bottom: 1px solid #a8a8a838;
+}
+
+.insideNav{
+    height: 98%;
+    width: 95%;
+    max-width: 1800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuLinks{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuLinks p{
+    color: #fff;
+    padding: 0.25rem;
+    margin: 0.75rem;
+    font-size: 16px !important;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.appointment{
+    outline: none;
+    border: 1px solid #F7A582;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    height: 2.8rem;
+    background-color: transparent;
+    color: #F7A582;
+    cursor: pointer;
+}
+
+.appointment p{
+    margin: 0;
+    padding: 0;
+    margin-right: 0.5rem;
+    color: #F7A582;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ba{
+    font-size: 16px;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.mobile-appointment{
+    display: none ;
+}
+
+.hamMenu{
+    display: none;
+}
+
+.close {
+    top: 0;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-size: 32px;
+}
+
+.drop-down{
+    position: relative;
+    background-color: #07332f;
+}
+
+.inside-drop-down{
+    display: none;
+    position: absolute;
+    z-index: 999999999999999999999999999999999;
+    background-color: #07332f;
+    width: 15rem;
+}
+
+.inside-drop-down p{
+    border-bottom: 1px solid #a8a8a838;
+    padding: 0.5rem 0;
+    padding-bottom: 1rem;
+}
+
+
+.drop-down:hover .inside-drop-down{
+    display: block;
+}
+
+.inside-drop-down p:last-child{
+    border-bottom: none;
+}
+
+.none{
+    text-decoration: none;
+}
+
+.asw{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+
+    .inside-bread-crum h1 {
+    color: #F7A582;
+    font-weight: 600;
+    font-size: 42px;
+    text-transform: capitalize;
+    line-height: 3.1rem;
+    }
+
+    .asw{
+        display: flex;
+    }
+
+    .hamMenu{
+        display: flex;
+    }
+    .menuLinks{
+        display: none;
+    }
+
+
+    .mobile-menu{
+        height: 100vh;
+        width: 100%;
+        margin: auto;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 999999999999;
+        left: 0;
+        background-color: #07332f;
+    }
+
+    .inside-mobile-menu{
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .mobile-menu-links{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mobile-menu-links p {
+        border: 1px solid;
+        width: 10rem;
+        margin: 0;
+        border-inline: none;
+        padding: 2rem 0.1rem;
+    }
+
+/* .mobile-menu-links p {
+    border: 1px solid;
+    width: 100%;
+    margin: 0;
+    border-inline: none;
+    padding: 2rem 0.1rem;
+} */
+
+button.appointment p {
+    border: none;
+}
+
+    .mobile-appointment {
+        display: flex;
+        position: absolute;
+        right: 8%;
+    }
+
+    .hamMenu{
+        color: #fff;
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+        .inside-bread-crum h1 {
+        font-size: 32px;
+        line-height: 2.6rem;
+    }
+        .inside-bread-crum h1 {
+        font-size: 32px;
+        line-height: 2.6rem;
+    }
+
+.appointment {
+    padding: 0 0.5rem
+}
+    .mobile-appointment {
+        right: 10%;
+    }
+    .ba{
+        margin-left: 0;
+    }
+    .insideNav {
+        width: 98%;
+    }
+}

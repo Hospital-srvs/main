@@ -1,0 +1,58 @@
+.box {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* When .show is added */
+.box.show {
+  opacity: 1;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Only animate when .show is added */
+.box.bottom-to-top.show {
+  animation-name: bottom-to-top;
+  animation-duration: 1.25s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bottom-to-top {
+  0%   { translate: 0rem 2rem; }
+  100% { translate: 0rem; }
+}
+
+.box.bottom-to-top-1.show {
+  animation-name: bottom-to-top-1;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bottom-to-top-1 {
+  0%   { translate: 0rem 4rem; opacity: 0; }
+  100% { translate: 0rem; opacity: 1; }
+}
+
+.box.right-to-left.show {
+  animation-name: right-to-left;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes right-to-left{
+    0%{
+        translate: -6rem 0;
+        opacity: 0;
+    }100%{
+        translate: 0;
+        opacity: 1;
+    }
+}
