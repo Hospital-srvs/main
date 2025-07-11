@@ -1,4 +1,5 @@
-import "../../assets/css/footer.css";
+// import "../../assets/css/footer.css";
+import "../../assets/css/Footer.css"
 import newlogo from "../../assets//images/logo/newlogo.png";
 import { IoLocationSharp, IoCall } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
