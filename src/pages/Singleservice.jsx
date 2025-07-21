@@ -5,9 +5,10 @@ import { NavLink } from 'react-router-dom';
 import '../assets/css/SingleService.css'
 import { SiConsul } from "react-icons/si";
 import { FaRegCalendar } from "react-icons/fa";
-import { RiStethoscopeLine } from "react-icons/ri";
+import { Ri24HoursFill, RiStethoscopeLine } from "react-icons/ri";
 import { TbHealthRecognition } from "react-icons/tb";
 import { ScrollAnimate } from "./ScrollAnimate";
+import { FaRegCalendarDays, FaUserDoctor } from "react-icons/fa6";
 
 export const Singleservice = () => {
 
@@ -99,7 +100,7 @@ export const Singleservice = () => {
 
 
 
-        <div className="single-service-second">
+        {/* <div className="single-service-second">
 
             <h2>Our Steps</h2>
             <h1>Our Working Process</h1>
@@ -144,7 +145,37 @@ export const Singleservice = () => {
                     </div>
 
             </div>
-        </div>
+        </div> */}
+
+        <div className="second-section">
+
+                <ScrollAnimate animation="bottom-to-top-1 center">
+
+                
+        
+                <div className="inside-second-section">
+                    <div className="inside-second-card isc1">
+                        <h2>Get in Touch for <span>Trusted Medical</span> Support</h2>
+                        <NavLink className="noneNew" to="/appointment">
+                            <button className="second">Make Appointment <FaRegCalendarDays className='ba' /></button>
+                        </NavLink>
+                    </div>
+                    <div className="inside-second-card">
+                        <FaUserDoctor className='second-icon'/>
+                        <h2>Care for Every Stage</h2>
+                        <p>Compassionate treatment for all ages under one roof.</p>
+                    </div>
+                    <div className="inside-second-card">
+                        <Ri24HoursFill className='second-icon'/>
+                        <h2>On Call, Anytime</h2>
+                        <p>Immediate medical assistance, 24 hours a day.</p>
+                    </div>
+                </div>
+
+                </ScrollAnimate>
+
+
+            </div>
 
     </>
 }
