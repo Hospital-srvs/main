@@ -22,9 +22,7 @@ export const Footer = () => {
             <p>
               Delivering comprehensive super speciality care under one roof, we
               combine advanced technology, expert doctors, and compassionate
-              service. Our mission is to make quality healthcare in Dehradun
-              accessible and patient-focused—built on trust, excellence, and
-              care.
+              service.
             </p>
 
             <div className="socialIcon">
