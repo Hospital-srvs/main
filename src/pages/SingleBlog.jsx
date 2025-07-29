@@ -8,26 +8,26 @@ export const SingleBlog = () => {
 
     const Params = useParams();
 
-    return <>
-
-        <Breadcrum title={Params.id} />
+    return<>
+        
+        <Breadcrum title={Params.id}/>
 
         <div className="single-service">
             <div className="inside-single-service">
                 <div className="inside-single-service-card service-card-1">
 
 
-
+                    
 
                     {
-                        blog.map((b, index) => {
+                        blog.map((b, index)=>{
 
-                            const { id, image, intro, intro10, intro11, intro2, intro3, intro3long, intro3short, intro4, intro4long, intro4short, intro5, intro5long, intro5long2, intro5short, intro6, intro6long, intro6short, intro7, intro7long, intro7short,intro8, intro8long, intro9, intro9long, intro9short,title, title10, title11, title2, title4, title5, title6, title7, title8, title9, title3
+                            const {id, image,intro,intro10,intro11,intro2,intro3,intro3long,intro3short,intro4,intro4long,intro4short,intro5,intro5long,intro5long2,intro5short,intro6,intro6long,intro6short,intro7,intro7long,intro7short,intro8,intro9,intro9long,title,title10,title11,title2,title4,title5,title6,title7,title8,title9,title3
                             } = b;
-
-                            return (
+                            
+                            return(
                                 <>
-                                    {Params.id == title && (
+                                    {Params.id == title &&(
                                         <div className="service-main-content ibb" key={id}>
 
                                             <ScrollAnimate animation="right-to-left">
@@ -39,7 +39,7 @@ export const SingleBlog = () => {
 
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
-                                                <p>{intro}</p>
+                                            <p>{intro}</p>
                                             </ScrollAnimate>
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
@@ -48,124 +48,123 @@ export const SingleBlog = () => {
                                             </ScrollAnimate>
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
-                                                <h2>{title3}</h2>
-                                                <p>{intro3}</p>
+                                            <h2>{title3}</h2>
+                                            <p>{intro3}</p>
 
                                             </ScrollAnimate>
 
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
 
-                                                {
-                                                    intro3long.map((i, index) => {
-                                                        return (
-                                                            <p>{i}</p>
-                                                        )
-                                                    })
-                                                }
-                                                <p>{intro3short}</p>
+                                            {
+                                                intro3long.map((i, index)=>{
+                                                    return(
+                                                        <p>{i}</p>
+                                                    )
+                                                })
+                                            }
+                                            <p>{intro3short}</p>
                                             </ScrollAnimate>
 
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
 
-                                                <h2>{title4}</h2>
-                                                <p>{intro4}</p>
-                                                {
-                                                    intro4long.map((i, index) => {
-                                                        return (
-                                                            <p>{i}</p>
-                                                        )
-                                                    })
-                                                }
+                                            <h2>{title4}</h2>
+                                            <p>{intro4}</p>
+                                            {
+                                                intro4long.map((i, index)=>{
+                                                    return(
+                                                        <p>{i}</p>
+                                                    )
+                                                })
+                                            }
 
-                                                <p>{intro4short}</p>
+                                            <p>{intro4short}</p>
                                             </ScrollAnimate>
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
 
-                                                <h2>{title5}</h2>
-                                                <p>{intro5}</p>
+                                            <h2>{title5}</h2>
+                                            <p>{intro5}</p>
 
-                                                {
-                                                    intro5long.map((i, index) => {
-                                                        return (
-                                                            <p>{i}</p>
-                                                        )
-                                                    })
-                                                }
+                                            {
+                                                intro5long.map((i, index)=>{
+                                                    return(
+                                                        <p>{i}</p>
+                                                    )
+                                                })
+                                            }
 
-                                                <p>{intro5short}</p>
-                                                {
-                                                    intro5long2.map((i, index) => {
-                                                        return (
-                                                            <p>{i}</p>
-                                                        )
-                                                    })
-                                                }
-                                            </ScrollAnimate>
-
-
-                                            <ScrollAnimate animation="bottom-to-top-1 ">
-
-                                                <h2>{title6}</h2>
-                                                <p>{intro6}</p>
-
-                                                {
-                                                    intro6long.map((i, index) => {
-                                                        return (
-                                                            <p>{i}</p>
-                                                        )
-                                                    })
-                                                }
-
-                                                <p>{intro6short}</p>
+                                            <p>{intro5short}</p>
+                                            {
+                                                intro5long2.map((i, index)=>{
+                                                    return(
+                                                        <p>{i}</p>
+                                                    )
+                                                })
+                                            }
                                             </ScrollAnimate>
 
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
 
-                                                <h2>{title7}</h2>
-                                                <p>{intro7}</p>
+                                            <h2>{title6}</h2>
+                                            <p>{intro6}</p>
 
-                                                {
-                                                    intro7long.map((i, index) => {
-                                                        return (
-                                                            <p>{i}</p>
-                                                        )
-                                                    })
-                                                }
+                                            {
+                                                intro6long.map((i, index)=>{
+                                                    return(
+                                                        <p>{i}</p>
+                                                    )
+                                                })
+                                            }
 
-                                                <p>{intro7short}</p>
-                                            </ScrollAnimate>
-
-                                            <ScrollAnimate animation="bottom-to-top-1 ">
-                                                <h2>{title8}</h2>
-                                                <p>{intro8}</p>
-                                                {
-                                                    intro8long.map((i, index) => {
-                                                        return (
-                                                            <p>{i}</p>
-                                                        )
-                                                    })
-                                                }
-                                                
+                                            <p>{intro6short}</p>
                                             </ScrollAnimate>
 
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
 
-                                                <h2>{title9}</h2>
-                                                <p>{intro9}</p>
+                                            <h2>{title7}</h2>
+                                            <p>{intro7}</p>
 
-                                                {
-                                                    intro9long.map((i, index) => {
-                                                        return (
-                                                            <p>{i}</p>
-                                                        )
-                                                    })
-                                                }
-                                                <p>{intro9short}</p>
+                                            {
+                                                intro7long.map((i, index)=>{
+                                                    return(
+                                                        <p>{i}</p>
+                                                    )
+                                                })
+                                            }
+
+                                            <p>{intro7short}</p>
+                                            </ScrollAnimate>
+
+                                            <ScrollAnimate animation="bottom-to-top-1 ">
+                                            <h2>{title8}</h2>
+
+                                            {
+                                                intro8.map((i, index)=>{
+                                                    return(
+                                                        <p>{i}</p>
+                                                    )
+                                                })
+                                            }
+
+                                            </ScrollAnimate>
+
+
+                                            <ScrollAnimate animation="bottom-to-top-1 ">
+
+                                            <h2>{title9}</h2>
+                                            <p>{intro9}</p>
+                                            
+                                            {
+                                                intro9long.map((i, index)=>{
+                                                    return(
+                                                        <p>{i}</p>
+                                                    )
+                                                })
+                                            }
                                             </ScrollAnimate>
 
 
@@ -178,7 +177,7 @@ export const SingleBlog = () => {
 
 
 
-
+                                            
 
 
                                             {/* {content.map((c, index)=>{
