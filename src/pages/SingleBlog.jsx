@@ -16,9 +16,6 @@ export const SingleBlog = () => {
             <div className="inside-single-service">
                 <div className="inside-single-service-card service-card-1">
 
-
-
-
                     {
                         blog.map((b, index) => {
 
@@ -37,7 +34,7 @@ export const SingleBlog = () => {
 
                                             {/* <h3>{intro}</h3> */}
 
-
+                                            {/* chnages done  */}
                                             <ScrollAnimate animation="bottom-to-top-1 ">
                                                 {intro.map((para, index) => (
                                                     <p key={index} dangerouslySetInnerHTML={{ __html: para.trim() }} />
