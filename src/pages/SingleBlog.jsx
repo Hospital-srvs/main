@@ -22,7 +22,7 @@ export const SingleBlog = () => {
                     {
                         blog.map((b, index) => {
 
-                            const { id, image, intro, intro10, intro11, intro2, intro3, intro3long, intro3short, intro4, intro4long, intro4short, intro5, intro5long, intro5long2, intro5short, intro6, intro6long, intro6short, intro7, intro7long, intro7short,intro8, intro8long, intro9, intro9long, intro9short,title, title10, title11, title2, title4, title5, title6, title7, title8, title9, title3
+                            const { id, image, intro, intro10, intro11, intro2, intro3, intro3long, intro3short, intro4, intro4long, intro4short, intro5, intro5long, intro5long2, intro5short, intro6, intro6long, intro6short, intro7, intro7long, intro7short, intro8, intro9, intro9long, title, title10, title11, title2, title4, title5, title6, title7, title8, title9, title3
                             } = b;
 
                             return (
@@ -39,7 +39,9 @@ export const SingleBlog = () => {
 
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
-                                                <p>{intro}</p>
+                                                {intro.map((para, index) => (
+                                                    <p key={index} dangerouslySetInnerHTML={{ __html: para.trim() }} />
+                                                ))}
                                             </ScrollAnimate>
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
@@ -141,15 +143,15 @@ export const SingleBlog = () => {
 
                                             <ScrollAnimate animation="bottom-to-top-1 ">
                                                 <h2>{title8}</h2>
-                                                <p>{intro8}</p>
+
                                                 {
-                                                    intro8long.map((i, index) => {
+                                                    intro8.map((i, index) => {
                                                         return (
                                                             <p>{i}</p>
                                                         )
                                                     })
                                                 }
-                                                
+
                                             </ScrollAnimate>
 
 
@@ -165,7 +167,6 @@ export const SingleBlog = () => {
                                                         )
                                                     })
                                                 }
-                                                <p>{intro9short}</p>
                                             </ScrollAnimate>
 
 
