@@ -32,8 +32,8 @@ nav {
     color: #fff;
     padding: 0.25rem;
     margin: 0.75rem;
-    font-size: 16px !important;
-    font-weight: 500;
+    font-size: 24px !important;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -114,6 +114,7 @@ nav {
 
 .none{
     text-decoration: none;
+    
 }
 
 .asw{
