@@ -70,10 +70,12 @@ export const Footer = () => {
             <h2>Contact Details</h2>
             <p>
               <IoLocationSharp className="footerIcon" /> Shimla Bypass
-              Chowk,Opp. Axis Bank, Near Hilton School Backgate, Dehradun(UK)
+              Chowk,Opp. Axis Bank, &nbsp;&nbsp; Near Hilton School Backgate, Dehradun(UK)
             </p>
             <p>
-              <IoIosMail className="footerIcon" />
+             
+                <IoIosMail className="footerIcon" />
+              
               info@radhavallabhhospital.com
             </p>
             <p id="call">
