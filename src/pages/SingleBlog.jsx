@@ -77,8 +77,6 @@ export const SingleBlog = () => {
                     </ScrollAnimate> */}
 
                     <ScrollAnimate animation="bottom-to-top-1">
-                      <h2>{title2}</h2>
-
                       {image2 && (
                         <img
                           src={image2}
@@ -86,6 +84,9 @@ export const SingleBlog = () => {
                           className="my-4 w-full max-w-2xl mx-auto rounded-lg shadow-md"
                         />
                       )}
+
+                      <h2>{title2}</h2>
+
 
                       <p>{parse(intro2)}</p>
                     </ScrollAnimate>
