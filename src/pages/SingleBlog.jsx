@@ -3,6 +3,7 @@ import { Breadcrum } from "../components/ui/Breadcrum";
 import blog from "../assets/api/blogs.json";
 import "../assets/css/Blog.css";
 import { ScrollAnimate } from "./ScrollAnimate";
+import blog4 from "../../public/images/blog4.jpg"
 import parse from "html-react-parser";
 
 export const SingleBlog = () => {
@@ -71,6 +72,7 @@ export const SingleBlog = () => {
                     </ScrollAnimate>
 
                     <ScrollAnimate animation="bottom-to-top-1 ">
+                      
                       <h2>{title2}</h2>
                       <p>{parse(intro2)}</p>
                     </ScrollAnimate>
@@ -146,7 +148,7 @@ export const SingleBlog = () => {
                       {intro9long.map((para, index) => (
                         <p key={index}>{parse(para.trim())}</p>
                       ))}
-                       <p>{parse(intro9short)}</p>
+                       {/* <p>{parse(intro9short)}</p> */}
                     </ScrollAnimate>
 
                     {title10 && (
