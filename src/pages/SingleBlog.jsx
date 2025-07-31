@@ -19,6 +19,7 @@ export const SingleBlog = () => {
               const {
                 id,
                 image,
+                image2,
                 intro,
                 intro10,
                 intro11,
@@ -70,10 +71,25 @@ export const SingleBlog = () => {
                       ))}
                     </ScrollAnimate>
 
-                    <ScrollAnimate animation="bottom-to-top-1 ">
+                    {/* <ScrollAnimate animation="bottom-to-top-1 ">
                       <h2>{title2}</h2>
                       <p>{parse(intro2)}</p>
+                    </ScrollAnimate> */}
+
+                    <ScrollAnimate animation="bottom-to-top-1">
+                      <h2>{title2}</h2>
+
+                      {image2 && (
+                        <img
+                          src={image2}
+                          alt="Section Image"
+                          className="my-4 w-full max-w-2xl mx-auto rounded-lg shadow-md"
+                        />
+                      )}
+
+                      <p>{parse(intro2)}</p>
                     </ScrollAnimate>
+
 
                     {title3 && (
                       <ScrollAnimate animation="bottom-to-top-1 ">
@@ -146,7 +162,7 @@ export const SingleBlog = () => {
                       {intro9long.map((para, index) => (
                         <p key={index}>{parse(para.trim())}</p>
                       ))}
-                       <p>{parse(intro9short)}</p>
+                      <p>{parse(intro9short)}</p>
                     </ScrollAnimate>
 
                     {title10 && (
