@@ -65,16 +65,13 @@ export const SingleBlog = () => {
                       <img src={image} alt="" className="main-service" />
                     </ScrollAnimate>
 
-                    <ScrollAnimate animation="bottom-to-top-1 ">
-                      {intro.map((para, index) => (
-                        <p key={index}>{parse(para.trim())}</p>
-                      ))}
-                    </ScrollAnimate>
-
-                    {/* <ScrollAnimate animation="bottom-to-top-1 ">
-                      <h2>{title2}</h2>
-                      <p>{parse(intro2)}</p>
-                    </ScrollAnimate> */}
+                    {Array.isArray(intro) && (
+                      <ScrollAnimate animation="bottom-to-top-1">
+                        {intro.map((para, index) => (
+                          <p key={index}>{parse(para.trim())}</p>
+                        ))}
+                      </ScrollAnimate>
+                    )}
 
                     <ScrollAnimate animation="bottom-to-top-1">
                       {image2 && (
@@ -84,99 +81,105 @@ export const SingleBlog = () => {
                           className="my-4 w-full max-w-2xl mx-auto rounded-lg shadow-md"
                         />
                       )}
-
-                      <h2>{title2}</h2>
-
-
-                      <p>{parse(intro2)}</p>
+                      {title2 && <h2>{title2}</h2>}
+                      {intro2 && <p>{parse(intro2)}</p>}
                     </ScrollAnimate>
 
-
                     {title3 && (
-                      <ScrollAnimate animation="bottom-to-top-1 ">
+                      <ScrollAnimate animation="bottom-to-top-1">
                         <h2>{title3}</h2>
-                        <p>{parse(intro3)}</p>
+                        {intro3 && <p>{parse(intro3)}</p>}
                       </ScrollAnimate>
                     )}
 
-                    {intro3long.length > 0 && (
-                      <ScrollAnimate animation="bottom-to-top-1 ">
+                    {Array.isArray(intro3long) && intro3long.length > 0 && (
+                      <ScrollAnimate animation="bottom-to-top-1">
                         {intro3long.map((para, index) => (
                           <p key={index}>{parse(para.trim())}</p>
                         ))}
-                        <p>{parse(intro3short)}</p>
+                        {intro3short && <p>{parse(intro3short)}</p>}
                       </ScrollAnimate>
                     )}
 
-                    <ScrollAnimate animation="bottom-to-top-1 ">
-                      <h2>{title4}</h2>
-                      <p>{parse(intro4)}</p>
-                      {intro4long.map((para, index) => (
-                        <p key={index}>{parse(para.trim())}</p>
-                      ))}
-                      <p>{parse(intro4short)}</p>
+                    <ScrollAnimate animation="bottom-to-top-1">
+                      {title4 && <h2>{title4}</h2>}
+                      {intro4 && <p>{parse(intro4)}</p>}
+                      {Array.isArray(intro4long) &&
+                        intro4long.map((para, index) => (
+                          <p key={index}>{parse(para.trim())}</p>
+                        ))}
+                      {intro4short && <p>{parse(intro4short)}</p>}
                     </ScrollAnimate>
 
-                    <ScrollAnimate animation="bottom-to-top-1 ">
-                      <h2>{title5}</h2>
-                      <p>{parse(intro5)}</p>
-                      {intro5long.map((para, index) => (
-                        <p key={index}>{parse(para.trim())}</p>
-                      ))}
+                    <ScrollAnimate animation="bottom-to-top-1">
+                      {title5 && <h2>{title5}</h2>}
+                      {intro5 && <p>{parse(intro5)}</p>}
+                      {Array.isArray(intro5long) &&
+                        intro5long.map((para, index) => (
+                          <p key={index}>{parse(para.trim())}</p>
+                        ))}
                       {intro5short && <p>{parse(intro5short)}</p>}
-                      {intro5long2.map((para, index) => (
-                        <p key={index}>{parse(para.trim())}</p>
-                      ))}
+                      {Array.isArray(intro5long2) &&
+                        intro5long2.map((para, index) => (
+                          <p key={index}>{parse(para.trim())}</p>
+                        ))}
                     </ScrollAnimate>
 
-                    <ScrollAnimate animation="bottom-to-top-1 ">
-                      <h2>{title6}</h2>
-                      <p>{parse(intro6)}</p>
-                      {intro6long.map((para, index) => (
-                        <p key={index}>{parse(para.trim())}</p>
-                      ))}
+                    <ScrollAnimate animation="bottom-to-top-1">
+                      {title6 && <h2>{title6}</h2>}
+                      {intro6 && <p>{parse(intro6)}</p>}
+                      {Array.isArray(intro6long) &&
+                        intro6long.map((para, index) => (
+                          <p key={index}>{parse(para.trim())}</p>
+                        ))}
                       {intro6short && <p>{parse(intro6short)}</p>}
                     </ScrollAnimate>
 
-                    <ScrollAnimate animation="bottom-to-top-1 ">
-                      <h2>{title7}</h2>
-                      <p>{parse(intro7)}</p>
-                      {intro7long.map((para, index) => (
-                        <p key={index}>{parse(para.trim())}</p>
-                      ))}
-                      <p>{parse(intro7short)}</p>
+                    <ScrollAnimate animation="bottom-to-top-1">
+                      {title7 && <h2>{title7}</h2>}
+                      {intro7 && <p>{parse(intro7)}</p>}
+                      {Array.isArray(intro7long) &&
+                        intro7long.map((para, index) => (
+                          <p key={index}>{parse(para.trim())}</p>
+                        ))}
+                      {intro7short && <p>{parse(intro7short)}</p>}
                     </ScrollAnimate>
 
                     {title8 && (
                       <ScrollAnimate animation="bottom-to-top-1">
                         <h2>{title8}</h2>
-                        {(intro8.length > 0 ? intro8 : intro8long).map((para, index) => (
+                        {(Array.isArray(intro8) && intro8.length > 0
+                          ? intro8
+                          : intro8long || []
+                        ).map((para, index) => (
                           <p key={index}>{parse((para || "").trim())}</p>
                         ))}
                       </ScrollAnimate>
                     )}
 
-
-                    <ScrollAnimate animation="bottom-to-top-1 ">
-                      <h2>{title9}</h2>
-                      {intro9 && <p>{parse(intro9)}</p>}
-                      {intro9long.map((para, index) => (
-                        <p key={index}>{parse(para.trim())}</p>
-                      ))}
-                      <p>{parse(intro9short)}</p>
-                    </ScrollAnimate>
+                    {(title9 || intro9 || (intro9long && intro9long.length)) && (
+                      <ScrollAnimate animation="bottom-to-top-1">
+                        {title9 && <h2>{title9}</h2>}
+                        {intro9 && <p>{parse(intro9)}</p>}
+                        {Array.isArray(intro9long) &&
+                          intro9long.map((para, index) => (
+                            <p key={index}>{parse(para.trim())}</p>
+                          ))}
+                        {intro9short && <p>{parse(intro9short)}</p>}
+                      </ScrollAnimate>
+                    )}
 
                     {title10 && (
                       <>
                         <h2>{title10}</h2>
-                        <p>{parse(intro10)}</p>
+                        {intro10 && <p>{parse(intro10)}</p>}
                       </>
                     )}
 
                     {title11 && (
                       <>
                         <h2>{title11}</h2>
-                        <p>{parse(intro11)}</p>
+                        {intro11 && <p>{parse(intro11)}</p>}
                       </>
                     )}
                   </div>
