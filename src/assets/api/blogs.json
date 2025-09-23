@@ -310,55 +310,67 @@
     "image": "/images/b4.jpg"
   },
   {
-    "id": "5",
-    "title": "What Does an Oncologist Do? Role, Specialisations, and When to Consult One",
-    "slug": "what-does-an-oncologist-do-role-specialisations-when-to-consult-one",
-    "date": "2025-09-22",
-    "image": "/images/blogs/oncologist.jpg",
-    "intro": [
-      "At Shree Radha Vallabh Superspeciality Hospital (SRVS Hospital), we understand that hearing the word oncologist for the first time can feel overwhelming. Many patients and families often ask: Who exactly is an oncologist, and what do they do?",
-      "According to Dr. Richa Gupta, Consultant Oncologist at SRVS Hospital: “An oncologist is not just a cancer doctor. We are specialists trained to diagnose, treat, and guide patients through every step of their cancer journey — from the first suspicion to treatment, recovery, and long-term follow-up.”"
-    ],
-    "title2": "Who is an Oncologist?",
-    "intro2": "An oncologist is a doctor trained to detect, diagnose, and treat cancer. Using tools such as blood tests, imaging scans, and biopsies, they identify the disease and create a personalised treatment plan. But their role is not limited to treatment alone. They also help with symptom relief, emotional support, and long-term follow-up care.",
-    "title3": "Roles and Responsibilities of an Oncologist",
-    "intro3long": [
-      "• Diagnosis – Reviewing test results, scans, and pathology reports to confirm cancer.",
-      "• Treatment Planning – Surgery, chemotherapy, radiation, immunotherapy, or targeted therapy.",
-      "• Monitoring Progress – Assessing treatment effectiveness and adjusting as necessary.",
-      "• Supportive Care – Managing pain, side effects, and overall well-being.",
-      "• Teamwork – Collaborating with surgeons, radiologists, pathologists, nurses, and palliative care specialists."
-    ],
-    "title4": "Types of Oncologists and Their Specialisations",
-    "intro4long": [
-      "• Medical Oncologist – Chemotherapy, immunotherapy, targeted drugs",
-      "• Surgical Oncologist – Biopsies and tumor removal",
-      "• Radiation Oncologist – Cancer treatment with radiation",
-      "• Pediatric Oncologist – Childhood cancers",
-      "• Gynecologic Oncologist – Cancers of female reproductive organs",
-      "• Hematologist-Oncologist – Blood cancers like leukemia, lymphoma, myeloma"
-    ],
-    "title5": "When Should You Consult an Oncologist?",
-    "intro5long": [
-      "• Suspicious lumps or abnormal test results",
-      "• A biopsy suggests cancer",
-      "• Your GP recommends evaluation",
-      "• You or a loved one is already diagnosed",
-      "• Seeking a second opinion",
-      "• You are in remission but require follow-up"
-    ],
-    "title6": "Why Early Consultation Matters",
-    "intro6": "Cancer incidence in India is rising, with nearly 1.56 million new cases in 2024. Mortality-to-incidence ratio is ~65%, meaning 2 of 3 do not survive. Early detection greatly improves survival rates, especially for breast cancer where early stage detection improves chances by 4x. Health experts estimate 75% of cancer deaths are preventable with early diagnosis and treatment.",
-    "title7": "How to Prepare for Your First Visit",
-    "intro7long": [
-      "• Carry medical reports, scans, pathology results, and prescriptions",
-      "• Write down questions on treatment, side effects, outcomes",
-      "• Bring a family member or friend for support"
-    ],
-    "title8": "Key Takeaways",
-    "intro8": "Oncologists not only treat cancer but also guide and support patients and families at every stage. With different specializations, oncologists ensure each patient receives the right treatment.",
-    "title9": "Final Word",
-    "intro9": "If you or someone you love is dealing with suspicious symptoms or has been diagnosed with cancer, consulting an oncologist is the most important step toward the right treatment. At SRVS Hospital, our experienced team is here to guide you with expertise and compassion. Book a consultation today.",
-    "intro9short": "Cancer treatment is not just about medicines — it’s about trust, teamwork, and compassion."
-  }
+  "id": "5",
+  "title": "What Does an Oncologist Do? Role, Specialisations, and When to Consult One",
+  "slug": "what-does-an-oncologist-do-role-specialisations-when-to-consult-one",
+  "date": "2025-09-22",
+  "image": "/images/blogs/oncologist.jpg",
+  "intro": [
+    "At Shree Radha Vallabh Superspeciality Hospital (SRVS Hospital), we understand that hearing the word oncologist for the first time can feel overwhelming. Many patients and families often ask: Who exactly is an oncologist, and what do they do?",
+    "According to Dr. Richa Gupta, Consultant Oncologist at SRVS Hospital: “An oncologist is not just a cancer doctor. We are specialists trained to diagnose, treat, and guide patients through every step of their cancer journey — from the first suspicion to treatment, recovery, and long-term follow-up.”"
+  ],
+  "title2": "Who is an Oncologist?",
+  "intro2": "An oncologist is a doctor trained to detect, diagnose, and treat cancer. Using tools such as blood tests, imaging scans, and biopsies, they identify the disease and create a personalised treatment plan. But their role is not limited to treatment alone. They also help with symptom relief, emotional support, and long-term follow-up care.",
+  "title3": "Roles and Responsibilities of an Oncologist",
+  "intro3": "",
+  "intro3long": [
+    "● Diagnosis – Reviewing test results, scans, and pathology reports to confirm cancer.",
+    "● Treatment Planning – Surgery, chemotherapy, radiation, immunotherapy, or targeted therapy.",
+    "● Monitoring Progress – Assessing treatment effectiveness and adjusting as necessary.",
+    "● Supportive Care – Managing pain, side effects, and overall well-being.",
+    "● Teamwork – Collaborating with surgeons, radiologists, pathologists, nurses, and palliative care specialists."
+  ],
+  "intro3short": "",
+  "title4": "Types of Oncologists and Their Specialisations",
+  "intro4": "",
+  "intro4long": [
+    "● Medical Oncologist – Chemotherapy, immunotherapy, targeted drugs",
+    "● Surgical Oncologist – Biopsies and tumor removal",
+    "● Radiation Oncologist – Cancer treatment with radiation",
+    "● Pediatric Oncologist – Childhood cancers",
+    "● Gynecologic Oncologist – Cancers of female reproductive organs",
+    "● Hematologist-Oncologist – Blood cancers like leukemia, lymphoma, myeloma"
+  ],
+  "intro4short": "",
+  "title5": "When Should You Consult an Oncologist?",
+  "intro5": "",
+  "intro5long": [
+    "● Suspicious lumps or abnormal test results",
+    "● A biopsy suggests cancer",
+    "● Your GP recommends evaluation",
+    "● You or a loved one is already diagnosed",
+    "● Seeking a second opinion",
+    "● You are in remission but require follow-up"
+  ],
+  "intro5short": "",
+  "title6": "Why Early Consultation Matters",
+  "intro6": "Cancer incidence in India is rising, with nearly 1.56 million new cases in 2024. Mortality-to-incidence ratio is ~65%, meaning 2 of 3 do not survive. Early detection greatly improves survival rates, especially for breast cancer where early stage detection improves chances by 4x. Health experts estimate 75% of cancer deaths are preventable with early diagnosis and treatment.",
+  "intro6long": [],
+  "intro6short": "",
+  "title7": "How to Prepare for Your First Visit",
+  "intro7": "",
+  "intro7long": [
+    "● Carry medical reports, scans, pathology results, and prescriptions",
+    "● Write down questions on treatment, side effects, outcomes",
+    "● Bring a family member or friend for support"
+  ],
+  "intro7short": "",
+  "title8": "Key Takeaways",
+  "intro8": "Oncologists not only treat cancer but also guide and support patients and families at every stage. With different specializations, oncologists ensure each patient receives the right treatment.",
+  "title9": "Final Word",
+  "intro9": "If you or someone you love is dealing with suspicious symptoms or has been diagnosed with cancer, consulting an oncologist is the most important step toward the right treatment. At SRVS Hospital, our experienced team is here to guide you with expertise and compassion. Book a consultation today.",
+  "intro9short": "Cancer treatment is not just about medicines — it’s about trust, teamwork, and compassion.",
+  "image2": ""
+}
+
 ]
