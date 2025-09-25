@@ -1,378 +1,402 @@
-[
-  {
-    "id": "1",
-    "title": "Kidney Stones: Everything You Need to Know (Without the Medical Jargon)",
-    "intro": [
-      "Kidney stones are more common than you think — and when they strike, they don’t go unnoticed. Whether you're dealing with one now or want to avoid them altogether, here's a simple, no-fluff breakdown of what they are, why they form, and how to stay ahead of them. ",
-      "At Shree Radha Vallabh Super Speciality Hospital, we're here to make sure you're informed, prepared, and supported every step of the way."
-    ],
-    "title2": "What Are Kidney Stones?",
-    "intro2": "Kidney stones are solid pieces made from minerals and salts that build up in your kidneys. They form when your urine becomes too concentrated, causing certain substances — like calcium, oxalate, or uric acid — to stick together.",
-    "title3": "Why Do People Get Kidney Stones?",
-    "intro3": "There’s no single cause, but common triggers include:",
-    "intro3long": [
-      "● Not drinking enough water ",
-      "● High intake of salt, protein, or sugar ",
-      "● Being overweight or inactive ",
-      "● Family history or genetic conditions ",
-      "● Digestive diseases or surgeries ",
-      "● Certain medications or supplements "
-    ],
-    "intro3short": "In short, kidney stones often result from a mix of lifestyle and medical factors — many of which can be managed.",
-    "title4": "What Does a Kidney Stone Feel Like",
-    "intro4": "The pain usually comes suddenly and can be severe. It often starts in the back or side and radiates toward the lower abdomen or groin. Other symptoms may include: ",
-    "intro4long": [
-      "● Sharp, cramping pain in the side or lower back ",
-      "● Pain during urination ",
-      "● Blood in the urine ",
-      "● Nausea or vomiting ",
-      "● Frequent or urgent urination ",
-      "● Cloudy or foul-smelling urine "
-    ],
-    "intro4short": "The intensity can come in waves — and it's not something you want to ignore.",
-    "title5": "Can Kidney Stones Be Treated Without Surgery? ",
-    "intro5": "Yes — small stones often pass on their own with proper hydration and symptom management. Treatments may include: m",
-    "intro5long": [
-      "● Drinking plenty of fluids to flush the stone",
-      "● Pain relief medications ",
-      "● Alpha-blockers to relax the ureter and speed up passage"
-    ],
-    "intro5short": "For larger stones or those causing blockages, more advanced options may be recommended:",
-    "intro5long2": [
-      "● Extracorporeal Shock Wave Lithotripsy (ESWL) – breaks the stone into smaller pieces using sound waves ",
-      "● Ureteroscopy – a thin scope is used to find and remove or break the stone",
-      "● Percutaneous Nephrolithotomy (PCNL) – a minimally invasive surgery used for larger or complex stones"
-    ],
-    "title6": "Can I Prevent Kidney Stones?",
-    "intro6": "Absolutely. Prevention often starts with simple habits: ",
-    "intro6long": [
-      "● Hydration is key — aim for at least 2–3 liters of water daily ",
-      "● Limit sodium and animal proteins ",
-      "● Moderate your intake of oxalate-rich foods like spinach, beets, and nuts ",
-      "● Maintain a healthy weight ",
-      "● Follow a personalized diet plan if you've had stones before"
-    ],
-    "intro6short": "Our team offers individualized prevention strategies based on your stone type, health history, and lifestyle.",
-    "title7": "When Should You See a Urologist?",
-    "intro7": "Not every kidney stone requires urgent care — but here’s when you definitely should seek help: ",
-    "intro7long": [
-      "● Persistent or severe pain ",
-      "● Blood in your urine ",
-      "● Fever or chills (possible sign of infection) ",
-      "● Nausea and vomiting that won’t stop ",
-      "● Difficulty urinating or passing only small amounts ",
-      "● A history of recurrent stones "
-    ],
-    "intro7short": "Even if the pain passes, follow-up is important to ensure the stone is gone and that you're not at risk of future episodes.",
-    "title8": "",
-    "intro8": [],
-    "title9": "",
-    "intro9": "",
-    "intro9long": [
-      ""
-    ],
-    "title10": "",
-    "intro10": "",
-    "title11": "",
-    "intro11": "",
-    "image": "/images/b1.jpg"
-  },
-  {
-    "id": "2",
-    "title": "Prostate Health: What Every Man Should Know",
-    "intro": [
-      "The prostate is a small gland with a big role in men’s health. As men age, changes in the prostate are common — but understanding these changes and staying informed can help prevent complications and support long-term wellness.",
-      "At Shree Radha Vallabh Super Speciality Hospital, we believe that awareness and early intervention are key to maintaining a healthy prostate and a better quality of life."
-    ],
-    "title2": "What Is the Prostate?",
-    "intro2": "The prostate is a walnut-sized gland located just below the bladder and in front of the rectum. It surrounds part of the urethra (the tube that carries urine and semen out of the body) and plays a crucial role in male reproductive health by producing fluid that nourishes and protects sperm.",
-    "intro3": "",
-    "intro3long": [],
-    "intro3short": "",
-    "title4": "Common Prostate Conditions",
-    "intro4": "Several conditions can affect the prostate, especially as men grow older:  ",
-    "intro4long": [],
-    "intro4short": "",
-    "title5": "Benign Prostatic Hyperplasia (BPH) ",
-    "intro5": "An enlargement of the prostate gland that can lead to urinary symptoms such as: ",
-    "intro5long": [
-      "● Frequent or urgent need to urinate ",
-      "● Difficulty starting or stopping urination ",
-      "● Weak urine stream or dribbling ",
-      "● Incomplete bladder emptying BPH is non-cancerous but can significantly affect quality of life if left untreated."
-    ],
-    "intro5short": "",
-    "intro5long2": [],
-    "title6": "Prostatitis ",
-    "intro6": "An inflammation of the prostate, which may be caused by infection. Symptoms include: ",
-    "intro6long": [
-      "● Pelvic or lower back pain ",
-      "● Painful urination or ejaculation ",
-      "● Fever and chills (in acute cases)"
-    ],
-    "intro6short": "",
-    "title7": "Prostate Cancer ",
-    "intro7": "One of the most common cancers among men. Often slow-growing, prostate cancer may not show symptoms in early stages but can be detected through screening.",
-    "intro7long": [],
-    "intro7short": "Even if the pain passes, follow-up is important to ensure the stone is gone and that you're not at risk of future episodes.",
-    "title8": "Importance of Prostate Screening",
-    "intro8": [
-      "Regular screening is vital, particularly for men over 50 or those with a family history of prostate cancer. Common screening methods include:",
-      "● Digital Rectal Exam (DRE): A physical examination to feel for abnormalities in the prostate.",
-      "● Prostate-Specific Antigen (PSA) Blood Test: Measures the level of PSA, a protein produced by the prostate. Elevated levels may indicate prostate enlargement, inflammation, or cancer.",
-      "Discussing screening with your doctor can help determine the right approach based on your age, health status, and risk factors."
-    ],
-    "title9": "How to Maintain Prostate Health ",
-    "intro9": "While some risk factors cannot be changed, certain lifestyle choices can promote better prostate health: ",
-    "intro9long": [
-      "● Maintain a healthy, balanced diet rich in fruits, vegetables, and whole grains ",
-      "● Limit red meat and processed foods ",
-      "● Exercise regularly ",
-      "● Stay at a healthy weight ",
-      "● Avoid smoking and limit alcohol intake ",
-      "● Stay hydrated and manage stress levels ",
-      "● Get regular check-ups and screenings"
-    ],
-    "title10": "When to See a Doctor ",
-    "intro10": "If you experience any urinary difficulties, pelvic discomfort, or changes in urinary habits, it is important to consult a healthcare provider. Early evaluation and treatment can prevent complications and improve outcomes.",
-    "title11": "Expert Urological Care at Shree Radha Vallabh Super Speciality Hospital ",
-    "intro11": "Our urology specialists provide comprehensive evaluation, diagnosis, and treatment for all prostate-related conditions — from routine screenings to advanced care for prostate cancer. We combine medical expertise with compassionate care to ensure the best outcomes for our patients.",
-    "image": "/images/b2.jpg"
-  },
-  {
-    "id": "3",
-    "title": "Understanding Overactive Bladder: Symptoms, Causes and Treatment",
-    "intro": [
-      "Overactive Bladder (OAB) is a medical condition that affects bladder control, leading to a frequent and sudden urge to urinate. While it is common, especially among older adults, OAB is not a normal part of aging and can significantly impact daily life, sleep quality, and emotional well-being.",
-      "At Shree Radha Vallabh Super Speciality Hospital, we aim to provide clarity, care, and solutions for those experiencing this condition."
-    ],
-    "title2": "What Is Overactive Bladder?",
-    "intro2": "",
-    "intro3": "Overactive Bladder refers to a group of urinary symptoms, including: ",
-    "intro3long": [
-      "● A sudden, uncontrollable urge to urinate ",
-      "● Frequent urination, typically more than eight times in a 24-hour period ",
-      "● Waking up at night to urinate (nocturia) ",
-      "● Urge incontinence, which is the unintentional loss of urine after feeling a strong urge"
-    ],
-    "intro3short": "These symptoms may vary in intensity and frequency and can affect people of all genders and ages.",
-    "title4": "Causes of Overactive Bladder",
-    "intro4": "OAB can occur due to several underlying factors, including: ",
-    "intro4long": [
-      "● Neurological conditions such as stroke, multiple sclerosis, or Parkinson’s disease ",
-      "● Urinary tract infections ",
-      "● Bladder stones or tumors ",
-      "● Hormonal changes, especially in postmenopausal women ",
-      "● Enlarged prostate in men ",
-      "● Side effects of certain medications ",
-      "● Obesity or chronic constipation "
-    ],
-    "intro4short": "In many cases, the exact cause remains unknown, but treatment can still be effective.",
-    "title5": "Diagnosis and Evaluation",
-    "intro5": "A proper diagnosis is essential for effective treatment. At Shree Radha Vallabh Super Speciality Hospital, we conduct a comprehensive evaluation that may include: ",
-    "intro5long": [
-      "● Medical history and physical examination ",
-      "● Urinalysis to check for infections or abnormalities ",
-      "● Bladder diaries to monitor patterns in urination ",
-      "● Post-void residual measurement (checking how much urine remains in the bladder after urinating)",
-      "● Urodynamic testing to assess bladder function"
-    ],
-    "intro5short": "",
-    "intro5long2": [],
-    "title6": "Treatment Options",
-    "intro6": "Treatment for OAB is based on the severity of symptoms and the underlying cause. Common approaches include:",
-    "intro6long": [
-      "Lifestyle Modifications: ● Limiting caffeine and alcohol intake ",
-      "● Adjusting fluid consumption ",
-      "● Timed voiding and bladder training ",
-      "● Weight management and regular exercise",
-      "Pelvic Floor Exercises : ● Strengthening pelvic muscles through exercises like Kegels can help improve bladder control. Medications ",
-      "● Prescription drugs can relax the bladder muscle and reduce symptoms. Advanced Therapies ",
-      "● Nerve stimulation therapies such as sacral neuromodulation ",
-      "● Botox injections into the bladder wall ",
-      "● Surgery (only in severe, treatment-resistant cases)"
-    ],
-    "intro6short": "",
-    "title7": "When to see a doctor",
-    "intro7": "If symptoms of OAB are interfering with your daily life, sleep, or confidence, it is important to speak with a healthcare provider. Early diagnosis and appropriate treatment can lead to significant improvement.",
-    "intro7long": [],
-    "intro7short": "",
-    "title8": "",
-    "intro8": [],
-    "title9": "",
-    "intro9": "",
-    "intro9long": [],
-    "title10": "",
-    "intro10": "",
-    "title11": "",
-    "intro11": "",
-    "image": "/images/b3.jpg"
-  },
-  {
-    "id": "4",
-    "title": "RIRS Surgery: The Modern Laser Treatment for Kidney Stones ",
-    "intro": [
-      "Kidney stones are known to cause some of the most intense pain a person can experience. <a href=\"http://localhost:5173/blog/Kidney%20Stones:%20Everything%20You%20Need%20to%20Know%20(Without%20the%20Medical%20Jargon)\" target=\"_blank\">Know More</a>",
-      "For many, the thought of undergoing surgery adds to the anxiety—but thanks to modern advancements in urology, not all treatments involve cuts or stitches.",
-      "At <a href=\"https://www.radhavallabhhospital.com\" target=\"_blank\"> Shree Radha Vallabh Superspeciality Hospital (SRVS Hospital)</a>, one such breakthrough is RIRS (Retrograde Intrarenal Surgery)—a laser-based, minimally invasive procedure that offers a safer, scar-free alternative to traditional kidney stone surgeries.",
-      "<i>“With RIRS, we can treat stones without making any external incision,” explains Dr. Ankur Sangal, Urologist and RIRS Specialist at SRVS Hospital, Dehradun. “It’s a game-changer, especially for patients who are anxious about conventional surgery.”</i>",
-      "In this blog, we’ll take a closer look at how RIRS works, who it’s suitable for, and what recovery looks like. We’ll also share insights from Dr. Ankur clinical experience—and a real patient’s journey of becoming stone-free through this advanced procedure.",
-      "If you or a loved one is dealing with kidney stones, this guide could help you explore a gentler, modern treatment option."
-    ],
-    "image2": "/images/blog4.jpg",
-    "title2": "What Is RIRS? (Retrograde Intrarenal Surgery)",
-    "intro2": "Retrograde Intrarenal Surgery (RIRS) is a minimally invasive procedure where a thin, flexible endoscope is passed through the urinary tract to reach the kidney. Once the stone is located, it is broken down using laser energy into fine dust or small fragments that can be naturally passed or removed. ",
-    "intro3": "",
-    "intro3long": [],
-    "intro3short": " ",
-    "title4": "What to Expect Before and After RIRS",
-    "intro4": "<b>Before the Procedure</b>",
-    "intro4long": [
-      " With over 1,000 RIRS procedures successfully performed, Dr. Ankur Sangal emphasises that patient selection plays a key role in achieving the best outcomes.",
-      "<i> “Each case is unique. Imaging and clinical evaluation help us decide if RIRS is the best route.says Dr. Ankur . Clear communication and follow-up are key parts of our care approach.”</i>",
-      " Before RIRS, you can expect:",
-      "● A detailed consultation, including a review of your medical history and physical examination. ",
-      "● Imaging studies such as an ultrasound or CT scan to assess the size and location of the stone. ",
-      "● Blood and urine tests to rule out infection or other risks.",
-      "● Instructions for fasting before the procedure, as it’s done under anesthesia. ",
-      "● A pre-procedure discussion about the possibility of placing a temporary DJ stent to aid healing and drainage. ",
-      "<b>After the Procedure</b>",
-      " Recovery after RIRS is generally smooth and quick. Most patients experience:",
-      "● Mild burning or discomfort during urination, which usually settles in a day or two. ",
-      "● Placement of a temporary DJ stent, if needed, which is typically removed within 3–4 weeks. ",
-      "● Medications such as painkillers or antibiotics, if prescribed. ",
-      "● return to normal routine and light activities within 3 to 5 days. ",
-      "● A follow-up appointment to monitor healing and ensure the kidney is stone-free. "
-    ],
-    "intro4short": "<i>“Most of my patients are surprised by how quickly they recover,” Dr. Ankur notes. </i>",
-    "title5": "Patient Story: A Stone-Free Recovery ",
-    "intro5": "",
-    "intro5long": [
-      " When Arun Bahuguna, a resident of Srinagar, was diagnosed with a large kidney stone, he turned to Dr. Ankur Sangal for expert care. Due to the size and complexity of the stone, treatment was planned in two stages using RIRS (Retrograde Intrarenal Surgery)—a minimally invasive laser procedure.",
-      "Mr. Bahuguna had already undergone the first sitting of RIRS under Dr. Ankur's care earlier. His trust in the team brought him back to SRVS for the second and final procedure, which was completed successfully.",
-      "<i>“We were confident in returning because the first experience was so smooth,” shared his son.</i>",
-      "After the second surgery, Mr. Bahuguna was discharged the very next day, with no fever and minimal post-operative pain. He recovered comfortably at home and resumed daily activities within days.",
-      "Four weeks later, he returned for stent removal, and follow-up imaging confirmed complete stone clearance.",
-      "His son, grateful for the expert care and consistent results, shared their experience in a heartfelt testimonial video, which is now available on the hospital’s YouTube channel  <a href = \"https://youtu.be/rPJYgTkB1b0?si=KckM6oAxPhgM8CtM\" target=\"_blank\"> SRVS Hospital</a> .",
-      "<i>“The professionalism, the results, and the way everything was handled gave us complete peace of mind,” his son said.</i>",
-      " Mr. Bahuguna’s story is a powerful reminder that even large kidney stones can be treated safely and effectively—with modern laser techniques, skilled hands, and personalised care."
-    ],
-    "intro5short": "",
-    "intro5long2": [],
-    "title6": "Who Can Benefit from RIRS Surgery?",
-    "intro6": "<i>“With the right patient selection, RIRS is one of the safest and most effective treatments for kidney stones today”. — Dr. Ankur Sangal</i>",
-    "intro6long": [
-      "You may be a good candidate for RIRS if you: ",
-      "● Have kidney stones smaller than 2 cm in size  ",
-      "● Have stones located in the kidney or upper ureter ",
-      "● Are looking for a stitch-free, minimally invasive treatment option ",
-      "● Cannot undergo traditional surgery due to medical conditions ",
-      "RIRS may not be suitable for very large or complex stones or in cases with specific anatomical challenges. Your urologist will advise you accordingly."
-    ],
-    "intro6short": "",
-    "title7": " Clearing Common Myths About Laser Stone Treatment",
-    "intro7": "Despite the growing success of laser-based treatments like RIRS, many patients still carry misconceptions about how it works. Dr. Ankur Sangal, Urologist at Shree Radha Vallabh Superspeciality Hospital, addresses some of the most common myths he encounters:",
-    "intro7long": [
-      " <b>Myth 1: Laser treatment is painful<b>",
-      " - <i>“In fact, it’s quite the opposite,” says Dr. Ankur. “RIRS is performed under anesthesia and most patients report only mild discomfort—if any—after the procedure.”<i>",
-      " - The use of precise, targeted laser energy ensures that surrounding tissues are unharmed, resulting in less pain and quicker recovery.",
-      "<b>Myth 2: Laser can damage the kidney<b>",
-      " - Laser energy used during RIRS is designed to break the stone, not harm the kidney. It is a highly controlled technique that allows the surgeon to work inside the kidney safely.",
-      "<b>Myth 3: Laser treatment is only for small stones<b>",
-      " - While RIRS is ideal for small to medium-sized stones, it can also be used for larger or multiple stones in selected patients.",
-      "<b>Myth 4: Recovery after laser treatment takes a long time<b>",
-      " - On the contrary, most patients return to normal life within 3 to 5 days after RIRS"
-    ],
-    "intro7short": "Clearing up these myths is essential to helping patients make informed, confident decisions about their kidney stone treatment. With expert care and the right technology, becoming stone-free doesn’t have to mean going under the knife.",
-    "title8": " Final Thoughts: The Future of Kidney Stone Care",
-    "intro8": [],
-    "intro8long": [
-      "Advancements in urology have transformed the way kidney stones are treated. What once required open surgery and extended hospital stays can now be managed with laser precision—without a single incision. Procedures like RIRS (Retrograde Intrarenal Surgery) represent a shift toward safer, more comfortable, and highly effective treatment options for patients.",
-      "At Shree Radha Vallabh Superspeciality Hospital, the focus is not only on removing the stone but also on ensuring a smooth, pain-free recovery and preventing recurrence. Laser technology, combined with experienced surgical expertise, is allowing more patients to walk into the hospital with pain—and walk out stone-free, often the very next day.",
-      " <i>“The goal isn’t just to treat stones,” says Dr. Ankur Sangal, Urologist and Laser Specialist at SRVS Hospital. “It’s to give patients their comfort, routine, and confidence back—with as little disruption to their life as possible.”</i>",
-      "As technology continues to evolve, so will treatment options. But one thing remains constant: early diagnosis, the right approach, and expert hands make all the difference. If you or someone you love is dealing with kidney stones, remember—modern care doesn’t have to be invasive to be effective."
-    ],
-    "title9": "Take the Next Step Toward Stone-Free Recovery",
-    "intro9": " ",
-    "intro9long": [
-      "If you or a loved one is struggling with kidney stones, don’t wait for the pain to get worse. At Shree Radha Vallabh Superspeciality Hospital, we offer advanced, minimally invasive treatments like RIRS, backed by expert care and state-of-the-art technology.",
-      "Whether you need a second opinion or are ready for treatment, our urology teamlead by >Dr. Ankur Sangal is here to help you find the safest and most effective solution.",
-      " Book a Consultation with <a href=\"https://www.radhavallabhhospital.com/appointment\"  target=\"_blank\">Dr. Ankur Sangal</a> ",
-      "Watch our Patient Testimonials on YouTube Channel – <a href = \"https://youtu.be/rPJYgTkB1b0?si=KckM6oAxPhgM8CtM\" target=\"_blank\"> SRVS Hospital</a> ",
-      "Call us at 9121887870 or Visit <a href=\"https://www.radhavallabhhospital.com\"> Shree Radha Vallabh Hospital  </a> to learn more",
-      ""
-    ],
-    "intro9short": "<i>“Take the modern route to stone-free health—safe, scar-free, and guided by expert hands.”</i>",
-    "title10": "",
-    "intro10": "",
-    "title11": "",
-    "intro11": "",
-    "image": "/images/b4.jpg"
-  },
-  {
-  "id": "5",
-  "title": "What Does an Oncologist Do? Role, Specialisations, and When to Consult One",
-  "slug": "what-does-an-oncologist-do-role-specialisations-when-to-consult-one",
-  "date": "2025-09-22",
-  "image": "/images/blogs/oncologist.jpg",
-  "intro": [
-    "At Shree Radha Vallabh Superspeciality Hospital (SRVS Hospital), we understand that hearing the word oncologist for the first time can feel overwhelming. Many patients and families often ask: Who exactly is an oncologist, and what do they do?",
-    "According to Dr. Richa Gupta, Consultant Oncologist at SRVS Hospital: “An oncologist is not just a cancer doctor. We are specialists trained to diagnose, treat, and guide patients through every step of their cancer journey — from the first suspicion to treatment, recovery, and long-term follow-up.”"
-  ],
-  "title2": "Who is an Oncologist?",
-  "intro2": "An oncologist is a doctor trained to detect, diagnose, and treat cancer. Using tools such as blood tests, imaging scans, and biopsies, they identify the disease and create a personalised treatment plan. But their role is not limited to treatment alone. They also help with symptom relief, emotional support, and long-term follow-up care.",
-  "title3": "Roles and Responsibilities of an Oncologist",
-  "intro3": "",
-  "intro3long": [
-    "● Diagnosis – Reviewing test results, scans, and pathology reports to confirm cancer.",
-    "● Treatment Planning – Surgery, chemotherapy, radiation, immunotherapy, or targeted therapy.",
-    "● Monitoring Progress – Assessing treatment effectiveness and adjusting as necessary.",
-    "● Supportive Care – Managing pain, side effects, and overall well-being.",
-    "● Teamwork – Collaborating with surgeons, radiologists, pathologists, nurses, and palliative care specialists."
-  ],
-  "intro3short": "",
-  "title4": "Types of Oncologists and Their Specialisations",
-  "intro4": "",
-  "intro4long": [
-    "● Medical Oncologist – Chemotherapy, immunotherapy, targeted drugs",
-    "● Surgical Oncologist – Biopsies and tumor removal",
-    "● Radiation Oncologist – Cancer treatment with radiation",
-    "● Pediatric Oncologist – Childhood cancers",
-    "● Gynecologic Oncologist – Cancers of female reproductive organs",
-    "● Hematologist-Oncologist – Blood cancers like leukemia, lymphoma, myeloma"
-  ],
-  "intro4short": "",
-  "title5": "When Should You Consult an Oncologist?",
-  "intro5": "",
-  "intro5long": [
-    "● Suspicious lumps or abnormal test results",
-    "● A biopsy suggests cancer",
-    "● Your GP recommends evaluation",
-    "● You or a loved one is already diagnosed",
-    "● Seeking a second opinion",
-    "● You are in remission but require follow-up"
-  ],
-  "intro5short": "",
-  "title6": "Why Early Consultation Matters",
-  "intro6": "Cancer incidence in India is rising, with nearly 1.56 million new cases in 2024. Mortality-to-incidence ratio is ~65%, meaning 2 of 3 do not survive. Early detection greatly improves survival rates, especially for breast cancer where early stage detection improves chances by 4x. Health experts estimate 75% of cancer deaths are preventable with early diagnosis and treatment.",
-  "intro6long": [],
-  "intro6short": "",
-  "title7": "How to Prepare for Your First Visit",
-  "intro7": "",
-  "intro7long": [
-    "● Carry medical reports, scans, pathology results, and prescriptions",
-    "● Write down questions on treatment, side effects, outcomes",
-    "● Bring a family member or friend for support"
-  ],
-  "intro7short": "",
-  "title8": "Key Takeaways",
-  "intro8": "Oncologists not only treat cancer but also guide and support patients and families at every stage. With different specializations, oncologists ensure each patient receives the right treatment.",
-  "title9": "Final Word",
-  "intro9": "If you or someone you love is dealing with suspicious symptoms or has been diagnosed with cancer, consulting an oncologist is the most important step toward the right treatment. At SRVS Hospital, our experienced team is here to guide you with expertise and compassion. Book a consultation today.",
-  "intro9short": "Cancer treatment is not just about medicines — it’s about trust, teamwork, and compassion.",
-  "content": "<p>At Shree Radha Vallabh Superspeciality Hospital (SRVS Hospital), we understand that hearing the word <strong>oncologist</strong> for the first time can feel overwhelming. This article explains who oncologists are, their main roles, and when to consult one.</p><h3>Who is an Oncologist?</h3><p>An oncologist diagnoses and treats cancer using tests, imaging and biopsies. They also manage symptoms, side effects and long-term follow-up.</p><h3>When to Consult</h3><p>See an oncologist if you have suspicious test results, a biopsy suggesting cancer, want a second opinion, or need follow-up in remission.</p>",
-  "image2": ""
+﻿[
+    {
+        "id":  "1",
+        "title":  "Kidney Stones: Everything You Need to Know (Without the Medical Jargon)",
+        "intro":  [
+                      "Kidney stones are more common than you think â€” and when they strike, they donâ€™t go unnoticed. Whether you\u0027re dealing with one now or want to avoid them altogether, here\u0027s a simple, no-fluff breakdown of what they are, why they form, and how to stay ahead of them. ",
+                      "At Shree Radha Vallabh Super Speciality Hospital, we\u0027re here to make sure you\u0027re informed, prepared, and supported every step of the way."
+                  ],
+        "title2":  "What Are Kidney Stones?",
+        "intro2":  "Kidney stones are solid pieces made from minerals and salts that build up in your kidneys. They form when your urine becomes too concentrated, causing certain substances â€” like calcium, oxalate, or uric acid â€” to stick together.",
+        "title3":  "Why Do People Get Kidney Stones?",
+        "intro3":  "Thereâ€™s no single cause, but common triggers include:",
+        "intro3long":  [
+                           "â— Not drinking enough water ",
+                           "â— High intake of salt, protein, or sugar ",
+                           "â— Being overweight or inactive ",
+                           "â— Family history or genetic conditions ",
+                           "â— Digestive diseases or surgeries ",
+                           "â— Certain medications or supplements "
+                       ],
+        "intro3short":  "In short, kidney stones often result from a mix of lifestyle and medical factors â€” many of which can be managed.",
+        "title4":  "What Does a Kidney Stone Feel Like",
+        "intro4":  "The pain usually comes suddenly and can be severe. It often starts in the back or side and radiates toward the lower abdomen or groin. Other symptoms may include: ",
+        "intro4long":  [
+                           "â— Sharp, cramping pain in the side or lower back ",
+                           "â— Pain during urination ",
+                           "â— Blood in the urine ",
+                           "â— Nausea or vomiting ",
+                           "â— Frequent or urgent urination ",
+                           "â— Cloudy or foul-smelling urine "
+                       ],
+        "intro4short":  "The intensity can come in waves â€” and it\u0027s not something you want to ignore.",
+        "title5":  "Can Kidney Stones Be Treated Without Surgery? ",
+        "intro5":  "Yes â€” small stones often pass on their own with proper hydration and symptom management. Treatments may include: m",
+        "intro5long":  [
+                           "â— Drinking plenty of fluids to flush the stone",
+                           "â— Pain relief medications ",
+                           "â— Alpha-blockers to relax the ureter and speed up passage"
+                       ],
+        "intro5short":  "For larger stones or those causing blockages, more advanced options may be recommended:",
+        "intro5long2":  [
+                            "â— Extracorporeal Shock Wave Lithotripsy (ESWL) â€“ breaks the stone into smaller pieces using sound waves ",
+                            "â— Ureteroscopy â€“ a thin scope is used to find and remove or break the stone",
+                            "â— Percutaneous Nephrolithotomy (PCNL) â€“ a minimally invasive surgery used for larger or complex stones"
+                        ],
+        "title6":  "Can I Prevent Kidney Stones?",
+        "intro6":  "Absolutely. Prevention often starts with simple habits: ",
+        "intro6long":  [
+                           "â— Hydration is key â€” aim for at least 2â€“3 liters of water daily ",
+                           "â— Limit sodium and animal proteins ",
+                           "â— Moderate your intake of oxalate-rich foods like spinach, beets, and nuts ",
+                           "â— Maintain a healthy weight ",
+                           "â— Follow a personalized diet plan if you\u0027ve had stones before"
+                       ],
+        "intro6short":  "Our team offers individualized prevention strategies based on your stone type, health history, and lifestyle.",
+        "title7":  "When Should You See a Urologist?",
+        "intro7":  "Not every kidney stone requires urgent care â€” but hereâ€™s when you definitely should seek help: ",
+        "intro7long":  [
+                           "â— Persistent or severe pain ",
+                           "â— Blood in your urine ",
+                           "â— Fever or chills (possible sign of infection) ",
+                           "â— Nausea and vomiting that wonâ€™t stop ",
+                           "â— Difficulty urinating or passing only small amounts ",
+                           "â— A history of recurrent stones "
+                       ],
+        "intro7short":  "Even if the pain passes, follow-up is important to ensure the stone is gone and that you\u0027re not at risk of future episodes.",
+        "title8":  "",
+        "intro8":  [
 
-}
+                   ],
+        "title9":  "",
+        "intro9":  "",
+        "intro9long":  [
+                           ""
+                       ],
+        "title10":  "",
+        "intro10":  "",
+        "title11":  "",
+        "intro11":  "",
+        "image":  "/images/b1.jpg"
+    },
+    {
+        "id":  "2",
+        "title":  "Prostate Health: What Every Man Should Know",
+        "intro":  [
+                      "The prostate is a small gland with a big role in menâ€™s health. As men age, changes in the prostate are common â€” but understanding these changes and staying informed can help prevent complications and support long-term wellness.",
+                      "At Shree Radha Vallabh Super Speciality Hospital, we believe that awareness and early intervention are key to maintaining a healthy prostate and a better quality of life."
+                  ],
+        "title2":  "What Is the Prostate?",
+        "intro2":  "The prostate is a walnut-sized gland located just below the bladder and in front of the rectum. It surrounds part of the urethra (the tube that carries urine and semen out of the body) and plays a crucial role in male reproductive health by producing fluid that nourishes and protects sperm.",
+        "intro3":  "",
+        "intro3long":  [
 
+                       ],
+        "intro3short":  "",
+        "title4":  "Common Prostate Conditions",
+        "intro4":  "Several conditions can affect the prostate, especially as men grow older:  ",
+        "intro4long":  [
+
+                       ],
+        "intro4short":  "",
+        "title5":  "Benign Prostatic Hyperplasia (BPH) ",
+        "intro5":  "An enlargement of the prostate gland that can lead to urinary symptoms such as: ",
+        "intro5long":  [
+                           "â— Frequent or urgent need to urinate ",
+                           "â— Difficulty starting or stopping urination ",
+                           "â— Weak urine stream or dribbling ",
+                           "â— Incomplete bladder emptying BPH is non-cancerous but can significantly affect quality of life if left untreated."
+                       ],
+        "intro5short":  "",
+        "intro5long2":  [
+
+                        ],
+        "title6":  "Prostatitis ",
+        "intro6":  "An inflammation of the prostate, which may be caused by infection. Symptoms include: ",
+        "intro6long":  [
+                           "â— Pelvic or lower back pain ",
+                           "â— Painful urination or ejaculation ",
+                           "â— Fever and chills (in acute cases)"
+                       ],
+        "intro6short":  "",
+        "title7":  "Prostate Cancer ",
+        "intro7":  "One of the most common cancers among men. Often slow-growing, prostate cancer may not show symptoms in early stages but can be detected through screening.",
+        "intro7long":  [
+
+                       ],
+        "intro7short":  "Even if the pain passes, follow-up is important to ensure the stone is gone and that you\u0027re not at risk of future episodes.",
+        "title8":  "Importance of Prostate Screening",
+        "intro8":  [
+                       "Regular screening is vital, particularly for men over 50 or those with a family history of prostate cancer. Common screening methods include:",
+                       "â— Digital Rectal Exam (DRE): A physical examination to feel for abnormalities in the prostate.",
+                       "â— Prostate-Specific Antigen (PSA) Blood Test: Measures the level of PSA, a protein produced by the prostate. Elevated levels may indicate prostate enlargement, inflammation, or cancer.",
+                       "Discussing screening with your doctor can help determine the right approach based on your age, health status, and risk factors."
+                   ],
+        "title9":  "How to Maintain Prostate Health ",
+        "intro9":  "While some risk factors cannot be changed, certain lifestyle choices can promote better prostate health: ",
+        "intro9long":  [
+                           "â— Maintain a healthy, balanced diet rich in fruits, vegetables, and whole grains ",
+                           "â— Limit red meat and processed foods ",
+                           "â— Exercise regularly ",
+                           "â— Stay at a healthy weight ",
+                           "â— Avoid smoking and limit alcohol intake ",
+                           "â— Stay hydrated and manage stress levels ",
+                           "â— Get regular check-ups and screenings"
+                       ],
+        "title10":  "When to See a Doctor ",
+        "intro10":  "If you experience any urinary difficulties, pelvic discomfort, or changes in urinary habits, it is important to consult a healthcare provider. Early evaluation and treatment can prevent complications and improve outcomes.",
+        "title11":  "Expert Urological Care at Shree Radha Vallabh Super Speciality Hospital ",
+        "intro11":  "Our urology specialists provide comprehensive evaluation, diagnosis, and treatment for all prostate-related conditions â€” from routine screenings to advanced care for prostate cancer. We combine medical expertise with compassionate care to ensure the best outcomes for our patients.",
+        "image":  "/images/b2.jpg"
+    },
+    {
+        "id":  "3",
+        "title":  "Understanding Overactive Bladder: Symptoms, Causes and Treatment",
+        "intro":  [
+                      "Overactive Bladder (OAB) is a medical condition that affects bladder control, leading to a frequent and sudden urge to urinate. While it is common, especially among older adults, OAB is not a normal part of aging and can significantly impact daily life, sleep quality, and emotional well-being.",
+                      "At Shree Radha Vallabh Super Speciality Hospital, we aim to provide clarity, care, and solutions for those experiencing this condition."
+                  ],
+        "title2":  "What Is Overactive Bladder?",
+        "intro2":  "",
+        "intro3":  "Overactive Bladder refers to a group of urinary symptoms, including: ",
+        "intro3long":  [
+                           "â— A sudden, uncontrollable urge to urinate ",
+                           "â— Frequent urination, typically more than eight times in a 24-hour period ",
+                           "â— Waking up at night to urinate (nocturia) ",
+                           "â— Urge incontinence, which is the unintentional loss of urine after feeling a strong urge"
+                       ],
+        "intro3short":  "These symptoms may vary in intensity and frequency and can affect people of all genders and ages.",
+        "title4":  "Causes of Overactive Bladder",
+        "intro4":  "OAB can occur due to several underlying factors, including: ",
+        "intro4long":  [
+                           "â— Neurological conditions such as stroke, multiple sclerosis, or Parkinsonâ€™s disease ",
+                           "â— Urinary tract infections ",
+                           "â— Bladder stones or tumors ",
+                           "â— Hormonal changes, especially in postmenopausal women ",
+                           "â— Enlarged prostate in men ",
+                           "â— Side effects of certain medications ",
+                           "â— Obesity or chronic constipation "
+                       ],
+        "intro4short":  "In many cases, the exact cause remains unknown, but treatment can still be effective.",
+        "title5":  "Diagnosis and Evaluation",
+        "intro5":  "A proper diagnosis is essential for effective treatment. At Shree Radha Vallabh Super Speciality Hospital, we conduct a comprehensive evaluation that may include: ",
+        "intro5long":  [
+                           "â— Medical history and physical examination ",
+                           "â— Urinalysis to check for infections or abnormalities ",
+                           "â— Bladder diaries to monitor patterns in urination ",
+                           "â— Post-void residual measurement (checking how much urine remains in the bladder after urinating)",
+                           "â— Urodynamic testing to assess bladder function"
+                       ],
+        "intro5short":  "",
+        "intro5long2":  [
+
+                        ],
+        "title6":  "Treatment Options",
+        "intro6":  "Treatment for OAB is based on the severity of symptoms and the underlying cause. Common approaches include:",
+        "intro6long":  [
+                           "Lifestyle Modifications: â— Limiting caffeine and alcohol intake ",
+                           "â— Adjusting fluid consumption ",
+                           "â— Timed voiding and bladder training ",
+                           "â— Weight management and regular exercise",
+                           "Pelvic Floor Exercises : â— Strengthening pelvic muscles through exercises like Kegels can help improve bladder control. Medications ",
+                           "â— Prescription drugs can relax the bladder muscle and reduce symptoms. Advanced Therapies ",
+                           "â— Nerve stimulation therapies such as sacral neuromodulation ",
+                           "â— Botox injections into the bladder wall ",
+                           "â— Surgery (only in severe, treatment-resistant cases)"
+                       ],
+        "intro6short":  "",
+        "title7":  "When to see a doctor",
+        "intro7":  "If symptoms of OAB are interfering with your daily life, sleep, or confidence, it is important to speak with a healthcare provider. Early diagnosis and appropriate treatment can lead to significant improvement.",
+        "intro7long":  [
+
+                       ],
+        "intro7short":  "",
+        "title8":  "",
+        "intro8":  [
+
+                   ],
+        "title9":  "",
+        "intro9":  "",
+        "intro9long":  [
+
+                       ],
+        "title10":  "",
+        "intro10":  "",
+        "title11":  "",
+        "intro11":  "",
+        "image":  "/images/b3.jpg"
+    },
+    {
+        "id":  "4",
+        "title":  "RIRS Surgery: The Modern Laser Treatment for Kidney Stones ",
+        "intro":  [
+                      "Kidney stones are known to cause some of the most intense pain a person can experience. \u003ca href=\"http://localhost:5173/blog/Kidney%20Stones:%20Everything%20You%20Need%20to%20Know%20(Without%20the%20Medical%20Jargon)\" target=\"_blank\"\u003eKnow More\u003c/a\u003e",
+                      "For many, the thought of undergoing surgery adds to the anxietyâ€”but thanks to modern advancements in urology, not all treatments involve cuts or stitches.",
+                      "At \u003ca href=\"https://www.radhavallabhhospital.com\" target=\"_blank\"\u003e Shree Radha Vallabh Superspeciality Hospital (SRVS Hospital)\u003c/a\u003e, one such breakthrough is RIRS (Retrograde Intrarenal Surgery)â€”a laser-based, minimally invasive procedure that offers a safer, scar-free alternative to traditional kidney stone surgeries.",
+                      "\u003ci\u003eâ€œWith RIRS, we can treat stones without making any external incision,â€ explains Dr. Ankur Sangal, Urologist and RIRS Specialist at SRVS Hospital, Dehradun. â€œItâ€™s a game-changer, especially for patients who are anxious about conventional surgery.â€\u003c/i\u003e",
+                      "In this blog, weâ€™ll take a closer look at how RIRS works, who itâ€™s suitable for, and what recovery looks like. Weâ€™ll also share insights from Dr. Ankur clinical experienceâ€”and a real patientâ€™s journey of becoming stone-free through this advanced procedure.",
+                      "If you or a loved one is dealing with kidney stones, this guide could help you explore a gentler, modern treatment option."
+                  ],
+        "image2":  "/images/blog4.jpg",
+        "title2":  "What Is RIRS? (Retrograde Intrarenal Surgery)",
+        "intro2":  "Retrograde Intrarenal Surgery (RIRS) is a minimally invasive procedure where a thin, flexible endoscope is passed through the urinary tract to reach the kidney. Once the stone is located, it is broken down using laser energy into fine dust or small fragments that can be naturally passed or removed. ",
+        "intro3":  "",
+        "intro3long":  [
+
+                       ],
+        "intro3short":  " ",
+        "title4":  "What to Expect Before and After RIRS",
+        "intro4":  "\u003cb\u003eBefore the Procedure\u003c/b\u003e",
+        "intro4long":  [
+                           " With over 1,000 RIRS procedures successfully performed, Dr. Ankur Sangal emphasises that patient selection plays a key role in achieving the best outcomes.",
+                           "\u003ci\u003e â€œEach case is unique. Imaging and clinical evaluation help us decide if RIRS is the best route.says Dr. Ankur . Clear communication and follow-up are key parts of our care approach.â€\u003c/i\u003e",
+                           " Before RIRS, you can expect:",
+                           "â— A detailed consultation, including a review of your medical history and physical examination. ",
+                           "â— Imaging studies such as an ultrasound or CT scan to assess the size and location of the stone. ",
+                           "â— Blood and urine tests to rule out infection or other risks.",
+                           "â— Instructions for fasting before the procedure, as itâ€™s done under anesthesia. ",
+                           "â— A pre-procedure discussion about the possibility of placing a temporary DJ stent to aid healing and drainage. ",
+                           "\u003cb\u003eAfter the Procedure\u003c/b\u003e",
+                           " Recovery after RIRS is generally smooth and quick. Most patients experience:",
+                           "â— Mild burning or discomfort during urination, which usually settles in a day or two. ",
+                           "â— Placement of a temporary DJ stent, if needed, which is typically removed within 3â€“4 weeks. ",
+                           "â— Medications such as painkillers or antibiotics, if prescribed. ",
+                           "â— return to normal routine and light activities within 3 to 5 days. ",
+                           "â— A follow-up appointment to monitor healing and ensure the kidney is stone-free. "
+                       ],
+        "intro4short":  "\u003ci\u003eâ€œMost of my patients are surprised by how quickly they recover,â€ Dr. Ankur notes. \u003c/i\u003e",
+        "title5":  "Patient Story: A Stone-Free Recovery ",
+        "intro5":  "",
+        "intro5long":  [
+                           " When Arun Bahuguna, a resident of Srinagar, was diagnosed with a large kidney stone, he turned to Dr. Ankur Sangal for expert care. Due to the size and complexity of the stone, treatment was planned in two stages using RIRS (Retrograde Intrarenal Surgery)â€”a minimally invasive laser procedure.",
+                           "Mr. Bahuguna had already undergone the first sitting of RIRS under Dr. Ankur\u0027s care earlier. His trust in the team brought him back to SRVS for the second and final procedure, which was completed successfully.",
+                           "\u003ci\u003eâ€œWe were confident in returning because the first experience was so smooth,â€ shared his son.\u003c/i\u003e",
+                           "After the second surgery, Mr. Bahuguna was discharged the very next day, with no fever and minimal post-operative pain. He recovered comfortably at home and resumed daily activities within days.",
+                           "Four weeks later, he returned for stent removal, and follow-up imaging confirmed complete stone clearance.",
+                           "His son, grateful for the expert care and consistent results, shared their experience in a heartfelt testimonial video, which is now available on the hospitalâ€™s YouTube channel  \u003ca href = \"https://youtu.be/rPJYgTkB1b0?si=KckM6oAxPhgM8CtM\" target=\"_blank\"\u003e SRVS Hospital\u003c/a\u003e .",
+                           "\u003ci\u003eâ€œThe professionalism, the results, and the way everything was handled gave us complete peace of mind,â€ his son said.\u003c/i\u003e",
+                           " Mr. Bahugunaâ€™s story is a powerful reminder that even large kidney stones can be treated safely and effectivelyâ€”with modern laser techniques, skilled hands, and personalised care."
+                       ],
+        "intro5short":  "",
+        "intro5long2":  [
+
+                        ],
+        "title6":  "Who Can Benefit from RIRS Surgery?",
+        "intro6":  "\u003ci\u003eâ€œWith the right patient selection, RIRS is one of the safest and most effective treatments for kidney stones todayâ€. â€” Dr. Ankur Sangal\u003c/i\u003e",
+        "intro6long":  [
+                           "You may be a good candidate for RIRS if you: ",
+                           "â— Have kidney stones smaller than 2 cm in size  ",
+                           "â— Have stones located in the kidney or upper ureter ",
+                           "â— Are looking for a stitch-free, minimally invasive treatment option ",
+                           "â— Cannot undergo traditional surgery due to medical conditions ",
+                           "RIRS may not be suitable for very large or complex stones or in cases with specific anatomical challenges. Your urologist will advise you accordingly."
+                       ],
+        "intro6short":  "",
+        "title7":  " Clearing Common Myths About Laser Stone Treatment",
+        "intro7":  "Despite the growing success of laser-based treatments like RIRS, many patients still carry misconceptions about how it works. Dr. Ankur Sangal, Urologist at Shree Radha Vallabh Superspeciality Hospital, addresses some of the most common myths he encounters:",
+        "intro7long":  [
+                           " \u003cb\u003eMyth 1: Laser treatment is painful\u003cb\u003e",
+                           " - \u003ci\u003eâ€œIn fact, itâ€™s quite the opposite,â€ says Dr. Ankur. â€œRIRS is performed under anesthesia and most patients report only mild discomfortâ€”if anyâ€”after the procedure.â€\u003ci\u003e",
+                           " - The use of precise, targeted laser energy ensures that surrounding tissues are unharmed, resulting in less pain and quicker recovery.",
+                           "\u003cb\u003eMyth 2: Laser can damage the kidney\u003cb\u003e",
+                           " - Laser energy used during RIRS is designed to break the stone, not harm the kidney. It is a highly controlled technique that allows the surgeon to work inside the kidney safely.",
+                           "\u003cb\u003eMyth 3: Laser treatment is only for small stones\u003cb\u003e",
+                           " - While RIRS is ideal for small to medium-sized stones, it can also be used for larger or multiple stones in selected patients.",
+                           "\u003cb\u003eMyth 4: Recovery after laser treatment takes a long time\u003cb\u003e",
+                           " - On the contrary, most patients return to normal life within 3 to 5 days after RIRS"
+                       ],
+        "intro7short":  "Clearing up these myths is essential to helping patients make informed, confident decisions about their kidney stone treatment. With expert care and the right technology, becoming stone-free doesnâ€™t have to mean going under the knife.",
+        "title8":  " Final Thoughts: The Future of Kidney Stone Care",
+        "intro8":  [
+
+                   ],
+        "intro8long":  [
+                           "Advancements in urology have transformed the way kidney stones are treated. What once required open surgery and extended hospital stays can now be managed with laser precisionâ€”without a single incision. Procedures like RIRS (Retrograde Intrarenal Surgery) represent a shift toward safer, more comfortable, and highly effective treatment options for patients.",
+                           "At Shree Radha Vallabh Superspeciality Hospital, the focus is not only on removing the stone but also on ensuring a smooth, pain-free recovery and preventing recurrence. Laser technology, combined with experienced surgical expertise, is allowing more patients to walk into the hospital with painâ€”and walk out stone-free, often the very next day.",
+                           " \u003ci\u003eâ€œThe goal isnâ€™t just to treat stones,â€ says Dr. Ankur Sangal, Urologist and Laser Specialist at SRVS Hospital. â€œItâ€™s to give patients their comfort, routine, and confidence backâ€”with as little disruption to their life as possible.â€\u003c/i\u003e",
+                           "As technology continues to evolve, so will treatment options. But one thing remains constant: early diagnosis, the right approach, and expert hands make all the difference. If you or someone you love is dealing with kidney stones, rememberâ€”modern care doesnâ€™t have to be invasive to be effective."
+                       ],
+        "title9":  "Take the Next Step Toward Stone-Free Recovery",
+        "intro9":  " ",
+        "intro9long":  [
+                           "If you or a loved one is struggling with kidney stones, donâ€™t wait for the pain to get worse. At Shree Radha Vallabh Superspeciality Hospital, we offer advanced, minimally invasive treatments like RIRS, backed by expert care and state-of-the-art technology.",
+                           "Whether you need a second opinion or are ready for treatment, our urology teamlead by \u003eDr. Ankur Sangal is here to help you find the safest and most effective solution.",
+                           " Book a Consultation with \u003ca href=\"https://www.radhavallabhhospital.com/appointment\"  target=\"_blank\"\u003eDr. Ankur Sangal\u003c/a\u003e ",
+                           "Watch our Patient Testimonials on YouTube Channel â€“ \u003ca href = \"https://youtu.be/rPJYgTkB1b0?si=KckM6oAxPhgM8CtM\" target=\"_blank\"\u003e SRVS Hospital\u003c/a\u003e ",
+                           "Call us at 9121887870 or Visit \u003ca href=\"https://www.radhavallabhhospital.com\"\u003e Shree Radha Vallabh Hospital  \u003c/a\u003e to learn more",
+                           ""
+                       ],
+        "intro9short":  "\u003ci\u003eâ€œTake the modern route to stone-free healthâ€”safe, scar-free, and guided by expert hands.â€\u003c/i\u003e",
+        "title10":  "",
+        "intro10":  "",
+        "title11":  "",
+        "intro11":  "",
+        "image":  "/images/b4.jpg"
+    },
+    {
+        "id":  "5",
+        "title":  "What Does an Oncologist Do? Role, Specialisations, and When to Consult One",
+        "slug":  "what-does-an-oncologist-do-role-specialisations-when-to-consult-one",
+        "date":  "2025-09-22",
+        "image":  "/images/oncologist.jpg",
+        "intro":  [
+                      "At Shree Radha Vallabh Superspeciality Hospital (SRVS Hospital), we understand that hearing the word oncologist for the first time can feel overwhelming. Many patients and families often ask: Who exactly is an oncologist, and what do they do?",
+                      "According to Dr. Richa Gupta, Consultant Oncologist at SRVS Hospital: â€œAn oncologist is not just a cancer doctor. We are specialists trained to diagnose, treat, and guide patients through every step of their cancer journey â€” from the first suspicion to treatment, recovery, and long-term follow-up.â€"
+                  ],
+        "title2":  "Who is an Oncologist?",
+        "intro2":  "An oncologist is a doctor trained to detect, diagnose, and treat cancer. Using tools such as blood tests, imaging scans, and biopsies, they identify the disease and create a personalised treatment plan. But their role is not limited to treatment alone. They also help with symptom relief, emotional support, and long-term follow-up care.",
+        "title3":  "Roles and Responsibilities of an Oncologist",
+        "intro3":  "",
+        "intro3long":  [
+                           "â— Diagnosis â€“ Reviewing test results, scans, and pathology reports to confirm cancer.",
+                           "â— Treatment Planning â€“ Surgery, chemotherapy, radiation, immunotherapy, or targeted therapy.",
+                           "â— Monitoring Progress â€“ Assessing treatment effectiveness and adjusting as necessary.",
+                           "â— Supportive Care â€“ Managing pain, side effects, and overall well-being.",
+                           "â— Teamwork â€“ Collaborating with surgeons, radiologists, pathologists, nurses, and palliative care specialists."
+                       ],
+        "intro3short":  "",
+        "title4":  "Types of Oncologists and Their Specialisations",
+        "intro4":  "",
+        "intro4long":  [
+                           "â— Medical Oncologist â€“ Chemotherapy, immunotherapy, targeted drugs",
+                           "â— Surgical Oncologist â€“ Biopsies and tumor removal",
+                           "â— Radiation Oncologist â€“ Cancer treatment with radiation",
+                           "â— Pediatric Oncologist â€“ Childhood cancers",
+                           "â— Gynecologic Oncologist â€“ Cancers of female reproductive organs",
+                           "â— Hematologist-Oncologist â€“ Blood cancers like leukemia, lymphoma, myeloma"
+                       ],
+        "intro4short":  "",
+        "title5":  "When Should You Consult an Oncologist?",
+        "intro5":  "",
+        "intro5long":  [
+                           "â— Suspicious lumps or abnormal test results",
+                           "â— A biopsy suggests cancer",
+                           "â— Your GP recommends evaluation",
+                           "â— You or a loved one is already diagnosed",
+                           "â— Seeking a second opinion",
+                           "â— You are in remission but require follow-up"
+                       ],
+        "intro5short":  "",
+        "title6":  "Why Early Consultation Matters",
+        "intro6":  "Cancer incidence in India is rising, with nearly 1.56 million new cases in 2024. Mortality-to-incidence ratio is ~65%, meaning 2 of 3 do not survive. Early detection greatly improves survival rates, especially for breast cancer where early stage detection improves chances by 4x. Health experts estimate 75% of cancer deaths are preventable with early diagnosis and treatment.",
+        "intro6long":  [
+
+                       ],
+        "intro6short":  "",
+        "title7":  "How to Prepare for Your First Visit",
+        "intro7":  "",
+        "intro7long":  [
+                           "â— Carry medical reports, scans, pathology results, and prescriptions",
+                           "â— Write down questions on treatment, side effects, outcomes",
+                           "â— Bring a family member or friend for support"
+                       ],
+        "intro7short":  "",
+        "title8":  "Key Takeaways",
+        "intro8":  "Oncologists not only treat cancer but also guide and support patients and families at every stage. With different specializations, oncologists ensure each patient receives the right treatment.",
+        "title9":  "Final Word",
+        "intro9":  "If you or someone you love is dealing with suspicious symptoms or has been diagnosed with cancer, consulting an oncologist is the most important step toward the right treatment. At SRVS Hospital, our experienced team is here to guide you with expertise and compassion. Book a consultation today.",
+        "intro9short":  "Cancer treatment is not just about medicines â€” itâ€™s about trust, teamwork, and compassion.",
+        "content":  "\u003cp\u003eAt Shree Radha Vallabh Superspeciality Hospital, we understand the role of the oncologist...\u003c/p\u003e\n\u003ch2\u003eWho is an Oncologist?\u003c/h2\u003e\n\u003cp\u003eFull article content here — replace with your full HTML content.\u003c/p\u003e",
+        "image2":  ""
+    }
 ]
