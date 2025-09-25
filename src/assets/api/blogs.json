@@ -398,5 +398,50 @@
         "intro9short":  "Cancer treatment is not just about medicines â€” itâ€™s about trust, teamwork, and compassion.",
         "content":  "\u003cp\u003eAt Shree Radha Vallabh Superspeciality Hospital, we understand the role of the oncologist...\u003c/p\u003e\n\u003ch2\u003eWho is an Oncologist?\u003c/h2\u003e\n\u003cp\u003eFull article content here — replace with your full HTML content.\u003c/p\u003e",
         "image2":  ""
-    }
+    },
+    {
+  "id": "6",
+  "title": "What to Expect During Your First Chemotherapy Session",
+  "slug": "what-to-expect-during-your-first-chemotherapy-session",
+  "date": "2025-09-23",
+  "image": "/images/blogs/chemotherapy.jpg",
+  "intro": [
+    "Starting chemotherapy can feel overwhelming. Many patients are unsure about what the day will look like, how they might feel, and what to bring along. The good news is: you don’t have to go through this journey unprepared. Knowing what to expect can help reduce anxiety and make the process smoother.",
+    "As Dr. Richa Gupta, Consultant Oncologist at SRVS Hospital, explains: “Your first session often takes longer because we monitor you closely for any reactions. Don’t be worried – this is routine and ensures your safety.”"
+  ],
+  "title2": "Preparing for Your First Chemotherapy Session",
+  "intro2": "Preparation can make a big difference in how comfortable you feel. A few helpful tips include: pack your hospital ID, eat light, wear comfortable clothes and bring a support person when possible.",
+  "title3": "Arrival and Assessment",
+  "intro3long": [
+    "• Register and complete paperwork",
+    "• Nurse checks vitals and reviews blood tests",
+    "• Oncologist/nurse explains the plan and answers questions"
+  ],
+  "title4": "The Chemotherapy Process",
+  "intro4": "An IV line or port is used to deliver medicines. You may get pre-medications (anti-nausea, steroids, antihistamines) before the chemo infusion begins.",
+  "intro4long": [
+    "• Delivery: IV drip, injection, or oral tablets depending on regimen",
+    "• Duration: 1–6 hours typically; you’ll be monitored closely",
+    "• Comfort: reclining chair, hydration, blankets, snacks"
+  ],
+  "title5": "What You May Feel",
+  "intro5long": [
+    "• Mild metallic taste",
+    "• Fatigue or drowsiness",
+    "• Tingling in hands/feet (drug-dependent)"
+  ],
+  "title6": "Aftercare",
+  "intro6": "You’ll be observed briefly then discharged with instructions: hydrate, eat light meals, watch for fever or nausea, and take prescribed medicines.",
+  "title7": "Emotional & Mental Wellbeing",
+  "intro7long": [
+    "• Join support groups",
+    "• Use relaxation techniques",
+    "• Keep yourself occupied during infusion"
+  ],
+  "title8": "Key Takeaways",
+  "intro8": "Preparation and close monitoring make the first chemotherapy session safe and manageable. Report any symptom to your care team promptly.",
+  "intro9short": "",
+  "image2": ""
+}
+
 ]
