@@ -328,8 +328,7 @@
         ],
         "intro3short": " <b>Expert Insight: </b>",
         "paragraph": " “Cancer is not just a disease of the body — it impacts the mind and family as well. That’s why our approach must be holistic. When patients meet me for the first time, they are often anxious and confused. My role is not only to treat the cancer but also to guide them and their families through what lies ahead.” – Dr. Richa Gupta",
-
-         "image3": "/images/oncologist_res.jpg",
+        "image3": "/images/oncologist_res.jpg",
         "title4": " Roles and Responsibilities of an Oncologist",
         "intro4": " The job of an oncologist goes beyond prescribing medicines. Here are the main responsibilities:",
         "intro4long": [
@@ -350,10 +349,9 @@
             "<b>● Gynecologic Oncologist</b> – Treats cancers of the female reproductive organs, such as ovarian or cervical cancer.",
             "<b>● Hematologist-Oncologist</b> – Specializes in blood cancers like leukemia, lymphoma, and multiple myeloma."
         ],
-       
         "intro5short": "",
         "intro5long2": [],
-         "image6":"/images/consult_oncologist.jpg",
+        "image6": "/images/consult_oncologist.jpg",
         "title6": "When Should You Consult an Oncologist?",
         "intro6": " Not everyone needs to see an oncologist right away. Usually, patients are referred after certain findings. You should consult an oncologist if:",
         "intro6long": [
@@ -605,8 +603,6 @@
             "●  Unexplained pelvic or back pain."
         ],
         "intro6short": " Your doctor may recommend tests such as urine analysis, an ultrasound, or a cystoscopy to look inside the bladder. These investigations are simple, and if cancer is detected early, treatment options are far more effective and less invasive.",
-
-
         "title7": "  Key Takeaways",
         "intro7": "",
         "intro7long": [
@@ -614,18 +610,14 @@
             " ●  Frequent urination, urgency, or burning may seem minor but can signal something more serious.",
             " ●   Never dismiss urinary changes as “normal” or “age-related.”",
             " ●   Early detection leads to excellent treatment outcomes."
-            
         ],
         "intro7short": "  At <b>SRVS Hospital,</b> our specialists are committed to raising awareness so that bladder cancer can be caught early and treated effectively. As <b>Dr. Ankur Sangal</b> reminds us, listening to your body and seeking timely care can make all the difference",
         "title8": "",
         "intro8": [],
-        "intro8long": [
-        ],
+        "intro8long": [],
         "title9": "",
         "intro9": " ",
-        "intro9long": [
-            
-        ],
+        "intro9long": [],
         "intro9short": "",
         "title10": "",
         "intro10": "  ",
@@ -633,10 +625,5 @@
         "title11": "",
         "intro11": "",
         "image": "/images/b4.jpg"
-    },
-   
-    {
-   
     }
-
 ]
