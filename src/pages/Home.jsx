@@ -25,9 +25,15 @@ import g1 from '../assets/images/all images/g1.jpg';
 import g2 from '../assets/images/all images/g2.jpg';
 import g3 from '../assets/images/all images/g3.jpg';
 import g4 from '../assets/images/all images/g4.jpg';
-import {ScrollAnimate} from './ScrollAnimate';
+import { ScrollAnimate } from './ScrollAnimate';
 
 export const Home = () => {
+    const visibleCards = 4;
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const isPrevDisabled = currentIndex === 0;
+    const isNextDisabled = currentIndex + visibleCards >= blog.length;
+
 
 
     const handelFormSubmit = (formData) => {
@@ -36,59 +42,59 @@ export const Home = () => {
         const formInputData = Object.fromEntries(formData.entries());
         console.log(formInputData);
 
-        const {name, email, contact, date, message} = formInputData;
+        const { name, email, contact, date, message } = formInputData;
 
         const wUrl = (`https://wa.me/+919259744218?text=I%20${name}%20email%20${email}%20mobile%20number%20is%20${contact}%20and%20date%20is%20$%${date}%20and%20${message}`)
 
-         window.open(wUrl, "_blank");
-        
+        window.open(wUrl, "_blank");
+
     }
 
-    
+
     const [isActive, setIsActive] = useState(null);
-    
+
     const activeFaq = (id) => {
-        setIsActive(prevId => (prevId === id ? null : id ))
+        setIsActive(prevId => (prevId === id ? null : id))
     }
 
     const faq = [
         {
-            id:"1",
-            title:"Are telemedicine consultations available?",
-            content:"Yes, telemedicine consultations are available."
+            id: "1",
+            title: "Are telemedicine consultations available?",
+            content: "Yes, telemedicine consultations are available."
         },
         {
-            id:"2",
-            title:"Hou much does a consulation cost?",
-            content:"Consulatation charges vary depending on the speciality and the doctor's experience. General consultation fees typically range from ₹500 to ₹700"
+            id: "2",
+            title: "Hou much does a consulation cost?",
+            content: "Consulatation charges vary depending on the speciality and the doctor's experience. General consultation fees typically range from ₹500 to ₹700"
         },
         {
-            id:"3",
-            title:"How can I book an appointment?",
-            content:"You can book an appointment by calling us at 9259744218, using our online appointment form, or visiting the hospital reception."
+            id: "3",
+            title: "How can I book an appointment?",
+            content: "You can book an appointment by calling us at 9259744218, using our online appointment form, or visiting the hospital reception."
         },
         {
-            id:"4",
-            title:"What payment mode are accepted?",
-            content:"We accept cash, credit/debit cards, UPI and digital wallets. Insurance claims are also supported for partnered companies."
+            id: "4",
+            title: "What payment mode are accepted?",
+            content: "We accept cash, credit/debit cards, UPI and digital wallets. Insurance claims are also supported for partnered companies."
         }
     ]
 
-    return<>
+    return <>
 
         <div className="firstSection">
 
             <div className="insideFirstSection">
                 <div className="insideFirstSectionCard ia">
-            <ScrollAnimate animation="bottom-to-top">
-                    <h2>Empowering Health, Transforming Lives</h2>
-                    <h1>Advanced Urology & Multispeciality Surgical Excellence</h1>
-                    <p>We specialize in state-of-the-art urology and multispeciality surgical care. Backed by modular operation theaters, excellent post-operative care, and advanced ICU support, we are committed to delivering clinical precision, safety, and superior outcomes across every stage of treatment.</p>
+                    <ScrollAnimate animation="bottom-to-top">
+                        <h2>Empowering Health, Transforming Lives</h2>
+                        <h1>Advanced Urology & Multispeciality Surgical Excellence</h1>
+                        <p>We specialize in state-of-the-art urology and multispeciality surgical care. Backed by modular operation theaters, excellent post-operative care, and advanced ICU support, we are committed to delivering clinical precision, safety, and superior outcomes across every stage of treatment.</p>
 
-                    <NavLink className="noneNav" to="about">
-                        <button className="appointment a1">Read More <MdArrowCircleRight className='buttonIcon' /></button>
-                    </NavLink>
-            </ScrollAnimate>
+                        <NavLink className="noneNav" to="about">
+                            <button className="appointment a1">Read More <MdArrowCircleRight className='buttonIcon' /></button>
+                        </NavLink>
+                    </ScrollAnimate>
 
                 </div>
                 <div className="insideFirstSectionCard ia1">
@@ -103,12 +109,12 @@ export const Home = () => {
 
         </div>
 
-            <div className="second-section">
+        <div className="second-section">
 
-                <ScrollAnimate animation="bottom-to-top-1 center">
+            <ScrollAnimate animation="bottom-to-top-1 center">
 
-                
-        
+
+
                 <div className="inside-second-section">
                     <div className="inside-second-card isc1">
                         <h2>Get in Touch for <span>Trusted Medical</span> Support</h2>
@@ -117,21 +123,21 @@ export const Home = () => {
                         </NavLink>
                     </div>
                     <div className="inside-second-card">
-                        <FaUserDoctor className='second-icon'/>
+                        <FaUserDoctor className='second-icon' />
                         <h2>Care for Every Stage</h2>
                         <p>Compassionate treatment for all ages under one roof.</p>
                     </div>
                     <div className="inside-second-card">
-                        <Ri24HoursFill className='second-icon'/>
+                        <Ri24HoursFill className='second-icon' />
                         <h2>On Call, Anytime</h2>
                         <p>Immediate medical assistance, 24 hours a day.</p>
                     </div>
                 </div>
 
-                </ScrollAnimate>
+            </ScrollAnimate>
 
 
-            </div>
+        </div>
 
 
         <div className="third-section">
@@ -153,17 +159,17 @@ export const Home = () => {
 
                     <p>Patient-centered care, leveraging expert medical professionals and advanced technology. We prioritize your well-being through ethical, compassionate service, ensuring continuity of care and building trust by taking accountability for your health outcomes.
 
-</p>
-                  
+                    </p>
 
-                    
-<ScrollAnimate animation="bottom-to-top-1">
 
-                    <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' />  Experienced Medical Specialists – Trusted urologists, oncologists, pediatricians, and orthopedic experts.</p>
-                    <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' /> Advanced Technology & Facilities  – Equipped with modern diagnostic, surgical, and therapeutic tools.</p>
-                    <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' />Personalized & Compassionate Care  – Every patient receives tailored treatment focused on long-term wellness.</p>
-                    <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' /> Round-the-Clock Emergency Support – 24/7 availability for critical care and urgent medical conditions.</p>
-</ScrollAnimate>
+
+                    <ScrollAnimate animation="bottom-to-top-1">
+
+                        <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' />  Experienced Medical Specialists – Trusted urologists, oncologists, pediatricians, and orthopedic experts.</p>
+                        <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' /> Advanced Technology & Facilities  – Equipped with modern diagnostic, surgical, and therapeutic tools.</p>
+                        <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' />Personalized & Compassionate Care  – Every patient receives tailored treatment focused on long-term wellness.</p>
+                        <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' /> Round-the-Clock Emergency Support – 24/7 availability for critical care and urgent medical conditions.</p>
+                    </ScrollAnimate>
 
                     <NavLink className="noneNav" to="about">
                         {/* <button className="appointment a1">Read More <MdArrowCircleRight className='buttonIcon' /></button> */}
@@ -179,22 +185,22 @@ export const Home = () => {
                     <h2>medical services</h2>
                     <h1>Comprehensive Super Speciality Care Under One Roof</h1>
                     <p>Delivering expert care across selected specialties, supported by experienced doctors and modern facilities.</p>
-                   
+
                 </div>
 
                 {
-                    services.slice(0,10).map((s, index)=>{
+                    services.slice(0, 10).map((s, index) => {
 
-                        const {content, id, image, subtitle, title} = s;
+                        const { content, id, image, subtitle, title } = s;
 
-                        return(
+                        return (
 
                             <ScrollAnimate animation="bottom-to-top-1 c3">
 
                                 <div className="inside-fourth-card" key={id}>
-                                    <Ri24HoursFill className='f-card-icon'/>
+                                    <Ri24HoursFill className='f-card-icon' />
                                     <h2>{title}</h2>
-                                    <p>{content[0].slice(0,80)+'...'}</p>
+                                    <p>{content[0].slice(0, 80) + '...'}</p>
 
 
                                     <NavLink className="noneNav" to={`/services/${title}`}>
@@ -211,7 +217,7 @@ export const Home = () => {
 
 
             </div>
-                {/* <button className="appointment a1">View All <MdArrowCircleRight className='buttonIcon' /></button> */}
+            {/* <button className="appointment a1">View All <MdArrowCircleRight className='buttonIcon' /></button> */}
         </div>
 
         <div className="fifthSection">
@@ -228,18 +234,18 @@ export const Home = () => {
                     </div>
                 </ScrollAnimate>
 
-                
-                    <div className="abc">
-                <ScrollAnimate animation="bottom-to-top-1 ">
+
+                <div className="abc">
+                    <ScrollAnimate animation="bottom-to-top-1 ">
                         <NavLink className="noneNav" to="appointment">
                             <button className="appointment a1">Book Now <MdArrowCircleRight className='buttonIcon' /></button>
                         </NavLink>
-                </ScrollAnimate>
-                    </div>
+                    </ScrollAnimate>
+                </div>
 
             </div>
         </div>
-        
+
 
         <div className="sixth-section">
             <div className="inside-sixth-section">
@@ -313,17 +319,17 @@ export const Home = () => {
                     </ScrollAnimate>
 
                     {
-                        faq.map((f, index)=>{
+                        faq.map((f, index) => {
 
-                            const {content, id, title} = f;
+                            const { content, id, title } = f;
 
                             const checkActive = id === isActive;
 
-                            return(
+                            return (
 
                                 <ScrollAnimate animation="bottom-to-top-1 ">
                                     <div className="faq" key={id}>
-                                        <h3 onClick={()=>activeFaq(id)}>  <span>{checkActive ? '-' : '+'}</span> {title}</h3>
+                                        <h3 onClick={() => activeFaq(id)}>  <span>{checkActive ? '-' : '+'}</span> {title}</h3>
 
                                         {
                                             checkActive && (
@@ -345,8 +351,8 @@ export const Home = () => {
         </div>
 
         <div className="eleventh-section">
-                <h2></h2>
-                <h1>Our Gallery</h1>
+            <h2></h2>
+            <h1>Our Gallery</h1>
             <div className="inside-eleventh-section">
                 <ScrollAnimate animation="right-to-left">
                     <div className="gallery-card">
@@ -369,99 +375,104 @@ export const Home = () => {
 
                 <ScrollAnimate animation="right-to-left">
                     <div className="gallery-card">
-                        <img src={g4} alt="" />                    
+                        <img src={g4} alt="" />
                     </div>
                 </ScrollAnimate>
 
             </div>
-        </div> 
+        </div>
 
         <div className="eight-section">
             <div className="inside-eight-section i-e-s-1">
-                    <h1>Testimonial</h1>
-                    <h2>What Patients Say About Us</h2>
+                <h1>Testimonial</h1>
+                <h2>What Patients Say About Us</h2>
             </div>
             <div className="inside-eight-section i-e-s">
-                
-                    <iframe className='frame' width="" height="" src="https://www.youtube.com/embed/rPJYgTkB1b0?si=Bighm-7Rz2USCr-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                    <iframe className='frame' width="" height="" src="https://www.youtube.com/embed/BInHiGESdr8?si=213gpmYBK4uhdyuK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='frame' width="" height="" src="https://www.youtube.com/embed/rPJYgTkB1b0?si=Bighm-7Rz2USCr-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe className='frame' width="" height="" src="https://www.youtube.com/embed/BInHiGESdr8?si=213gpmYBK4uhdyuK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             </div>
         </div>
 
         <div className="ninth-section">
+            <h1 className='ninth-heading1'>Our blog</h1>
+            <h2 className='ninth-headin2'>Latest Blogs & Articles.</h2>
 
-                <h1>our blog</h1>
-                <h2>Latest Blogs & Articles.</h2>
+           <div className="carousel-wrapper">
+    <button
+        className="carousel-btn prev"
+        onClick={() => setCurrentIndex(prev => Math.max(prev - 1, 0))}
+        disabled={isPrevDisabled} // disable at start
+    >
+        &#10094;
+    </button>
 
-            <div className="inside-ninth-section">
-
-                    {
-                        blog.map((b, index)=>{
-
-                            const {id,image,title, intro} = b;
-
-                            return(
-
-                                <ScrollAnimate animation="bottom-to-top-1 center">
-
-                                    <div className="blog-card">
-                                        <div className="blog-card-img">
-                                            <img src={image} alt="blog image" />
-                                        </div>
-                                        <div className="blog-card-content">
-                                            <h1>{title.slice(0,50)+"..."}</h1>
-                                            <p>{intro[0].slice(0,60) + "..."}</p>
-
-                                            <NavLink className="noneNav" to={`/blog/${title}`}>
-                                                <button className="appointment a1 a11">Read More <GoArrowRight className='buttonIcon' /></button>
-                                            </NavLink>
-
-
-                                        </div>
-                                    </div>
-
-                                </ScrollAnimate>
-
-
-                            )
-                        })
-                    }
-
-            </div>
-        </div>
-
-        <div className="tenth-section">
-        
-                    <p>Fill The Form</p>
-                    <h2>Contact Form</h2>
-        
-                    <div className="inside-tenth-section">
-                            
-                            <div className="inside-tenth-card i-t-c-2">
-                                <form action={handelFormSubmit}>
-        
-                                    <div className="form-div">
-                                        <input name='name' type="text" placeholder='Name' required/>
-                                        <input type="text" name='email' placeholder='Email' />
-                                    </div>
-                                    <div className="form-div fd">
-                                        <input type="text" name='contact' placeholder='Your Phone' required />
-                                        <input type="date" name='date' placeholder='' />
-                                    </div>
-                                    <div className="form-div">
-                                        <textarea placeholder='Your Message' name="message" id=""></textarea>
-                                    </div>
-        
-                                    {/* <NavLink to={wUrl}> */}
-                                        <button type='submit' className="appointment a1 a1111">Send</button>
-                                    {/* </NavLink> */}
-        
-                                </form>
-                            </div>
+    <div className="inside-ninth-section carousel-inner">
+        {blog.slice(currentIndex, currentIndex + visibleCards).map((b) => {
+            const { id, image, title, intro } = b;
+            return (
+                <div className="blog-card" key={id}>
+                    <div className="blog-card-img">
+                        <img src={image} alt="blog image" />
+                    </div>
+                    <div className="blog-card-content">
+                        <h1>{title.length > 50 ? title.slice(0, 50) + "..." : title}</h1>
+                        <p>{intro[0].length > 60 ? intro[0].slice(0, 60) + "..." : intro[0]}</p>
+                        <NavLink className="noneNav" to={`/blog/${title}`}>
+                            <button className="appointment a1 a11">
+                                Read More <GoArrowRight className='buttonIcon' />
+                            </button>
+                        </NavLink>
                     </div>
                 </div>
+            )
+        })}
+    </div>
+
+    <button
+        className="carousel-btn next"
+        onClick={() => setCurrentIndex(prev => Math.min(prev + 1, blog.length - visibleCards))}
+        disabled={isNextDisabled} // disable at end
+    >
+        &#10095;
+    </button>
+</div>
+
+        </div>
+
+
+        <div className="tenth-section">
+
+            <p>Fill The Form</p>
+            <h2>Contact Form</h2>
+
+            <div className="inside-tenth-section">
+
+                <div className="inside-tenth-card i-t-c-2">
+                    <form action={handelFormSubmit}>
+
+                        <div className="form-div">
+                            <input name='name' type="text" placeholder='Name' required />
+                            <input type="text" name='email' placeholder='Email' />
+                        </div>
+                        <div className="form-div fd">
+                            <input type="text" name='contact' placeholder='Your Phone' required />
+                            <input type="date" name='date' placeholder='' />
+                        </div>
+                        <div className="form-div">
+                            <textarea placeholder='Your Message' name="message" id=""></textarea>
+                        </div>
+
+                        {/* <NavLink to={wUrl}> */}
+                        <button type='submit' className="appointment a1 a1111">Send</button>
+                        {/* </NavLink> */}
+
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </>
 }
