@@ -26,7 +26,7 @@ import g2 from '../assets/images/all images/g2.jpg';
 import g3 from '../assets/images/all images/g3.jpg';
 import g4 from '../assets/images/all images/g4.jpg';
 import { ScrollAnimate } from './ScrollAnimate';
-import slugify from 'slugify'
+import slugify from 'slugify';
 
 export const Home = () => {
     const visibleCards = 4;
@@ -421,7 +421,7 @@ export const Home = () => {
                                 <div className="blog-card-content">
                                     <h1>{title.length > 50 ? title.slice(0, 50) + "..." : title}</h1>
                                     <p>{intro[0].length > 60 ? intro[0].slice(0, 60) + "..." : intro[0]}</p>
-                                    <NavLink className="noneNav" to={`/blog/${slugify(title, { lower: true })}`}>
+                                    <NavLink className="noneNav" to={`/blog/${slugify(title, { lower: true,strict: true })}`}>
                                         <button className="appointment a1 a11">
                                             Read More <GoArrowRight className='buttonIcon' />
                                         </button>
