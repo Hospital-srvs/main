@@ -781,101 +781,108 @@
 
 /* Ninth Section  */
 
-    .ninth-section{
-        padding: 4rem 0;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff7f4;
-    }
+/* Carousel wrapper (same as before) */
+.carousel-wrapper {
+  position: relative;
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .ninth-section h1{
-        color: #F7A582;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 16px;
-        margin-bottom: 0.5rem;
-        align-self: flex-start;
-        margin-left: 4rem;
-    }
+.inside-ninth-section {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 100%;
+  padding: 10px;
+}
+.inside-ninth-section::-webkit-scrollbar {
+  display: none;
+}
+.ninth-section{
+    margin-top: 1rem;
+}
+.ninth-section-heading{
+    padding-left: 3rem;
+}
+/* Blog card fixed standard size */
+.blog-card {
+  flex: 0 0 280px;      
+  height: 360px;        /* fixed standard height */
+  margin: 1rem;
+  border-radius: 1rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+}
 
-    .ninth-section h2{
-        color: #07332f;
-        font-weight: 600;   
-        font-size: 52px;
-        text-transform: capitalize;
-        line-height: 3.5rem;
-        margin-bottom: 3rem;
-        margin-top: 0.5rem;
-        align-self: flex-start;
-        margin-left: 4rem;
-    }
+/* Blog image fixed size */
+.blog-card-img {
+  width: 100%;
+  height: 55%; /* image takes half height */
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.blog-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps image proportional */
+}
 
-    .inside-ninth-section{
-        width: 80%;
-        max-width:1200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+/* Blog content fixed space */
+.blog-card-content {
+  flex: 1;
+  padding-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.blog-card-content h1 {
+  font-size: 16px;
+  margin-bottom: 0.6rem;
+}
+.blog-card-content p {
+  font-size: 14px;
+  line-height: 1.4rem;
+  margin-bottom: 0.6rem;
+}
 
-    .blog-card{
-        height: 20rem;
-        /* width: 32%; */
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 1rem;
-    }
+/* Carousel Buttons */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #07332f;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 5;
+  transition: background 0.3s ease;
+}
+.carousel-btn:hover {
+  background: #F7A582;
+}
+.carousel-btn.left {
+  left: -2rem;
+}
+.carousel-btn.right {
+  right: -2rem;
+}
 
-    .blog-card-img{
-        height: 50%;
-        width: 100%;
-        border-radius: 1rem;
-        overflow: hidden;
-    }
 
-    .blog-card-content{
-        height: 50%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding-top: 1rem;
-    }
 
-    .blog-card-img img{
-        width: 100%;
-    }
-
-    .blog-card-content h1{
-        color: #07332f;
-        font-weight: 600;
-        text-transform: capitalize;
-        font-size: 18px;
-        margin-left: 0;
-        margin-bottom: 1rem;
-    }
-
-    .blog-card-content p{
-        color: #00000080;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .a11{
-        border: none;
-        font-size: 18px;
-        font-weight: 500;
-        padding-left: 0;
-    }
 
 /* Ninth Section End  */
 

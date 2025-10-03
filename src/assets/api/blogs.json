@@ -308,5 +308,330 @@
         "title11": "",
         "intro11": "",
         "image": "/images/b4.jpg"
+    },
+    {
+        "id": "5",
+        "title": "What Does an Oncologist Do? Role, Specialisations, and When to Consult One",
+        "intro": [
+            " At Shree Radha Vallabh Superspeciality Hospital (SRVS Hospital), we understand that hearing the word oncologist for the first time can feel overwhelming. Many patients and families often ask: Who exactly is an oncologist, and what do they do?",
+            "According to <b>Dr. Richa Gupta, Consultant Oncologist at SRVS Hospital:</b>",
+            " “An oncologist is not just a cancer doctor. We are specialists trained to diagnose, treat, and guide patients through every step of their cancer journey — from the first suspicion to treatment, recovery, and long-term follow-up.”"
+        ],
+        "image2": "",
+        "title2": "Who is an Oncologist?",
+        "intro2": "An oncologist is a doctor trained to detect, diagnose, and treat cancer. Using tools such as blood tests, imaging scans, and biopsies, they identify the disease and create a personalised treatment plan.",
+        "intro3": "But their role is not limited to treatment alone. Oncologists also:",
+        "intro3long": [
+            " ● Help with symptom relief and side-effect management",
+            " ● Provide emotional and psychological support to patients and families",
+            " ● Oversee long-term follow-up care after treatment"
+        ],
+        "intro3short": " <b>Expert Insight: </b>",
+        "paragraph": " “Cancer is not just a disease of the body — it impacts the mind and family as well. That’s why our approach must be holistic. When patients meet me for the first time, they are often anxious and confused. My role is not only to treat the cancer but also to guide them and their families through what lies ahead.” – Dr. Richa Gupta",
+
+         "image3": "/images/oncologist_res.jpg",
+        "title4": " Roles and Responsibilities of an Oncologist",
+        "intro4": " The job of an oncologist goes beyond prescribing medicines. Here are the main responsibilities:",
+        "intro4long": [
+            "  <b>● Diagnosis</b> – Reviewing test results, scans, and pathology reports to confirm cancer.",
+            " <b>● Treatment Planning</b> – Creating a customised treatment strategy that may include surgery, chemotherapy, radiation, immunotherapy, or targeted therapy.",
+            " <b>● Monitoring Progress</b> – Consistently assessing treatment effectiveness and making adjustments as necessary. ",
+            "<b>● Supportive Care</b> – Managing pain, side effects, and overall well-being. ",
+            "<b>● Teamwork in Cancer Care</b> – Collaborating with surgeons, radiologists, pathologists, nurses, and palliative care specialists to provide comprehensive treatment."
+        ],
+        "intro4short": "<i> “No two cancers are the same. Even two patients with breast cancer may require very different treatments depending on tumor biology, age, and overall health.” </i>",
+        "title5": "Types of Oncologists and Their Specialisations",
+        "intro5": " Cancer is not one disease, and neither is oncology. Different oncologists specialise in specific areas:",
+        "intro5long": [
+            " <b>● Medical Oncologist</b> – Uses chemotherapy, immunotherapy, and targeted drugs to treat cancer",
+            " <b>Surgical Oncologist</b> – Performs biopsies and surgeries to remove tumors.",
+            " <b>● Radiation Oncologist</b> – Treats cancer with radiation therapy.",
+            "<b>● Pediatric Oncologist</b> – Focuses on cancers affecting children.",
+            "<b>● Gynecologic Oncologist</b> – Treats cancers of the female reproductive organs, such as ovarian or cervical cancer.",
+            "<b>● Hematologist-Oncologist</b> – Specializes in blood cancers like leukemia, lymphoma, and multiple myeloma."
+        ],
+       
+        "intro5short": "",
+        "intro5long2": [],
+         "image6":"/images/consult_oncologist.jpg",
+        "title6": "When Should You Consult an Oncologist?",
+        "intro6": " Not everyone needs to see an oncologist right away. Usually, patients are referred after certain findings. You should consult an oncologist if:",
+        "intro6long": [
+            "● Your tests show suspicious lumps, lesions, or abnormal cells.  ",
+            "● A biopsy suggests cancer.",
+            "● Your general physician or specialist recommends further evaluation.",
+            "● You or a loved one has already been diagnosed with cancer.",
+            "● You would like a second opinion to confirm your treatment options.",
+            "● You are in remission but require regular follow-up."
+        ],
+        "intro6short": "<b>Doctor’s Advice:</b> “Don’t wait until symptoms worsen. Early consultation allows us to start treatment sooner, which often leads to better survival and quality of life.” – Dr. Richa",
+        "title7": "Why Early Consultation Matters",
+        "intro7": "",
+        "intro7long": [
+            " “Cancer in India is on the rise — in 2024 alone there were an estimated 1.56 million new cancer cases and nearly 874,000 cancer deaths. Alarmingly, the mortality-to-incidence ratio is about 64-65%, meaning roughly two out of every three people diagnosed with cancer do not survive.  <a href=\"https://shorturl.at/Ocqhb\" target=\"_blank\">Business Standard</a>",
+            "However, survival rates improve dramatically when cancer is detected early. For example, in Indian women with breast cancer, the 5-year survival rate is around 66.4% when diagnosed through population-based registries — this drops sharply when diagnosis happens at distant spread. Local stage detection increases the chance of 5-year survival by over 4× compared to late stage diagnosis. <a href=\"https://shorturl.at/qKgPL\" target=\"_blank\">India Today</a>",
+            "Health authorities believe that over 75% of cancer deaths could be prevented with early detection and timely treatment. Yet many patients consult doctors only when the disease has advanced, reducing treatment options and lowering survival chances. <a href=\"https://shorturl.at/Ocqhb\" target=\"_blank\">ETHealthworld.com”</a>"
+        ],
+        "intro7short": "",
+        "title8": "How to Prepare for Your First Visit",
+        "intro8": [
+            " Meeting an oncologist for the first time can feel stressful. Being prepared can make it easier:",
+            "● Carry all medical reports, scans, pathology results, and prescriptions.",
+            "● Write down your questions about treatment choices, side effects, and long-term outcomes.",
+            "●  Bring a family member or friend for emotional support and to help remember important details."
+        ],
+        "intro8long": [],
+        "title9": " Key Takeaways",
+        "intro9": " Oncologists are central to the journey of cancer care. They not only treat the disease but also guide and support patients and families at every stage. With different specializations, oncologists ensure that each patient receives the most appropriate and effective treatment. ",
+        "intro9long": [
+            "<i> “Cancer treatment is not just about medicines—it’s about trust, teamwork, and compassion.”</i>"
+        ],
+        "intro9short": "",
+        "title10": "Final Word",
+        "intro10": " If you or someone you love is dealing with suspicious symptoms or has been diagnosed with cancer, consulting an oncologist is the most important step toward the right treatment. At SRVS Hospital, our team of experienced oncologists is here to guide you through every stage of care with expertise and compassion.",
+        "intro10long": [
+            "<i>Book a consultation today to get clarity and support on your treatment journey.</i>"
+        ],
+        "title11": "",
+        "intro11": "",
+        "image": "/images/oncologist.jpg"
+    },
+    {
+        "id": "6",
+        "title": "What Exactly is Cancer and How Does it Start?",
+        "intro": [
+            " Cancer is a word that can sound frightening, but understanding it makes it less mysterious. Cancer is not just one disease—it’s a group of diseases that share a common feature: abnormal cell growth. The good news is that many cancers can be treated, especially when detected early."
+        ],
+        "image2": "",
+        "title2": "What is Cancer?",
+        "intro2": " Our body is made up of trillions of cells, which grow, divide, and die in a very organized way. Cancer happens when this cycle breaks down. Instead of dying when they should, some cells keep growing and multiplying. Over time, these abnormal cells form a lump called a tumor.",
+        "intro3": " Not all tumors are cancer. Some are benign, which means they don’t spread. Malignant tumors, however, can invade nearby tissues and spread to other parts of the body.",
+        "intro3long": [],
+        "intro3short": "",
+        "paragraph": "",
+        "title4": " How Does Cancer Start?",
+        "intro4": " Cancer begins when the DNA inside a cell gets damaged or develops mutations. Normally, the body repairs this damage. But if the repair system fails, abnormal cells survive and start multiplying. These faulty cells don’t behave like healthy ones—they grow uncontrollably and ignore the body’s natural rules.",
+        "intro4long": [],
+        "intro4short": "",
+        "title5": "Causes and Risk Factors",
+        "intro5": "There isn’t a single reason why cancer develops. Instead, it’s usually a combination of lifestyle, environment, and genetic factors. Some common risk factors include:",
+        "intro5long": [
+            "● Smoking and tobacco use",
+            "●  Heavy alcohol consumption",
+            "●  Unhealthy diet and lack of exercise",
+            "●  Obesity",
+            "●  Family history of cancer",
+            "●  Long-term exposure to chemicals or radiation",
+            "●  Certain infections (like HPV, Hepatitis B, or H. pylori)"
+        ],
+        "intro5short": "",
+        "intro5long2": [],
+        "title6": " How Does Cancer Spread?",
+        "intro6": " At first, cancer may stay in one place. But if left untreated, it can:",
+        "intro6long": [
+            "<b>●  Grow locally</b> by pressing into nearby organs or tissues.  ",
+            "<b>● Invade</b> surrounding areas.",
+            "<b>● Metastasize</b>, which means traveling through the blood or lymph system to other parts of the body."
+        ],
+        "intro6short": " Think of it like weeds in a garden—if not removed, they can spread quickly and take over.",
+        "title7": "Common Warning Signs",
+        "intro7": " Cancer symptoms can vary depending on the type, but some warning signs include:",
+        "intro7long": [
+            " ● Unexplained weight loss",
+            " ● Persistent tiredness",
+            " ● Lumps or swellings",
+            " ● Non-healing wounds or sores",
+            " ● Blood in urine, stool, or cough",
+            " ● Persistent pain or cough"
+        ],
+        "intro7short": " If you notice any of these, it’s important to consult a doctor.",
+        "title8": "Can Cancer Be Prevented?",
+        "intro8": [],
+        "intro8long": [
+            "Not all cancers can be prevented, but you can lower your risk by:",
+            " ● Drinking plenty of water and eating a balanced diet",
+            " ● Exercising regularly",
+            " ● Avoiding tobacco and limiting alcohol",
+            " ● Getting recommended vaccines (HPV, Hepatitis B)",
+            " ● Going for regular health checkups and screenings"
+        ],
+        "title9": "Treatment Options",
+        "intro9": " Today, cancer treatment is far more advanced than before. Doctors may recommend: ",
+        "intro9long": [
+            " <b>● Surgery</b> to remove tumors",
+            " <b>● Chemotherapy</b> (medicines to kill cancer cells)",
+            " <b>● Radiation therapy</b> (high-energy rays to target cancer)",
+            " <b>● Immunotherapy</b> or targeted therapy to strengthen the body’s defenses",
+            " The choice depends on the cancer type, stage, and patient’s overall health."
+        ],
+        "intro9short": "",
+        "title10": "Living with Hope",
+        "intro10": "  A cancer diagnosis is challenging, but it’s not the end. With early detection, modern treatments, and emotional support, survival rates are improving every year. Many patients go on to live long, fulfilling lives.",
+        "intro10long": [],
+        "title11": "Conclusion",
+        "intro11": " Cancer starts with abnormal cells, but knowledge and timely action can make all the difference. Stay aware, go for regular checkups, and remember—knowledge is the first step in beating cancer.",
+        "image": "/images/b4.jpg"
+    },
+    {
+        "id": "7",
+        "title": "What to Expect During Your First Chemotherapy Session",
+        "intro": [
+            "Starting chemotherapy can feel overwhelming. Many patients are unsure about what the day will look like, how they might feel, and what to bring along. The good news is: you don’t have to go through this journey unprepared. Knowing what to expect can help reduce anxiety and make the process smoother.",
+            "As <b>Dr. Richa Gupta, Consultant Oncologist at SRVS Hospital</b>, explains: ",
+            "<i>“Your first session often takes longer because we monitor you closely for any reactions. Don’t be worried – this is routine and ensures your safety.”</i>",
+            "With that in mind, here’s a step-by-step guide to help you understand what happens during your first chemotherapy session."
+        ],
+        "image2": "",
+        "title2": "Preparing for Your First Chemotherapy Session",
+        "intro2": " Preparation can make a big difference in how comfortable you feel. A few helpful tips include:",
+        "intro3": "",
+        "intro3long": [
+            " <b>● Pack wisely:</b> Carry your hospital ID, medical reports, and any ongoing medications. Many patients also bring snacks, water, headphones, or a book to pass the time.",
+            " <b>● Eat light:</b> Have a small, easily digestible meal before your session unless your doctor advises fasting.",
+            " <b>● Dress comfortably:</b> Loose, soft clothing makes it easier for nurses to access your IV line and keeps you relaxed during the infusion.",
+            " <b>● Bring support:</b> If possible, ask a friend or family member to accompany you for moral support and assistance."
+        ],
+        "intro3short": "",
+        "paragraph": "",
+        "title4": " Arrival at the Hospital or Day Care Centre",
+        "intro4": " When you arrive, you’ll complete registration and paperwork. An oncology nurse will then check your vitals, such as blood pressure, pulse, and temperature. Recent blood test results are also reviewed to ensure your body is ready to receive chemotherapy safely.",
+        "intro4long": [],
+        "intro4short": "",
+        "title5": " Meeting the Oncologist or Nurse Before Treatment",
+        "intro5": "Before the session begins, your oncologist or nurse will:",
+        "intro5long": [
+            "●  Go over your treatment plan.",
+            "●  Explain the drugs you’ll be receiving.",
+            "●  Answer any last-minute questions you may have."
+        ],
+        "intro5short": "This is a good time to voice any concerns or clarify doubts.",
+        "intro5long2": [],
+        "title6": " The Chemotherapy Process",
+        "intro6": "  The actual treatment usually begins with the placement of an IV line or accessing a port (if one has been surgically placed earlier). Before the chemotherapy drugs are given, you may receive <b>premedications</b> like anti-nausea drugs, steroids, or antihistamines. These reduce side effects and make the infusion easier to tolerate.",
+        "intro6long": [
+            "The chemotherapy medication itself may be delivered through: ",
+            "<b>● An IV drip </b>(the most common method).",
+            "<b>● An injection</b> into a vein.",
+            "<b>●  Oral tablets</b> (in certain regimens)."
+        ],
+        "intro6short": " The duration can vary from 1 to 6 hours depending on your treatment plan. During this time, you’ll likely sit in a comfortable reclining chair. Hospitals often provide blankets, hydration, and snacks to make the process less stressful.",
+        "title7": " What You May Experience During the Session",
+        "intro7": "Most patients tolerate their first session well. You may experience:",
+        "intro7long": [
+            " ●  A mild metallic taste in the mouth.",
+            " ●  Slight drowsiness or fatigue.",
+            " ●  Tingling in the hands or feet (depending on the drug).",
+            " Your nursing team will be by your side, monitoring for any unusual reactions. If you feel uncomfortable, let them know immediately – they are trained to manage side effects promptly.",
+            "Dr. Richa adds another important reminder: "
+        ],
+        "intro7short": " <i>“Every patient responds differently to chemotherapy. Report any changes you feel, no matter how small, so we can support you better.”</i>",
+        "title8": " After the Chemotherapy Session",
+        "intro8": [],
+        "intro8long": [
+            "Once the infusion is complete, you’ll be observed for a short period before being discharged. Your oncologist or nurse will guide you on:",
+            " <b>● Staying hydrated</b> to help your body process the medication.",
+            " <b>● Eating well</b> with a focus on light, nutritious meals.",
+            " <b>● Watching for side effects</b> such as nausea, fever, or mouth sores.",
+            " <b>● Taking prescribed medications</b> at home to manage side effects."
+        ],
+        "title9": "Emotional & Mental Wellbeing",
+        "intro9": " Today, cancer treatment is far more advanced than before. Doctors may recommend: ",
+        "intro9long": [
+            " ●  Your first chemotherapy session is usually longer because of close monitoring.",
+            " ●  Preparing in advance helps you feel more comfortable and at ease.",
+            " ● Every patient’s experience is different, so share any symptoms with your care team promptly.",
+            " ● Emotional wellbeing is just as important as physical care."
+        ],
+        "intro9short": " At <b>SRVS Hospital</b>, our oncology team is committed to making your journey as safe, supportive, and comfortable as possible. With preparation, guidance, and care, you’ll find your first chemotherapy session is more manageable than you might expect.",
+        "title10": "",
+        "intro10": "  ",
+        "intro10long": [],
+        "title11": "",
+        "intro11": "",
+        "image": "/images/b4.jpg"
+    },
+    {
+        "id": "8",
+        "title": "Early Symptoms of Bladder Cancer You Shouldn’t Overlook",
+        "intro": [
+            "Bladder cancer is one of the most common cancers affecting the urinary system, yet many people miss its early warning signs. Because the symptoms often resemble urinary tract infections or agerelated bladder changes, they are easy to ignore. Unfortunately, this delay in seeking medical advice can allow the disease to progress to more advanced stages.",
+            " The good news? Bladder cancer, when caught early, is highly treatable. As <b>Dr. Ankur Sangal, Consultant Urologist at SRVS Hospital,</b> explains:<i> “Bladder cancer detected at an early stage is highly treatable. That’s why prompt consultation and timely tests can make a huge difference in long-term outcomes.”</i>",
+            " Understanding the early signs and acting quickly can save lives. Here’s what you should know."
+        ],
+        "image2": "",
+        "title2": "What is Bladder Cancer?",
+        "intro2": "  Bladder cancer begins when abnormal cells in the bladder lining start growing uncontrollably, forming a tumor. It is more common in individuals over the age of 50, but it can occur at any age.",
+        "intro3": " Some risk factors include:",
+        "intro3long": [
+            " <b>●  Smoking</b> – the leading cause, as tobacco chemicals accumulate in the urine.",
+            " <b>●  Occupational exposure</b> – long-term contact with certain dyes and chemicals.",
+            " <b>●  Family history</b> of bladder cancer.",
+            " <b>●  Chronic urinary tract problems</b> or long-term catheter use."
+        ],
+        "intro3short": " Knowing whether you are at higher risk makes it even more important to pay attention to early symptoms.",
+        "paragraph": "",
+        "title4": "  Early Symptoms of Bladder Cancer",
+        "intro4": "",
+        "intro4long": [
+            "<b>1. Blood in Urine (Hematuria)</b>",
+            " The most common early sign of bladder cancer is blood in the urine. It may look pink, red, or colacolored, or it may be invisible to the naked eye and picked up only in a urine test. Importantly, this bleeding is usually <b>painless.</b>",
+            " As <b>Dr. Sangal </b> stresses: <i>“Blood in the urine, even if it happens just once and without pain, should never be ignored. It’s one of the earliest warning signs of bladder cancer.”</i>",
+            " <b>2. Frequent Urination</b>",
+            "Bladder cancer can irritate the bladder lining, making you feel the need to pass urine more often than usual. Many patients mistake this for aging, stress, or drinking too much fluid.",
+            " <b>Dr. Sangal warns:</b> “Patients often assume frequent urination is due to age or lifestyle. But persistent changes in urination patterns need evaluation by a urologist.”",
+            "<b>3. Pain or Burning During Urination</b>",
+            " While burning or pain during urination is commonly linked with urinary tract infections, it can sometimes point to something more serious. If discomfort continues despite treatment, further evaluation is needed.",
+            "<b>4. Urgency and Incomplete Emptying</b>",
+            "Another warning sign is a sudden, strong urge to urinate—even if the bladder isn’t full—or feeling that your bladder isn’t emptying completely. These changes may appear subtle but should not be dismissed.",
+            "<b> 5. Pelvic or Lower Back Pain</b>",
+            "Although usually a symptom of advanced disease, pain in the lower abdomen, pelvis, or back can also be associated with bladder cancer. It is especially concerning when it occurs with the above urinary symptoms."
+        ],
+        "intro4short": "",
+        "title5": "Why These Symptoms Are Often Overlooked",
+        "intro5": "",
+        "intro5long": [
+            " The challenge with bladder cancer is that its early symptoms often resemble common urinary tract infections (UTIs) or kidney stones. Many patients self-medicate or are prescribed antibiotics repeatedly, assuming the problem is just an infection.",
+            " As <b>Dr. Ankur Sangal</b> points out:<i> “Many bladder cancer symptoms, like burning during urination or frequent urination, are often mistaken for urinary tract infections. If these complaints don’t improve after basic treatment, it’s important to get further evaluation to rule out more serious conditions.”</i>",
+            " That’s why persistence of symptoms should never be ignored. And as <b>Dr. Sangal adds:</b> <i>“Even small changes in your urinary habits deserve attention. Don’t wait until the symptoms worsen – early consultation could save your life.”</i>"
+        ],
+        "intro5short": "",
+        "intro5long2": [],
+        "title6": "  When to See a Doctor",
+        "intro6": "  Seek medical advice immediately if you notice:",
+        "intro6long": [
+            "●  Any instance of blood in your urine (even a single episode).",
+            "●  Urinary frequency or urgency that persists beyond a few days.",
+            "●  Burning during urination that does not improve with simple treatment.",
+            "●  Unexplained pelvic or back pain."
+        ],
+        "intro6short": " Your doctor may recommend tests such as urine analysis, an ultrasound, or a cystoscopy to look inside the bladder. These investigations are simple, and if cancer is detected early, treatment options are far more effective and less invasive.",
+
+
+        "title7": "  Key Takeaways",
+        "intro7": "",
+        "intro7long": [
+            " ●   Bladder cancer often announces itself early, most commonly through blood in the urine.",
+            " ●  Frequent urination, urgency, or burning may seem minor but can signal something more serious.",
+            " ●   Never dismiss urinary changes as “normal” or “age-related.”",
+            " ●   Early detection leads to excellent treatment outcomes."
+            
+        ],
+        "intro7short": "  At <b>SRVS Hospital,</b> our specialists are committed to raising awareness so that bladder cancer can be caught early and treated effectively. As <b>Dr. Ankur Sangal</b> reminds us, listening to your body and seeking timely care can make all the difference",
+        "title8": "",
+        "intro8": [],
+        "intro8long": [
+        ],
+        "title9": "",
+        "intro9": " ",
+        "intro9long": [
+            
+        ],
+        "intro9short": "",
+        "title10": "",
+        "intro10": "  ",
+        "intro10long": [],
+        "title11": "",
+        "intro11": "",
+        "image": "/images/b4.jpg"
     }
 ]

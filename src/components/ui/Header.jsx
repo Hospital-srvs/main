@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 export const Header = () => {
 
     const openMenu = () => {
-        
+
         const d = document.querySelector('.mobile-menu');
 
         d.style.display = 'flex'
@@ -26,7 +26,7 @@ export const Header = () => {
 
     // openMenu()
 
-    return<>
+    return <>
         <nav>
             <div className="insideNav">
 
@@ -35,7 +35,7 @@ export const Header = () => {
                 </NavLink>
 
                 <div className="menuLinks">
-                    
+
                     <NavLink className="none" to="/">
                         <p>Home</p>
                     </NavLink>
@@ -47,17 +47,17 @@ export const Header = () => {
                         <p>Services</p>
 
                         <div className="inside-drop-down">
-                            
+
                             {
-                                services.map((s, index)=>{
+                                services.map((s, index) => {
 
-                                    const {content, id, image, subtitle, title} = s;
+                                    const { content, id, image, subtitle, title } = s;
 
 
-                                    return(
+                                    return (
 
-                                        <NavLink className="none" to={`/services/${title}`}>
-                                            <p key={id}>
+                                        <NavLink className="none" to={`/services/${title}`} key={id}>
+                                            <p >
                                                 {title}
                                             </p>
 
@@ -66,7 +66,7 @@ export const Header = () => {
                                     )
 
 
-                                })                                
+                                })
                             }
 
                         </div>
@@ -76,19 +76,19 @@ export const Header = () => {
                     <NavLink className="none" to="/doctors">
                         <p>Our Team</p>
                     </NavLink>
-                    
+
                     <NavLink className="none" to="blog">
                         <p>Blogs</p>
                     </NavLink>
 
                     <NavLink className="none" to="/contact">
                         <p>Contact Us</p>
-                        </NavLink>
+                    </NavLink>
 
 
                     <NavLink className="none" to="appointment">
                         <button className="appointment">
-                            <p style={{color:"#F7A582"}}>Book Appointment</p>
+                            <p style={{ color: "#F7A582" }}>Book Appointment</p>
                             <FaRegCalendarDays className='ba' />
                         </button>
                     </NavLink>
@@ -103,54 +103,54 @@ export const Header = () => {
 
                         <div className="menuLinks mobile-menu-links">
 
-                           <NavLink className="none" to="/" onClick={closeMenu}>
-                        <p>Home</p>
-                    </NavLink>
-                    <NavLink className="none" to="/about" onClick={closeMenu}>
-                        <p>About Us</p>
-                    </NavLink>
+                            <NavLink className="none" to="/" onClick={closeMenu}>
+                                <p>Home</p>
+                            </NavLink>
+                            <NavLink className="none" to="/about" onClick={closeMenu}>
+                                <p>About Us</p>
+                            </NavLink>
 
-                    <div className="drop-down">
-                        <p>Services</p>
+                            <div className="drop-down">
+                                <p>Services</p>
 
-                        <div className="inside-drop-down">
-                            
-                            {
-                                services.map((s, index)=>{
+                                <div className="inside-drop-down">
 
-                                    const {content, id, image, subtitle, title} = s;
+                                    {
+                                        services.map((s, index) => {
 
-
-                                    return(
-
-                                        <NavLink className="none" to={`/services/${title}`} onClick={closeMenu}>
-                                            <p key={id}>
-                                                {title}
-                                            </p>
-
-                                        </NavLink>
-
-                                    )
+                                            const { content, id, image, subtitle, title } = s;
 
 
-                                })                                
-                            }
+                                            return (
 
-                        </div>
+                                                <NavLink className="none" to={`/services/${title}`} onClick={closeMenu} key={id}>
+                                                    <p >
+                                                        {title}
+                                                    </p>
 
-                    </div>
+                                                </NavLink>
 
-                    <NavLink className="none" to="/doctors" onClick={closeMenu}>
-                        <p>Our Team</p>
-                    </NavLink>
-                    
-                    <NavLink className="none" to="blog" onClick={closeMenu}>
-                        <p>Blogs</p>
-                    </NavLink>
+                                            )
 
-                    <NavLink className="none" to="/contact" onClick={closeMenu}>
-                        <p>Contact Us</p>
-                        </NavLink>
+
+                                        })
+                                    }
+
+                                </div>
+
+                            </div>
+
+                            <NavLink className="none" to="/doctors" onClick={closeMenu}>
+                                <p>Our Team</p>
+                            </NavLink>
+
+                            <NavLink className="none" to="blog" onClick={closeMenu}>
+                                <p>Blogs</p>
+                            </NavLink>
+
+                            <NavLink className="none" to="/contact" onClick={closeMenu}>
+                                <p>Contact Us</p>
+                            </NavLink>
 
 
 
@@ -158,15 +158,15 @@ export const Header = () => {
                     </div>
                 </div>
 
-<NavLink className="none asw" to="appointment">
+                <NavLink className="none asw" to="appointment">
 
-                <button className="appointment ">
-                                <p>Book Appointment</p>
-                                <FaRegCalendarDays className='ba' />
-                </button>
-</NavLink>
+                    <button className="appointment ">
+                        <p>Book Appointment</p>
+                        <FaRegCalendarDays className='ba' />
+                    </button>
+                </NavLink>
 
-                <RxHamburgerMenu className='hamMenu' onClick={openMenu}/>
+                <RxHamburgerMenu className='hamMenu' onClick={openMenu} />
 
             </div>
         </nav>
