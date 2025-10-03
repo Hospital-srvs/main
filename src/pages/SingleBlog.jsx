@@ -4,6 +4,7 @@ import blog from "../assets/api/blogs.json";
 import "../assets/css/Blog.css";
 import { ScrollAnimate } from "./ScrollAnimate";
 import parse from "html-react-parser";
+import slugify from 'slugify'
 
 export const SingleBlog = () => {
   const Params = useParams();
@@ -20,6 +21,8 @@ export const SingleBlog = () => {
                 id,
                 image,
                 image2,
+                image3,
+                image6,
                 intro,
                 intro10,
                 intro11,
@@ -44,6 +47,7 @@ export const SingleBlog = () => {
                 intro8long,
                 intro9,
                 intro9long,
+                intro10long,
                 intro9short,
                 title,
                 title10,
@@ -56,10 +60,11 @@ export const SingleBlog = () => {
                 title7,
                 title8,
                 title9,
+                paragraph,
               } = b;
 
               return (
-                Params.id === title && (
+                Params.id === slugify(title, { lower: true }) && (
                   <div className="service-main-content ibb" key={id}>
                     <ScrollAnimate animation="right-to-left">
                       <img src={image} alt="" className="main-service" />
@@ -74,7 +79,6 @@ export const SingleBlog = () => {
                     )}
 
                     <ScrollAnimate animation="bottom-to-top-1">
-                      <h2>{title2}</h2>
                       {image2 && (
                         <img
                           src={image2}
@@ -82,11 +86,9 @@ export const SingleBlog = () => {
                           className="my-4 w-full max-w-2xl mx-auto rounded-lg shadow-md"
                         />
                       )}
-
-                      <h2>{title2}</h2>
-
-
-                      <p>{parse(intro2)}</p>
+                      {title2 && <h2>{title2}</h2>}
+                      {intro2 && <p>{parse(intro2)}</p>}
+                      {intro3 && <p>{parse(intro3)}</p>}
                     </ScrollAnimate>
 
                     {title3 && (
@@ -102,10 +104,18 @@ export const SingleBlog = () => {
                           <p key={index}>{parse(para.trim())}</p>
                         ))}
                         {intro3short && <p>{parse(intro3short)}</p>}
+                        {paragraph && <p>{parse(paragraph)}</p>}
                       </ScrollAnimate>
                     )}
 
                     <ScrollAnimate animation="bottom-to-top-1">
+                       {image3 && (
+                        <img
+                          src={image3}
+                          alt="Section Image"
+                          className="my-4 w-full max-w-2xl mx-auto rounded-lg shadow-md"
+                        />
+                      )}
                       {title4 && <h2>{title4}</h2>}
                       {intro4 && <p>{parse(intro4)}</p>}
                       {Array.isArray(intro4long) &&
@@ -130,6 +140,13 @@ export const SingleBlog = () => {
                     </ScrollAnimate>
 
                     <ScrollAnimate animation="bottom-to-top-1">
+                       {image6 && (
+                        <img
+                          src={image6}
+                          alt="Section Image"
+                          className="my-4 w-full max-w-2xl mx-auto rounded-lg shadow-md"
+                        />
+                      )}
                       {title6 && <h2>{title6}</h2>}
                       {intro6 && <p>{parse(intro6)}</p>}
                       {Array.isArray(intro6long) &&
@@ -173,11 +190,15 @@ export const SingleBlog = () => {
                       </ScrollAnimate>
                     )}
 
-                    {title10 && (
-                      <>
+                    {(title10 || intro10 || (intro10long && intro10long.length)) && (
+                      <ScrollAnimate animation="bottom-to-top-1">
                         <h2>{title10}</h2>
                         {intro10 && <p>{parse(intro10)}</p>}
-                      </>
+                        {Array.isArray(intro10long) &&
+                          intro10long.map((para, index) => (
+                            <p key={index}> {parse(para.trim())}</p>
+                          ))}
+                      </ScrollAnimate>
                     )}
 
                     {title11 && (

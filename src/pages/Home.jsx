@@ -26,6 +26,7 @@ import g2 from '../assets/images/all images/g2.jpg';
 import g3 from '../assets/images/all images/g3.jpg';
 import g4 from '../assets/images/all images/g4.jpg';
 import { ScrollAnimate } from './ScrollAnimate';
+import slugify from 'slugify'
 
 export const Home = () => {
     const visibleCards = 4;
@@ -400,45 +401,45 @@ export const Home = () => {
             <h1 className='ninth-heading1'>Our blog</h1>
             <h2 className='ninth-headin2'>Latest Blogs & Articles.</h2>
 
-           <div className="carousel-wrapper">
-    <button
-        className="carousel-btn prev"
-        onClick={() => setCurrentIndex(prev => Math.max(prev - 1, 0))}
-        disabled={isPrevDisabled} // disable at start
-    >
-        &#10094;
-    </button>
+            <div className="carousel-wrapper">
+                <button
+                    className="carousel-btn prev"
+                    onClick={() => setCurrentIndex(prev => Math.max(prev - 1, 0))}
+                    disabled={isPrevDisabled} // disable at start
+                >
+                    &#10094;
+                </button>
 
-    <div className="inside-ninth-section carousel-inner">
-        {blog.slice(currentIndex, currentIndex + visibleCards).map((b) => {
-            const { id, image, title, intro } = b;
-            return (
-                <div className="blog-card" key={id}>
-                    <div className="blog-card-img">
-                        <img src={image} alt="blog image" />
-                    </div>
-                    <div className="blog-card-content">
-                        <h1>{title.length > 50 ? title.slice(0, 50) + "..." : title}</h1>
-                        <p>{intro[0].length > 60 ? intro[0].slice(0, 60) + "..." : intro[0]}</p>
-                        <NavLink className="noneNav" to={`/blog/${title}`}>
-                            <button className="appointment a1 a11">
-                                Read More <GoArrowRight className='buttonIcon' />
-                            </button>
-                        </NavLink>
-                    </div>
+                <div className="inside-ninth-section carousel-inner">
+                    {blog.slice(currentIndex, currentIndex + visibleCards).map((b) => {
+                        const { id, image, title, intro } = b;
+                        return (
+                            <div className="blog-card" key={id}>
+                                <div className="blog-card-img">
+                                    <img src={image} alt="blog image" />
+                                </div>
+                                <div className="blog-card-content">
+                                    <h1>{title.length > 50 ? title.slice(0, 50) + "..." : title}</h1>
+                                    <p>{intro[0].length > 60 ? intro[0].slice(0, 60) + "..." : intro[0]}</p>
+                                    <NavLink className="noneNav" to={`/blog/${slugify(title, { lower: true })}`}>
+                                        <button className="appointment a1 a11">
+                                            Read More <GoArrowRight className='buttonIcon' />
+                                        </button>
+                                    </NavLink>
+                                </div>
+                            </div>
+                        )
+                    })}
                 </div>
-            )
-        })}
-    </div>
 
-    <button
-        className="carousel-btn next"
-        onClick={() => setCurrentIndex(prev => Math.min(prev + 1, blog.length - visibleCards))}
-        disabled={isNextDisabled} // disable at end
-    >
-        &#10095;
-    </button>
-</div>
+                <button
+                    className="carousel-btn next"
+                    onClick={() => setCurrentIndex(prev => Math.min(prev + 1, blog.length - visibleCards))}
+                    disabled={isNextDisabled} // disable at end
+                >
+                    &#10095;
+                </button>
+            </div>
 
         </div>
 

@@ -812,10 +812,13 @@ textarea {
     display: flex;
     gap: 1rem;
     width: 100%;
+    flex-direction: row;
+    overflow-x: auto;         /* horizontal scroll */
+    scroll-snap-type: x mandatory;
 }
 
-.blog-card {
-    flex: 1;
+/* .blog-card {
+      flex: 0 0 calc(25% - 1rem);
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -824,6 +827,11 @@ textarea {
     transition: transform 0.3s ease;
     overflow: hidden;
     min-height: 350px;
+} */
+
+.blog-card {
+    flex: 0 0 calc(25% - 1rem);   /* default → 4 cards */
+    scroll-snap-align: start;
 }
 
 .blog-card:hover {
@@ -913,11 +921,12 @@ textarea {
     .blog-card {
         flex: 0 0 calc(33.333% - 1rem); /* 3 cards per row */
     }
+
 }
 
 @media screen and (max-width:768px){
     .blog-card {
-        flex: 0 0 calc(50% - 1rem); /* 2 cards per row */
+        flex: 0 0 100%;
     }
 }
 
@@ -1323,7 +1332,7 @@ textarea::placeholder {
     .inside-ninth-section {
         width: 90%;
         flex: 1;
-        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .ninth-section h2 {
@@ -1559,6 +1568,9 @@ textarea::placeholder {
 @media screen and (max-width:450px) {
     .half-shape {
         width: 100%;
+    }
+    .blog-card-img{
+        height: 200px;
     }
 
     .white-dots2 {
