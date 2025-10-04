@@ -407,6 +407,8 @@
         "intro3long": [],
         "intro3short": "",
         "paragraph": "",
+
+        "image3":"/images/how_start_caner.jpg",
         "title4": " How Does Cancer Start?",
         "intro4": " Cancer begins when the DNA inside a cell gets damaged or develops mutations. Normally, the body repairs this damage. But if the repair system fails, abnormal cells survive and start multiplying. These faulty cells don’t behave like healthy ones—they grow uncontrollably and ignore the body’s natural rules.",
         "intro4long": [],
@@ -424,6 +426,7 @@
         ],
         "intro5short": "",
         "intro5long2": [],
+        "image6":"/images/cancer1.jpg",
         "title6": " How Does Cancer Spread?",
         "intro6": " At first, cancer may stay in one place. But if left untreated, it can:",
         "intro6long": [
@@ -468,7 +471,7 @@
         "intro10long": [],
         "title11": "Conclusion",
         "intro11": " Cancer starts with abnormal cells, but knowledge and timely action can make all the difference. Stay aware, go for regular checkups, and remember—knowledge is the first step in beating cancer.",
-        "image": "/images/b4.jpg"
+        "image": "/images/excatly_cancer.jpg"
     },
     {
         "id": "7",

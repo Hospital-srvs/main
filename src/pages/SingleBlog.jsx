@@ -22,6 +22,7 @@ export const SingleBlog = () => {
                 image,
                 image2,
                 image3,
+              
                 image6,
                 intro,
                 intro10,
@@ -64,7 +65,7 @@ export const SingleBlog = () => {
               } = b;
 
               return (
-                Params.id === slugify(title, { lower: true }) && (
+                Params.id === slugify(title, { lower: true,strict: true }) && (
                   <div className="service-main-content ibb" key={id}>
                     <ScrollAnimate animation="right-to-left">
                       <img src={image} alt="" className="main-service" />
