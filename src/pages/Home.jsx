@@ -390,9 +390,29 @@ export const Home = () => {
             </div>
             <div className="inside-eight-section i-e-s">
 
-                <iframe className='frame' width="" height="" src="https://www.youtube.com/embed/rPJYgTkB1b0?si=Bighm-7Rz2USCr-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe
+                    className="frame"
+                    width=""
+                    height=""
+                    src="https://www.youtube.com/embed/rPJYgTkB1b0?si=Bighm-7Rz2USCr-1"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                ></iframe>
 
-                <iframe className='frame' width="" height="" src="https://www.youtube.com/embed/BInHiGESdr8?si=213gpmYBK4uhdyuK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe
+                    className="frame"
+                    width=""
+                    height=""
+                    src="https://www.youtube.com/embed/BInHiGESdr8?si=213gpmYBK4uhdyuK"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                ></iframe>
 
             </div>
         </div>
@@ -421,7 +441,7 @@ export const Home = () => {
                                 <div className="blog-card-content">
                                     <h1>{title.length > 50 ? title.slice(0, 50) + "..." : title}</h1>
                                     <p>{intro[0].length > 60 ? intro[0].slice(0, 60) + "..." : intro[0]}</p>
-                                    <NavLink className="noneNav" to={`/blog/${slugify(title, { lower: true,strict: true })}`}>
+                                    <NavLink className="noneNav" to={`/blog/${slugify(title, { lower: true, strict: true })}`}>
                                         <button className="appointment a1 a11">
                                             Read More <GoArrowRight className='buttonIcon' />
                                         </button>

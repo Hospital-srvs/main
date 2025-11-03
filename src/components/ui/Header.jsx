@@ -49,9 +49,9 @@ export const Header = () => {
                         <div className="inside-drop-down">
                             
                             {
-                                services.map((s, index)=>{
+                                services.map(({id, title})=>{
 
-                                    const {content, id, image, subtitle, title} = s;
+                                    // const {content, id, image, subtitle, title} = s;
 
 
                                     return(
@@ -116,9 +116,9 @@ export const Header = () => {
                         <div className="inside-drop-down">
                             
                             {
-                                services.map((s, index)=>{
+                                services.map(({id, title})=>{
 
-                                    const {content, id, image, subtitle, title} = s;
+                                    // const {content, id, image, subtitle, title} = s;
 
 
                                     return(
