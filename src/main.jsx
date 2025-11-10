@@ -6,7 +6,7 @@ import Maintainance from './pages/Maintainance.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Maintainance/>
-    {/* <App /> */}
+    {/* <Maintainance/> */}
+    <App />
   </StrictMode>,
 )
