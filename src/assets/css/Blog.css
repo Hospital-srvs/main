@@ -1,69 +1,151 @@
-.blog-first{
-    padding: 2rem 0;
+.blog-first {
+    padding: 3rem 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #fff7f4;
 }
 
-.blog-count{
-    height: 5rem;
+/* Blog Count Header */
+.blog-count {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-bottom: 1px dashed #1a1a1a;
     position: relative;
-}
-
-.inside-blog-first{
-    margin-top: 1rem;
-    width: 80%;
-    max-width:1200px;
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    padding: 0.8rem 1.5rem;
 }
 
 .blog-count p {
     color: #07332f;
     font-weight: 600;
     text-transform: capitalize;
-    font-size: 18px;
-    left: 0;
-    position: absolute;
-    margin-left: 1.5rem;
+    font-size: 1.1rem;
 }
 
-.ibb h2{
+/* Blog Container */
+.inside-blog-first {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* ✅ Ensures even spacing for 4 cards */
+    gap: 1.5rem;
+}
+
+/* Blog Card */
+.blog-card {
+    flex: 1 1 calc(25% - 1.5rem); /* ✅ 4 cards per row with gaps */
+    max-width: calc(25% - 1.5rem);
+    height: 380px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Image Section */
+.blog-card-img {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blog-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Content Section */
+.blog-card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.blog-card-content h1 {
     color: #07332f;
-    margin-top: 2rem !important;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
 }
 
-.blog-card-1{
-    width: 32%;
+.blog-card-content p {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
-@media screen and (max-width:1150px){
-    .blog-card-1{
-        width: 45%;
+/* Button */
+.appointment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    background-color: #07332f;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.appointment:hover {
+    background-color: #0b544f;
+}
+
+/* ✅ Responsive Design */
+@media screen and (max-width:1200px) {
+    .blog-card {
+        flex: 1 1 calc(33.33% - 1rem); /* 3 per row on medium desktops */
+        max-width: calc(33.33% - 1rem);
     }
 }
 
-@media screen and (max-width:800px){
-    .blog-card-1{
-        width: 100%;
+@media screen and (max-width:900px) {
+    .blog-card {
+        flex: 1 1 calc(45% - 1rem); /* 2 per row on tablets */
+        max-width: calc(45% - 1rem);
+        height: auto;
     }
 }
 
-@media screen and (max-width:450px){
-    .blog-card-img{
-    height: 200px;
- }
+@media screen and (max-width:600px) {
+    .blog-card {
+        flex: 1 1 100%; /* 1 per row on mobile */
+        max-width: 100%;
+        height: auto;
+    }
+
+    .blog-card-img {
+        height: 160px;
+    }
+
+    .blog-card-content h1 {
+        font-size: 1rem;
+    }
+
+    .blog-card-content p {
+        font-size: 0.9rem;
+    }
 }
