@@ -456,11 +456,12 @@ export const Home = () => {
                                 <div className="blog-card-content">
                                     <h1>{title.length > 50 ? title.slice(0, 50) + "..." : title}</h1>
                                     <p>{intro[0].length > 60 ? intro[0].slice(0, 60) + "..." : intro[0]}</p>
-                                    <NavLink className="noneNav" to={`/blog/${slugify(title, { lower: true, strict: true })}`}>
+                                    <NavLink className="noneNav" to={`/blog/${encodeURIComponent(title)}`}>
                                         <button className="appointment a1 a11">
-                                            Read More <GoArrowRight className='buttonIcon' />
+                                            Read More <GoArrowRight className="buttonIcon" />
                                         </button>
                                     </NavLink>
+
                                 </div>
                             </div>
                         );

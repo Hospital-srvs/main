@@ -5,7 +5,7 @@ import blog from '../assets/api/blogs.json';
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { ScrollAnimate } from "./ScrollAnimate";
-import slugify from "slugify";
+// import slugify from "slugify";
 
 export const Blog = () => {
 
@@ -23,7 +23,7 @@ export const Blog = () => {
                     {blog.map((b, index) => {
                         const { id, image, title, intro } = b;
 
-                        const slug = slugify(title, { lower: true, strict: true });
+                        const slug = slugify(title, { lower: true, strict: true, });
 
                         return (
                             <div className="blog-card blog-card-1" key={id}>
@@ -35,11 +35,12 @@ export const Blog = () => {
                                     <h1>{title.slice(0, 50) + "..."}</h1>
                                     <p>{intro[0].slice(0, 60) + "..."}</p>
 
-                                    <NavLink className="noneNav" to={`/blog/${slug}`}>
+                                    <NavLink className="noneNav" to={`/blog/${encodeURIComponent(title)}`}>
                                         <button className="appointment a1 a11">
                                             Read More <GoArrowRight className="buttonIcon" />
                                         </button>
                                     </NavLink>
+
                                 </div>
                             </div>
                         );
