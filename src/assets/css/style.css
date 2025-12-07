@@ -812,41 +812,25 @@ textarea {
     display: flex;
     gap: 1rem;
     width: 100%;
-    flex-direction: row;
-    overflow-x: auto;         /* horizontal scroll */
-    scroll-snap-type: x mandatory;
+    overflow: hidden; /* hide extra cards */
 }
 
-/* .blog-card {
-      flex: 0 0 calc(25% - 1rem);
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
-    overflow: hidden;
-    min-height: 350px;
-} */
-
+/* BLOG CARD */
 .blog-card {
-    flex: 0 0 calc(25% - 1rem);   /* default → 4 cards */
-    scroll-snap-align: start;
-}
-
-.blog-card:hover {
-    transform: translateY(-5px);
+    flex: 0 0 100%; /* default 1 card */
+    transition: transform 0.3s ease;
 }
 
 .blog-card-img {
     width: 100%;
     height: 200px;
+    overflow: hidden;
 }
 
 .blog-card-img img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     transition: transform 0.3s ease;
 }
 
@@ -861,7 +845,6 @@ textarea {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    flex: 1;
 }
 
 .blog-card-content h1 {
@@ -888,6 +871,7 @@ textarea {
     color: #F7A582;
 }
 
+/* BUTTONS */
 .carousel-btn {
     position: absolute;
     top: 50%;
@@ -915,26 +899,27 @@ textarea {
     right: -1.5rem;
 }
 
-
-
-@media screen and (max-width:1024px){
+/* DESKTOP: 4 cards */
+@media screen and (min-width: 1025px) {
     .blog-card {
-        flex: 0 0 calc(33.333% - 1rem); /* 3 cards per row */
+        flex: 0 0 calc(25% - 1rem);
     }
-
 }
 
-@media screen and (max-width:768px){
+/* TABLET: 3 cards */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .blog-card {
+        flex: 0 0 calc(33.333% - 1rem);
+    }
+}
+
+/* MOBILE: 1 card */
+@media screen and (max-width: 768px) {
     .blog-card {
         flex: 0 0 100%;
     }
 }
 
-@media screen and (max-width:480px){
-    .blog-card {
-        flex: 0 0 100%; /* 1 card per row */
-    }
-}
 
 /* Ninth Section End  */
 

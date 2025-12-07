@@ -1,174 +1,150 @@
-import '../../assets/css/Header.css'
-import newlogo from '../../assets/images/logo/newlogo.png'
+import { useState } from "react";
+import "../../assets/css/Header.css";
+import newlogo from "../../assets/images/logo/newlogo.png";
 import { FaRegCalendarDays } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseCircleOutline } from "react-icons/io5";
-import services from '../../assets/api/services.json';
-import { NavLink } from 'react-router-dom';
+import services from "../../assets/api/services.json";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
 
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+
     const openMenu = () => {
-        
-        const d = document.querySelector('.mobile-menu');
-
-        d.style.display = 'flex'
-
-    }
+        setMobileMenuOpen(true);
+        document.body.style.overflow = "hidden";
+    };
 
     const closeMenu = () => {
+        setMobileMenuOpen(false);
+        document.body.style.overflow = "auto";
+    };
 
-        const d = document.querySelector('.mobile-menu');
+    return (
+        <>
+            <nav>
+                <div className="insideNav">
 
-        d.style.display = 'none'
-
-    }
-
-    // openMenu()
-
-    return<>
-        <nav>
-            <div className="insideNav">
-
-                <NavLink to="/">
-                    <img src={newlogo} alt="logo" className="logo" />
-                </NavLink>
-
-                <div className="menuLinks">
-                    
-                    <NavLink className="none" to="/">
-                        <p>Home</p>
-                    </NavLink>
-                    <NavLink className="none" to="/about">
-                        <p>About Us</p>
+                    {/* LOGO */}
+                    <NavLink to="/">
+                        <img src={newlogo} alt="logo" className="logo" />
                     </NavLink>
 
-                    <div className="drop-down">
-                        <p>Services</p>
+                    {/* DESKTOP MENU */}
+                    <div className="menuLinks">
 
-                        <div className="inside-drop-down">
-                            
-                            {
-                                services.map(({id, title})=>{
+                        <NavLink to="/">
+                            <p>Home</p>
+                        </NavLink>
 
-                                    // const {content, id, image, subtitle, title} = s;
+                        <NavLink to="/about">
+                            <p>About Us</p>
+                        </NavLink>
 
+                        {/* Desktop dropdown */}
+                        <div className="drop-down">
+                            <p>Services</p>
 
-                                    return(
-
-                                        <NavLink className="none" to={`/services/${title}`}>
-                                            <p key={id}>
-                                                {title}
-                                            </p>
-
-                                        </NavLink>
-
-                                    )
-
-
-                                })                                
-                            }
-
+                            <div className="inside-drop-down">
+                                {services.map(({ id, title }) => (
+                                    <NavLink key={id} to={`/services/${title}`}>
+                                        <p>{title}</p>
+                                    </NavLink>
+                                ))}
+                            </div>
                         </div>
+
+                        <NavLink to="/doctors">
+                            <p>Our Team</p>
+                        </NavLink>
+
+                        <NavLink to="/blog">
+                            <p>Blogs</p>
+                        </NavLink>
+
+                        <NavLink to="/contact">
+                            <p>Contact Us</p>
+                        </NavLink>
+
+                        <NavLink to="/appointment">
+                            <button className="appointment">
+                                <p style={{ color: "#F7A582" }}>Book Appointment</p>
+                                <FaRegCalendarDays />
+                            </button>
+                        </NavLink>
 
                     </div>
 
-                    <NavLink className="none" to="/doctors">
-                        <p>Our Team</p>
-                    </NavLink>
-                    
-                    <NavLink className="none" to="blog">
-                        <p>Blogs</p>
-                    </NavLink>
+                    {/* MOBILE MENU */}
+                    <div className={`mobile-menu ${mobileMenuOpen ? "open" : ""}`}>
+                        <div className="inside-mobile-menu">
 
-                    <NavLink className="none" to="/contact">
-                        <p>Contact Us</p>
-                        </NavLink>
+                            {/* Close button */}
+                            <IoCloseCircleOutline className="close" onClick={closeMenu} />
 
+                            <div className="mobile-menu-links">
 
-                    <NavLink className="none" to="appointment">
+                                <NavLink to="/" onClick={closeMenu}>
+                                    <p>Home</p>
+                                </NavLink>
+
+                                <NavLink to="/about" onClick={closeMenu}>
+                                    <p>About Us</p>
+                                </NavLink>
+
+                                {/* Mobile dropdown toggle */}
+                                <div
+                                    className="drop-down"
+                                    onClick={() => setMobileDropdownOpen(!mobileDropdownOpen)}
+                                >
+                                    <p>Services</p>
+
+                                    <div
+                                        className="inside-drop-down"
+                                        style={{ display: mobileDropdownOpen ? "block" : "none" }}
+                                    >
+                                        {services.map(({ id, title }) => (
+                                            <NavLink
+                                                key={id}
+                                                to={`/services/${title}`}
+                                                onClick={closeMenu}
+                                            >
+                                                <p>{title}</p>
+                                            </NavLink>
+                                        ))}
+                                    </div>
+                                </div>
+
+                                <NavLink to="/doctors" onClick={closeMenu}>
+                                    <p>Our Team</p>
+                                </NavLink>
+
+                                <NavLink to="/blog" onClick={closeMenu}>
+                                    <p>Blogs</p>
+                                </NavLink>
+
+                                <NavLink to="/contact" onClick={closeMenu}>
+                                    <p>Contact Us</p>
+                                </NavLink>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* SMALL BUTTON + HAMBURGER */}
+                    <NavLink to="/appointment" className="asw">
                         <button className="appointment">
-                            <p style={{color:"#F7A582"}}>Book Appointment</p>
-                            <FaRegCalendarDays className='ba' />
+                            <p>Book Appointment</p>
+                            <FaRegCalendarDays />
                         </button>
                     </NavLink>
 
+                    <RxHamburgerMenu className="hamMenu" onClick={openMenu} />
+
                 </div>
-
-
-                <div className="mobile-menu">
-                    <div className="inside-mobile-menu">
-
-                        <IoCloseCircleOutline className='close' onClick={closeMenu} />
-
-                        <div className="menuLinks mobile-menu-links">
-
-                           <NavLink className="none" to="/" onClick={closeMenu}>
-                        <p>Home</p>
-                    </NavLink>
-                    <NavLink className="none" to="/about" onClick={closeMenu}>
-                        <p>About Us</p>
-                    </NavLink>
-
-                    <div className="drop-down">
-                        <p>Services</p>
-
-                        <div className="inside-drop-down">
-                            
-                            {
-                                services.map(({id, title})=>{
-
-                                    // const {content, id, image, subtitle, title} = s;
-
-
-                                    return(
-
-                                        <NavLink className="none" to={`/services/${title}`} onClick={closeMenu}>
-                                            <p key={id}>
-                                                {title}
-                                            </p>
-
-                                        </NavLink>
-
-                                    )
-
-
-                                })                                
-                            }
-
-                        </div>
-
-                    </div>
-
-                    <NavLink className="none" to="/doctors" onClick={closeMenu}>
-                        <p>Our Team</p>
-                    </NavLink>
-                    
-                    <NavLink className="none" to="blog" onClick={closeMenu}>
-                        <p>Blogs</p>
-                    </NavLink>
-
-                    <NavLink className="none" to="/contact" onClick={closeMenu}>
-                        <p>Contact Us</p>
-                        </NavLink>
-
-
-
-                        </div>
-                    </div>
-                </div>
-
-<NavLink className="none asw" to="appointment">
-
-                <button className="appointment ">
-                                <p>Book Appointment</p>
-                                <FaRegCalendarDays className='ba' />
-                </button>
-</NavLink>
-
-                <RxHamburgerMenu className='hamMenu' onClick={openMenu}/>
-
-            </div>
-        </nav>
-    </>
-}
+            </nav>
+        </>
+    );
+};

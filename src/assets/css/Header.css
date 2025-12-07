@@ -1,19 +1,27 @@
+/* -------- GENERAL -------- */
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
 .logo {
-    filter: none !important;
+    max-width: 220px;
+    object-fit: contain;
 }
 
+/* NAVBAR */
 nav {
-    height: 6rem;
     width: 100%;
+    height: 6rem;
+    background-color: #07332f;
+    border-bottom: 1px solid #ffffff20;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #07332f;
-    border-bottom: 1px solid #a8a8a838;
 }
 
 .insideNav {
-    height: 98%;
     width: 95%;
     max-width: 1800px;
     display: flex;
@@ -21,213 +29,216 @@ nav {
     align-items: center;
 }
 
+/* Desktop links */
 .menuLinks {
-    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .menuLinks p {
-    color: #fff;
-    padding: 0.25rem;
-    margin: 0.75rem;
-    font-size: 20px !important;
+    margin: 0 0.8rem;
+    color: white;
+    font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    white-space: nowrap;
 }
 
+/* Appointment button */
 .appointment {
-    outline: none;
     border: 1px solid #F7A582;
     border-radius: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1.5rem;
-    height: 2.8rem;
-    background-color: transparent;
+    padding: 0 1.3rem;
+    height: 2.7rem;
+    background: transparent;
     color: #F7A582;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     cursor: pointer;
 }
 
 .appointment p {
-    margin: 0;
-    padding: 0;
-    margin-right: 0.5rem;
     color: #F7A582;
+    margin: 0;
     font-weight: 600;
-    cursor: pointer;
 }
 
-.ba {
-    font-size: 16px;
-}
-
-.mobile-menu {
-    display: none;
-}
-
-.mobile-appointment {
-    display: none;
-}
-
-.hamMenu {
-    display: none;
-}
-
-.close {
-    top: 0;
-    position: absolute;
-    right: 0;
-    color: #fff;
-    font-size: 32px;
-}
-
+/* Dropdown */
 .drop-down {
     position: relative;
-    background-color: #07332f;
 }
 
 .inside-drop-down {
-    display: none;
     position: absolute;
-    z-index: 999999999999999999999999999999999;
+    top: 100%;
+    left: 0;
+    width: 14rem;
     background-color: #07332f;
-    width: 15rem;
+    display: none;
+    z-index: 99999;
 }
-
-.inside-drop-down p {
-    border-bottom: 1px solid #a8a8a838;
-    padding: 0.5rem 0;
-    padding-bottom: 1rem;
-}
-
 
 .drop-down:hover .inside-drop-down {
     display: block;
 }
 
-.inside-drop-down p:last-child {
-    border-bottom: none;
+.inside-drop-down p {
+    padding: 1rem;
+    border-bottom: 1px solid #ffffff30;
 }
 
-.none {
-    text-decoration: none;
-
-}
-
+/* Hidden for mobile */
+.hamMenu,
+.mobile-menu,
 .asw {
     display: none;
 }
 
 
-@media screen and (max-width:900px) {
+/* -------- MOBILE RESPONSIVE -------- */
+@media screen and (max-width: 900px) {
 
-    .inside-bread-crum h1 {
-        color: #F7A582;
-        font-weight: 600;
-        font-size: 42px;
-        text-transform: capitalize;
-        line-height: 3.1rem;
-    }
-
-    .asw {
-        display: flex;
-    }
-
-    .hamMenu {
-        display: flex;
+    nav {
+        height: 5rem;
     }
 
     .menuLinks {
         display: none;
-
     }
 
+    .hamMenu {
+        display: block;
+        color: white;
+        font-size: 32px;
+        cursor: pointer;
+    }
 
+    /* Show small appointment button */
+    .asw {
+        display: block;
+    }
+
+    .appointment {
+        height: 2.2rem;
+        padding: 0 0.7rem;
+    }
+
+    /* MOBILE MENU — SLIDE DOWN */
     .mobile-menu {
-        height: 100vh;
-        width: 100%;
-        margin: auto;
-        display: none;
-        justify-content: center;
-        align-items: center;
         position: fixed;
         top: 0;
-        z-index: 999999999999;
         left: 0;
-        background-color: #07332f;
+        width: 100%;
+        height: 0;
+        /* hidden initially */
+        background: #07332f;
+        color: white;
+        overflow: hidden;
+        /* important */
+        transition: height 0.4s ease;
+        /* smooth slide */
+        z-index: 9999999;
+        padding-top: 0;
+        /* added when open */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu.open {
+        height: 50vh;
+        /* slide down full */
+        padding-top: 2rem;
     }
 
     .inside-mobile-menu {
-        height: 80%;
-        width: 80%;
+        width: 85%;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        gap: 1.5rem;
         position: relative;
+    }
+
+    .close {
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        right: 0;
+        top: -10px;
+        cursor: pointer;
     }
 
     .mobile-menu-links {
         display: flex;
         flex-direction: column;
         width: 100%;
+        gap: 1rem;
         
     }
 
     .mobile-menu-links p {
-        border: 1px solid;
-        width: 10rem;
-        margin: 0;
-        border-inline: none;
-        padding: 2rem 0.1rem;
-        font-size: 20px;
+        padding: 1.2rem 0;
+        font-size: 18px;
+        border-bottom: 1px solid #ffffff20;
+        color: white;
+        
     }
 
-    button.appointment p {
+    /* Mobile dropdown better style */
+    .drop-down .inside-drop-down {
+        position: static;
+        display: none;
+        width: 100%;
+        padding-left: 1rem;
+        border-left: 1px solid #ffffff30;
+    }
+
+    .drop-down:active .inside-drop-down,
+    .drop-down:focus .inside-drop-down {
+        display: block;
+    }
+
+    .inside-drop-down p {
+        padding: 0.8rem 0;
+        font-size: 16px;
         border: none;
     }
-
-    .mobile-appointment {
-        display: flex;
-        position: absolute;
-        right: 8%;
-    }
-
-    .hamMenu {
-        color: #fff;
-        font-size: 24px;
-    }
-
 }
 
-@media screen and (max-width:450px) {
 
-    .inside-bread-crum h1 {
-        font-size: 32px;
-        line-height: 2.6rem;
-    }
+/* ---- SMALL DEVICES 400px ---- */
+@media screen and (max-width: 400px) {
 
-    .inside-bread-crum h1 {
-        font-size: 32px;
-        line-height: 2.6rem;
+    .logo {
+        max-width: 150px;
     }
 
     .appointment {
-        padding: 0 0.5rem
+        padding: 0 0.5rem;
+        gap: 4px;
     }
 
-    .mobile-appointment {
-        right: 10%;
+    .hamMenu {
+        font-size: 28px;
     }
+}
 
-    .ba {
-        margin-left: 0;
-    }
+
+/* ---- VERY SMALL DEVICES 320px ---- */
+@media screen and (max-width: 320px) {
 
     .insideNav {
-        width: 98%;
+        width: 97%;
+    }
+
+    .appointment {
+        height: 2rem;
+        padding: 0 0.4rem;
+        font-size: 14px;
+    }
+
+    .logo {
+        max-width: 120px;
     }
 }

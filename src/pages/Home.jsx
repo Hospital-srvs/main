@@ -10,7 +10,7 @@ import { IoMdArrowDroprightCircle } from "react-icons/io";
 import halfcirlce3 from '../assets/images/all images/half-circle-3.png';
 import services from '../assets/api/services.json';
 import faq1 from '../assets/images/all images/home-faq.jpg';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import blog from '../assets/api/blogs.json';
 import { GoArrowRight } from "react-icons/go";
 import contactimg from '../assets/images/all images/contact-us-img.png';
@@ -29,11 +29,25 @@ import { ScrollAnimate } from './ScrollAnimate';
 import slugify from 'slugify';
 
 export const Home = () => {
-    const visibleCards = 4;
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [visibleCards, setVisibleCards] = useState(4);
+
+    // Responsive: change visible cards based on screen width
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 768) setVisibleCards(1);       // Mobile
+            else if (window.innerWidth <= 1024) setVisibleCards(3); // Tablet
+            else setVisibleCards(4);                                // Desktop
+        };
+
+        handleResize(); // initial check
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     const isPrevDisabled = currentIndex === 0;
-    const isNextDisabled = currentIndex + visibleCards >= blog.length;
+    const isNextDisabled = currentIndex >= blog.length - visibleCards;
 
 
 
@@ -80,6 +94,7 @@ export const Home = () => {
             content: "We accept cash, credit/debit cards, UPI and digital wallets. Insurance claims are also supported for partnered companies."
         }
     ]
+
 
     return <>
 
@@ -425,7 +440,7 @@ export const Home = () => {
                 <button
                     className="carousel-btn prev"
                     onClick={() => setCurrentIndex(prev => Math.max(prev - 1, 0))}
-                    disabled={isPrevDisabled} // disable at start
+                    disabled={isPrevDisabled}
                 >
                     &#10094;
                 </button>
@@ -448,19 +463,18 @@ export const Home = () => {
                                     </NavLink>
                                 </div>
                             </div>
-                        )
+                        );
                     })}
                 </div>
 
                 <button
                     className="carousel-btn next"
                     onClick={() => setCurrentIndex(prev => Math.min(prev + 1, blog.length - visibleCards))}
-                    disabled={isNextDisabled} // disable at end
+                    disabled={isNextDisabled}
                 >
                     &#10095;
                 </button>
             </div>
-
         </div>
 
 

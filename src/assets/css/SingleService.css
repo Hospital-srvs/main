@@ -34,7 +34,7 @@
 }
 
 .inside-single-service-card h2{
-    color: #fff;
+    /* color: black; */
     font-weight: 500;
     font-size: 28px;
     margin-bottom: 1rem;
