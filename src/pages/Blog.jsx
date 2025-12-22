@@ -5,6 +5,7 @@ import blog from '../assets/api/blogs.json';
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { ScrollAnimate } from "./ScrollAnimate";
+import slugify from "slugify";
 // import slugify from "slugify";
 
 export const Blog = () => {
