@@ -812,12 +812,14 @@ textarea {
     display: flex;
     gap: 1rem;
     width: 100%;
-    overflow: hidden; /* hide extra cards */
+    overflow: hidden;
+    /* hide extra cards */
 }
 
 /* BLOG CARD */
 .blog-card {
-    flex: 0 0 100%; /* default 1 card */
+    flex: 0 0 100%;
+    /* default 1 card */
     transition: transform 0.3s ease;
 }
 
@@ -1020,7 +1022,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .form-div input {
@@ -1456,10 +1458,13 @@ textarea::placeholder {
 
     .img2 {
         translate: -2rem -3rem;
+        width: 50%;
     }
 
     .img1 {
         translate: 3rem 3rem;
+        width: 50%;
+
     }
 
     .inside-fourth-card {
@@ -1473,7 +1478,7 @@ textarea::placeholder {
     }
 
     .img2 {
-        translate: 1rem -3rem;
+        translate: -1rem -3rem;
     }
 
     .img1 {
@@ -1555,7 +1560,8 @@ textarea::placeholder {
     .half-shape {
         width: 100%;
     }
-    .blog-card-img{
+
+    .blog-card-img {
         height: 200px;
     }
 
@@ -1623,8 +1629,8 @@ textarea::placeholder {
     }
 }
 
-@media screen and (max-width:370px) {
+/* @media screen and (max-width:370px) {
     .img {
         height: 14rem;
     }
-}
+} */
