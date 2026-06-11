@@ -15,7 +15,7 @@ export const Footer = () => {
         <div className="insideFooter">
           <div className="footerWidget">
             {/* image logo footer */}
-            <img src={newlogo} alt="" className="logo logo1" />
+            <img src={newlogo} alt="logo" className="logo logo1" />
 
             <p>Shree Radha Vallabh Super Speciality Hospital, Dehradun</p>
             <p className="de">Empowering Health, Transforming Lives</p>
