@@ -34,7 +34,7 @@ export const Header = () => {
 
                     {/* DESKTOP MENU */}
                     <div className="menuLinks">
-                       
+
                         <NavLink to="/">
                             <p>Home</p>
                         </NavLink>
@@ -55,7 +55,9 @@ export const Header = () => {
                                 ))}
                             </div>
                         </div>
-
+                        <NavLink to="/services/Insurance">
+                            <p>TPA</p>
+                        </NavLink>
                         <NavLink to="/doctors">
                             <p>Our Team</p>
                         </NavLink>
@@ -116,7 +118,9 @@ export const Header = () => {
                                         ))}
                                     </div>
                                 </div>
-
+                                <NavLink to="/services/Insurance">
+                                    <p>TPA</p>
+                                </NavLink>
                                 <NavLink to="/doctors" onClick={closeMenu}>
                                     <p>Our Team</p>
                                 </NavLink>

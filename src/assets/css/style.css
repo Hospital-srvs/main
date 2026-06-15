@@ -1160,7 +1160,7 @@ textarea::placeholder {
 
 @media screen and (max-width:1300px) {
     .img {
-        height: 18rem;
+        height: 16rem;
     }
 
     .img11 {
@@ -1246,7 +1246,7 @@ textarea::placeholder {
     }
 
     .img1 {
-        translate: -2rem 3rem;
+        translate: -1rem 3rem;
     }
 
     .img2 {
@@ -1545,7 +1545,7 @@ textarea::placeholder {
 
     .logo {
         height: 4rem;
-        filter: drop-shadow(0px -2px 0px #fff);
+        /* filter: drop-shadow(0px -2px 0px #fff); */
         margin-left: 0.25rem;
     }
 }
@@ -1583,7 +1583,7 @@ textarea::placeholder {
     }
 
     .img {
-        height: 14rem;
+        height: 13rem;
     }
 
     .inside-seventh-card.iscisc {
@@ -1615,9 +1615,9 @@ textarea::placeholder {
         font-size: 26px;
     }
 
-    .img {
+    /* .img {
         height: 16rem;
-    }
+    } */
 
     .gallery-card {
         width: 16rem;
@@ -1629,8 +1629,8 @@ textarea::placeholder {
     }
 }
 
-/* @media screen and (max-width:370px) {
+@media screen and (max-width:320px) {
     .img {
         height: 14rem;
     }
-} */
+}
