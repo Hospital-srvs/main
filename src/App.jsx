@@ -12,6 +12,7 @@ import { SingleBlog } from './pages/SingleBlog';
 import { Appointment } from './pages/Appointment';
 import { Doctors } from './pages/Doctors';
 import { Singledoctor } from './pages/Singledoctor';
+import { Insurance } from './pages/Insurance';
 
 
 export const App = () => {
@@ -61,6 +62,9 @@ export const App = () => {
         {
           path:"appointment",
           element:<Appointment/>
+        },{
+          path:"services/Insurance",
+          element:<Insurance/>
         }
       ]
     }

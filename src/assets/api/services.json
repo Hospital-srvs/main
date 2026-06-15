@@ -122,5 +122,16 @@
 
         ],
         "image":"/images/Additional Patient Facilities.jpg"
-    }      
+    } ,
+     {
+        "id":"9",
+        "title":"Insurance",
+        "subtitle":"",
+        "content":[
+             "Insurance & Cashless Facility ",
+             "10+ Private Partners",          
+             "PMJAY Available"
+        ],
+        "image":""
+    }        
 ]

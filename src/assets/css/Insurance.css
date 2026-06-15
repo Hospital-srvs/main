@@ -1,0 +1,216 @@
+/* =========================
+   INSURANCE SECTION
+========================= */
+.insurance-section {
+  width: 100%;
+  min-height: auto;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  box-sizing: border-box;
+}
+
+/* =========================
+   TOP CONTENT
+========================= */
+.insurance-content {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.insurance-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   CARDS GRID
+========================= */
+.insurance-cards {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.insurance-card {
+  width: 100%;
+  min-height: 320px;
+  padding: 30px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  box-sizing: border-box;
+}
+
+.insurance-card:hover {
+  transform: translateY(-8px);
+}
+
+.insurance-card img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.insurance-card h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: #222;
+}
+
+/* =========================
+   NOTE SECTION
+========================= */
+.insurance-note {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.insurance-note p {
+  font-size: 28px;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.insurance-note ul {
+  padding-left: 24px;
+}
+
+.insurance-note li {
+  font-size: 18px;
+  color: #666;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+/* =========================
+   LARGE LAPTOP
+========================= */
+@media (max-width: 1200px) {
+  .insurance-cards {
+    max-width: 1000px;
+    gap: 24px;
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 992px) {
+  .insurance-section {
+    padding: 60px 16px;
+    gap: 40px;
+  }
+
+  .insurance-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .insurance-content p {
+    font-size: 17px;
+  }
+
+  .insurance-card {
+    min-height: 280px;
+    padding: 24px;
+  }
+
+  .insurance-card h2 {
+    font-size: 24px;
+  }
+
+  .insurance-note p {
+    font-size: 24px;
+  }
+
+  .insurance-note li {
+    font-size: 16px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+  .insurance-section {
+    padding: 50px 14px;
+    gap: 32px;
+  }
+
+  .insurance-content p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .insurance-card {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+
+  .insurance-card img {
+    max-width: 100%;
+  }
+
+  .insurance-card h2 {
+    font-size: 20px;
+  }
+
+  .insurance-note p {
+    font-size: 20px;
+  }
+
+  .insurance-note li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+/* =========================
+   SMALL PHONES
+========================= */
+@media (max-width: 480px) {
+  .insurance-section {
+    padding: 40px 10px;
+  }
+
+  .insurance-content p {
+    font-size: 14px;
+  }
+
+  .insurance-card {
+    min-height: auto;
+    padding: 16px 12px;
+  }
+
+  .insurance-card h2 {
+    font-size: 18px;
+  }
+
+  .insurance-note p {
+    font-size: 18px;
+  }
+
+  .insurance-note li {
+    font-size: 14px;
+  }
+}

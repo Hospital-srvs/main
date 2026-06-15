@@ -39,11 +39,7 @@ export const About = () => {
                                 <p>As the patient base grew, so did the responsibility to provide comprehensive care. While the clinic offered expert diagnosis and treatment, we realized that some patients required additional in-house facilities, advanced procedures, and extended post-treatment care—things that a clinic alone couldn’t always provide.</p>
                             </ScrollAnimate>
         
-                            {/* <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' />Mental health Solutions</p>
-                            <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' />Rapid Patient Improvement</p>
-                            <p className="bullet-p"><IoMdArrowDroprightCircle className='bullet' />World Class Treatment</p>
-        
-                            <button className="appointment a1">Read More <MdArrowCircleRight className='buttonIcon' /></button> */}
+                           
                         </div>
                     </div>
                 </div>
@@ -72,34 +68,7 @@ export const About = () => {
             <img className="asd" src={half} alt="half image" />
         </div>
 
-        {/* <div className="about-second">
-            <div className="inside-about-second">
-                <h2>Top Services</h2>
-                <h1>We're Providing Best Services</h1>
-
-                <div className="about-service-card">
-
-                    {
-                        services.slice(0,3).map((s, index)=>{
-
-                            const {content, id, image, subtitle, title} = s;
-
-                            return(
-                                <div className="inside-fourth-card i-f-c-a" key={id}>
-                                    <Ri24HoursFill className='f-card-icon'/>
-                                    <h2>Eye Care</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eaque harum quam....</p>
-                                    <button className="new-read">Read More <MdArrowCircleRight className='buttonIcon' /></button>
-                                </div>
-                            )
-
-                        })
-                    }
-
-                </div>
-
-            </div>
-        </div> */}
+      
 
         <div className="about-third">
             <div className="inside-about-third">

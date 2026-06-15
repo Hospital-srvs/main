@@ -34,7 +34,7 @@ export const Header = () => {
 
                     {/* DESKTOP MENU */}
                     <div className="menuLinks">
-
+                       
                         <NavLink to="/">
                             <p>Home</p>
                         </NavLink>
