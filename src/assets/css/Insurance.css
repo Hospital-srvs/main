@@ -1,216 +1,339 @@
 /* =========================
-   INSURANCE SECTION
+   INSURANCE PAGE
 ========================= */
-.insurance-section {
-  width: 100%;
-  min-height: auto;
-  padding: 80px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
+* {
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.insurance-section {
+  width: 100%;
+  max-width: 100%;
+  padding: 90px 16px;
+  background: linear-gradient(180deg, #f7fffc 0%, #ffffff 45%, #f4fbf8 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  overflow-x: hidden;
+}
+
 /* =========================
-   TOP CONTENT
+   CONTENT
 ========================= */
 .insurance-content {
   width: 100%;
-  max-width: 900px;
+  max-width: 950px;
   text-align: center;
+}
+
+.insurance-subtitle {
+  display: inline-block;
+  padding: 9px 20px;
+  border-radius: 50px;
+  color: #0f8a6a;
+  background: rgba(15, 138, 106, 0.12);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.insurance-content h1 {
+  font-size: 44px;
+  line-height: 1.2;
+  color: #10231d;
+  margin: 0 0 22px;
+  font-weight: 800;
 }
 
 .insurance-content p {
   font-size: 18px;
   line-height: 1.8;
-  color: #444;
-  margin-bottom: 20px;
+  color: #52635d;
+  margin: 0 auto 16px;
+  max-width: 850px;
 }
 
 /* =========================
-   CARDS GRID
+   TABLE WRAPPER
 ========================= */
-.insurance-cards {
+.cashless-table-wrapper {
   width: 100%;
-  max-width: 1200px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 30px;
+  max-width: 1120px;
+  padding: 34px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(15, 138, 106, 0.12);
+  box-shadow: 0 24px 70px rgba(16, 35, 29, 0.12);
+  position: relative;
+  overflow: hidden;
 }
 
-.insurance-card {
-  width: 100%;
-  min-height: 320px;
-  padding: 30px;
-  border-radius: 20px;
-  background: #fff;
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s ease;
-  box-sizing: border-box;
+.cashless-table-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  background: rgba(15, 138, 106, 0.12);
+  border-radius: 50%;
+  top: -120px;
+  right: -100px;
 }
 
-.insurance-card:hover {
-  transform: translateY(-8px);
-}
-
-.insurance-card img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  object-fit: contain;
-  margin-bottom: 20px;
-}
-
-.insurance-card h2 {
-  font-size: 28px;
-  font-weight: 600;
+.cashless-table-heading {
+  position: relative;
   text-align: center;
-  color: #222;
+  margin-bottom: 28px;
+}
+
+.cashless-table-heading span {
+  color: #0f8a6a;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cashless-table-heading h2 {
+  font-size: 34px;
+  color: #10231d;
+  margin: 8px 0 0;
+  font-weight: 800;
 }
 
 /* =========================
-   NOTE SECTION
+   TABLE
+========================= */
+.cashless-table-scroll {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  border-radius: 18px;
+}
+
+.cashless-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 18px;
+  table-layout: fixed;
+}
+
+.cashless-table thead {
+  background: linear-gradient(135deg, #087a5d, #12b886);
+}
+
+.cashless-table th {
+  padding: 18px 14px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.cashless-table th:first-child {
+  border-top-left-radius: 18px;
+}
+
+.cashless-table th:last-child {
+  border-top-right-radius: 18px;
+}
+
+.cashless-table th:first-child,
+.cashless-table td:first-child {
+  width: 60px;
+  text-align: center;
+}
+
+.cashless-table td {
+  padding: 16px 14px;
+  font-size: 15.5px;
+  color: #43524d;
+  border-bottom: 1px solid #e8f1ee;
+  word-break: break-word;
+}
+
+.cashless-table tbody tr:nth-child(even) {
+  background: #f7fffc;
+}
+
+.cashless-table tbody tr:hover {
+  background: #e9fff7;
+}
+
+.cashless-table td:nth-child(2) {
+  color: #162c25;
+  font-weight: 600;
+}
+
+.cashless-table td:nth-child(3) {
+  color: #0f8a6a;
+  font-weight: 700;
+}
+
+/* =========================
+   NOTE
 ========================= */
 .insurance-note {
   width: 100%;
-  max-width: 900px;
-  margin: 20px auto;
-  text-align: left;
+  max-width: 950px;
+  padding: 30px;
+  background: #ffffff;
+  border-left: 6px solid #0f8a6a;
+  border-radius: 20px;
+  box-shadow: 0 15px 45px rgba(16, 35, 29, 0.08);
 }
 
 .insurance-note p {
-  font-size: 28px;
-  color: #666;
-  font-weight: 600;
-  margin-bottom: 20px;
+  font-size: 26px;
+  color: #10231d;
+  font-weight: 800;
+  margin: 0 0 16px;
 }
 
 .insurance-note ul {
-  padding-left: 24px;
+  padding-left: 22px;
+  margin: 0;
 }
 
 .insurance-note li {
-  font-size: 18px;
-  color: #666;
-  font-weight: 400;
+  font-size: 17px;
+  color: #52635d;
   line-height: 1.8;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 /* =========================
-   LARGE LAPTOP
-========================= */
-@media (max-width: 1200px) {
-  .insurance-cards {
-    max-width: 1000px;
-    gap: 24px;
-  }
-}
-
-/* =========================
-   TABLET
+   RESPONSIVE
 ========================= */
 @media (max-width: 992px) {
   .insurance-section {
-    padding: 60px 16px;
-    gap: 40px;
+    padding: 70px 14px;
+    gap: 42px;
   }
 
-  .insurance-cards {
-    grid-template-columns: 1fr;
+  .insurance-content h1 {
+    font-size: 36px;
   }
 
   .insurance-content p {
-    font-size: 17px;
+    font-size: 16.5px;
   }
 
-  .insurance-card {
-    min-height: 280px;
-    padding: 24px;
+  .cashless-table-wrapper {
+    padding: 26px 14px;
+    border-radius: 22px;
   }
 
-  .insurance-card h2 {
-    font-size: 24px;
+  .cashless-table-heading h2 {
+    font-size: 28px;
   }
 
-  .insurance-note p {
-    font-size: 24px;
-  }
-
-  .insurance-note li {
-    font-size: 16px;
+  .cashless-table th,
+  .cashless-table td {
+    padding: 14px 10px;
+    font-size: 14px;
   }
 }
 
-/* =========================
-   MOBILE
-========================= */
 @media (max-width: 768px) {
   .insurance-section {
-    padding: 50px 14px;
-    gap: 32px;
+    padding: 55px 10px;
+  }
+
+  .insurance-content h1 {
+    font-size: 29px;
   }
 
   .insurance-content p {
-    font-size: 15px;
+    font-size: 15.5px;
     line-height: 1.7;
   }
 
-  .insurance-card {
-    padding: 20px 16px;
-    border-radius: 16px;
+  .cashless-table-wrapper {
+    width: 100%;
+    padding: 20px 8px;
+    border-radius: 18px;
   }
 
-  .insurance-card img {
-    max-width: 100%;
+  .cashless-table-heading h2 {
+    font-size: 24px;
   }
 
-  .insurance-card h2 {
-    font-size: 20px;
+  .cashless-table {
+    table-layout: fixed;
+  }
+
+  .cashless-table th,
+  .cashless-table td {
+    padding: 12px 6px;
+    font-size: 12.5px;
+  }
+
+  .cashless-table th:first-child,
+  .cashless-table td:first-child {
+    width: 42px;
+  }
+
+  .insurance-note {
+    padding: 24px 18px;
   }
 
   .insurance-note p {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .insurance-note li {
     font-size: 15px;
-    line-height: 1.6;
   }
 }
 
-/* =========================
-   SMALL PHONES
-========================= */
 @media (max-width: 480px) {
   .insurance-section {
-    padding: 40px 10px;
+    padding: 45px 8px;
+  }
+
+  .insurance-subtitle {
+    font-size: 13px;
+    padding: 7px 14px;
+  }
+
+  .insurance-content h1 {
+    font-size: 25px;
   }
 
   .insurance-content p {
-    font-size: 14px;
+    font-size: 14.5px;
   }
 
-  .insurance-card {
-    min-height: auto;
-    padding: 16px 12px;
+  .cashless-table-wrapper {
+    padding: 16px 5px;
   }
 
-  .insurance-card h2 {
-    font-size: 18px;
+  .cashless-table-heading h2 {
+    font-size: 21px;
   }
 
-  .insurance-note p {
-    font-size: 18px;
+  .cashless-table th,
+  .cashless-table td {
+    padding: 10px 4px;
+    font-size: 11px;
   }
 
-  .insurance-note li {
-    font-size: 14px;
+  .cashless-table th:first-child,
+  .cashless-table td:first-child {
+    width: 35px;
+  }
+
+  .insurance-note {
+    padding: 20px 14px;
   }
 }

@@ -102,149 +102,158 @@ nav a {
 }
 
 
-/* -------- MOBILE RESPONSIVE -------- */
+/* -------- MOBILE RESPONSIVE FIX -------- */
 @media screen and (max-width: 900px) {
+  nav {
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+  }
 
-    nav {
-        height: 5rem;
-    }
+  .insideNav {
+    width: 94%;
+    gap: 10px;
+  }
 
-    .menuLinks {
-        display: none;
-    }
+  .menuLinks {
+    display: none;
+  }
 
-    .hamMenu {
-        display: block;
-        color: white;
-        font-size: 32px;
-        cursor: pointer;
-    }
+  .hamMenu {
+    display: block;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    flex-shrink: 0;
+    z-index: 1000000;
+  }
 
-    /* Show small appointment button */
-    .asw {
-        display: block;
-    }
+  .asw {
+    display: block;
+    text-decoration: none;
+    flex-shrink: 0;
+  }
 
-    .appointment {
-        height: 2.2rem;
-        padding: 0 0.7rem;
-    }
+  .asw .appointment {
+    height: 2.3rem;
+    padding: 0 0.8rem;
+  }
 
-    /* MOBILE MENU — SLIDE DOWN */
-    .mobile-menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 0;
-        /* hidden initially */
-        background: #07332f;
-        color: white;
-        overflow: hidden;
-        /* important */
-        transition: height 0.4s ease;
-        /* smooth slide */
-        z-index: 9999999;
-        padding-top: 0;
-        /* added when open */
-        display: flex;
-        flex-direction: column;
-    }
+  .asw .appointment p {
+    font-size: 14px;
+    white-space: nowrap;
+  }
 
-    .mobile-menu.open {
-        height: 50vh;
-        /* slide down full */
-        padding-top: 2rem;
-    }
+  .mobile-menu {
+    position: fixed;
+    top: 4rem;
+    right: -100%;
+    width: 82%;
+    max-width: 360px;
+    height: calc(100vh - 5rem);
+    background: #07332f;
+    z-index: 999998;
+    transition: right 0.4s ease;
+    overflow-y: auto;
+    padding: 1.5rem 1.2rem;
+    box-sizing: border-box;
+    display: block;
+  }
 
-    .inside-mobile-menu {
-        width: 85%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-        position: relative;
-    }
+  .mobile-menu.open {
+    right: 0;
+  }
 
-    .close {
-        font-size: 40px;
-        color: white;
-        position: absolute;
-        right: 0;
-        top: -10px;
-        cursor: pointer;
-    }
+  .inside-mobile-menu {
+    width: 100%;
+    margin: 0;
+  }
 
-    .mobile-menu-links {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 1rem;
-        
-    }
+  .close {
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 1rem;
+  }
 
-    .mobile-menu-links p {
-        padding: 1.2rem 0;
-        font-size: 18px;
-        border-bottom: 1px solid #ffffff20;
-        color: white;
-        
-    }
+  .mobile-menu-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    /* Mobile dropdown better style */
-    .drop-down .inside-drop-down {
-        position: static;
-        display: none;
-        width: 100%;
-        padding-left: 1rem;
-        border-left: 1px solid #ffffff30;
-    }
+  .mobile-menu-links a {
+    text-decoration: none;
+  }
 
-    .drop-down:active .inside-drop-down,
-    .drop-down:focus .inside-drop-down {
-        display: block;
-    }
+  .mobile-menu-links p {
+    padding: 0.95rem 0;
+    margin: 0;
+    font-size: 17px;
+    border-bottom: 1px solid #ffffff25;
+    color: #fff;
+    font-weight: 600;
+  }
 
-    .inside-drop-down p {
-        padding: 0.8rem 0;
-        font-size: 16px;
-        border: none;
-    }
+  .mobile-menu .drop-down {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .mobile-menu .inside-drop-down {
+    position: static;
+    width: 100%;
+    background: #0b433e;
+    padding-left: 1rem;
+    border-left: 2px solid #f7a582;
+    box-sizing: border-box;
+  }
+
+  .mobile-menu .inside-drop-down p {
+    font-size: 15px;
+    padding: 0.8rem 0;
+    color: #ffffffd9;
+    border-bottom: 1px solid #ffffff15;
+  }
 }
 
-
-/* ---- SMALL DEVICES 400px ---- */
 @media screen and (max-width: 400px) {
+  .logo {
+    max-width: 145px;
+  }
 
-    .logo {
-        max-width: 150px;
-    }
+  .asw .appointment {
+    padding: 0 0.55rem;
+  }
 
-    .appointment {
-        padding: 0 0.5rem;
-        gap: 4px;
-    }
+  .asw .appointment p {
+    font-size: 12px;
+  }
 
-    .hamMenu {
-        font-size: 28px;
-    }
+  .hamMenu {
+    font-size: 28px;
+  }
+
+  .mobile-menu {
+    width: 88%;
+  }
 }
 
+@media screen and (max-width: 340px) {
+  .asw .appointment p {
+    display: none;
+  }
 
-/* ---- VERY SMALL DEVICES 320px ---- */
-@media screen and (max-width: 320px) {
+  .asw .appointment {
+    width: 38px;
+    justify-content: center;
+    padding: 0;
+  }
 
-    .insideNav {
-        width: 97%;
-    }
-
-    .appointment {
-        height: 2rem;
-        padding: 0 0.4rem;
-        font-size: 14px;
-    }
-
-    .logo {
-        max-width: 120px;
-    }
+  .logo {
+    max-width: 125px;
+  }
 }
