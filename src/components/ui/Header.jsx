@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../../assets/css/Header.css";
 import newlogo from "../../assets/images/logo/newlogo.png";
+import nabhlogo from "../../assets/images/logo/nabhlogo.png";
 import { FaRegCalendarDays } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseCircleOutline } from "react-icons/io5";
@@ -29,7 +30,11 @@ export const Header = () => {
 
                     {/* LOGO */}
                     <NavLink to="/">
-                        <img src={newlogo} alt="logo" className="logo" />
+                        <div class="logoContainer">
+                            <img src={newlogo} alt="logo" className="logo" />
+                            <img src={nabhlogo} alt="logo" className="nabhlogo" />
+                        </div>
+
                     </NavLink>
 
                     {/* DESKTOP MENU */}
